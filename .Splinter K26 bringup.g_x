@@ -1,0 +1,183 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="28">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MK65F18/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MK65F18/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MK65F18/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Asm_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherC</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=2"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="28">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MK65F18"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MK65F18/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MK65F18/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MK65F18/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherCpp</name>
+      <value>-specs=nosys.specs -specs=nano.specs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MK65FX1M0VMI18"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814341" FileType="1048576" CompNumb="17" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814650" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814425" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814392" FileType="1048576" CompNumb="14" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814490" FileType="1048576" CompNumb="28" />
+      <File Name="Documentation/doxygen/Splinter K26 bringup_project.txt" FileDate="2015-08-07, 08:00:25" FileAge="1438930825029" FileType="45637" CompNumb="28" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2015-08-06, 20:53:28" FileAge="1438890808226" FileType="16384" CompNumb="28" />
+      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814228" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814213" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814485" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/hal/src/flexbus/fsl_flexbus_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814323" FileType="1048576" CompNumb="13" />
+      <File Name="SDK/platform/devices/MK26F18/include/fsl_bitaccess.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2015-08-06, 20:53:31" FileAge="1438890811901" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/board.h" FileDate="2015-08-07, 09:46:23" FileAge="1438937183197" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/devices/MK26F18/startup/gcc/startup_MK26F18.S" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811924" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2015-08-07, 09:46:24" FileAge="1438937184707" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/devices/MK26F18/startup/system_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814495" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814168" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/devices/MK65F18/startup/gcc/startup_MK65F18.S" FileDate="2015-08-07, 08:00:23" FileAge="1438930823599" FileType="1048576" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2015-08-07, 09:46:23" FileAge="1438937183753" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814301" FileType="1048576" CompNumb="10" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2015-08-07, 09:46:24" FileAge="1438937184035" FileType="45637" CompNumb="9" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814163" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814140" FileType="1048576" CompNumb="18" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811914" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823848" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814367" FileType="1048576" CompNumb="14" />
+      <File Name="Documentation/Splinter K26 bringup_Settings.xml" FileDate="2015-08-07, 08:00:26" FileAge="1438930826472" FileType="3072" />
+      <File Name="SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823389" FileType="1048576" />
+      <File Name="SDK/platform/devices/MK26F18/include/MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814712" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823376" FileType="1048576" />
+      <File Name="Sources/main.c" FileDate="2015-08-07, 08:00:24" FileAge="1438930824922" FileType="128" />
+      <File Name="Generated_Code/SDK/platform/devices/MK65F18/startup/system_MK65F18.h" FileDate="2015-08-07, 08:00:24" FileAge="1438930824383" FileType="45637" CompNumb="5" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2015-08-06, 20:53:34" FileAge="1438890814743" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814345" FileType="1048576" CompNumb="17" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814314" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/hal/src/sim/MK26F18/fsl_sim_hal_MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/devices/MK26F18/include/MK26F18_extension.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2015-08-06, 20:53:31" FileAge="1438890811891" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/sim/MK26F18/fsl_sim_hal_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Documentation/Splinter K26 bringup.txt" FileDate="2015-08-07, 09:46:26" FileAge="1438937186787" FileType="3072" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814050" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814118" FileType="1048576" CompNumb="8" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2015-08-07, 09:46:24" FileAge="1438937184198" FileType="45637" CompNumb="9" />
+      <File Name="ProjectInfo.xml" FileDate="2015-08-07, 08:00:27" FileAge="1438930827269" FileType="45637" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2015-08-07, 08:00:24" FileAge="1438930824605" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2015-08-07, 08:00:24" FileAge="1438930824443" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814384" FileType="1048576" CompNumb="14" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823957" FileType="45637" CompNumb="28" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823899" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/devices/MK26F18/include/MK26F18_features.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823203" FileType="1048576" />
+      <File Name="SDK/platform/devices/MK65F18/include/fsl_bitaccess.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823498" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_flexbus_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814333" FileType="1048576" CompNumb="13" />
+      <File Name="SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823178" FileType="1048576" />
+      <File Name="SDK/platform/devices/MK65F18/include/MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823517" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814130" FileType="1048576" CompNumb="18" />
+      <File Name="Generated_Code/osa1.h" FileDate="2015-08-07, 08:00:24" FileAge="1438930824049" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/osa1.c" FileDate="2015-08-07, 08:00:24" FileAge="1438930824015" FileType="45637" CompNumb="14" />
+      <File Name="SDK/platform/devices/MK65F18/include/MK65F18_extension.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823542" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm4.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814415" FileType="1048576" CompNumb="28" />
+      <File Name="Sources/Events.h" FileDate="2015-08-07, 08:00:25" FileAge="1438930825408" FileType="131328" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814441" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/devices/MK65F18/startup/system_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823625" FileType="1048576" />
+      <File Name="SDK/platform/system/src/clock/MK26F18/fsl_clock_MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Sources/Events.c" FileDate="2015-08-07, 08:00:25" FileAge="1438930825488" FileType="131328" />
+      <File Name="SDK/platform/devices/MK65F18/include/MK65F18_features.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823554" FileType="1048576" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2015-08-07, 08:00:24" FileAge="1438930824951" FileType="8" CompNumb="28" />
+      <File Name="SDK/platform/system/src/clock/MK26F18/fsl_clock_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814521" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811932" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814665" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814559" FileType="1048576" CompNumb="28" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>5</CodeGenReference>
+</CodeGenerationInfo>
