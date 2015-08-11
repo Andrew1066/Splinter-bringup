@@ -187,180 +187,190 @@
   </ToolchainSettings>
   <GeneratedFilesList>
     <GeneratedByPE>
-      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_common.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556043" FileType="1048576" />
       <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814345" FileType="1048576" CompNumb="17" />
       <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814425" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556053" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556058" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814490" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/platform/hal/inc/fsl_i2c_hal.h" FileDate="2015-08-07, 10:21:00" FileAge="1438939260925" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb_pin_detect.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555872" FileType="1048576" />
-      <File Name="Generated_Code/SDK/platform/devices/MK65F18/startup/system_MK65F18.h" FileDate="2015-08-07, 14:52:38" FileAge="1438955558169" FileType="45637" CompNumb="5" />
-      <File Name="SDK/platform/drivers/inc/fsl_uart_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556123" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_i2c_shared_function.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261060" FileType="1048576" CompNumb="34" />
+      <File Name="SDK/platform/hal/src/rcm/fsl_rcm_hal.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/SDK/platform/devices/MK65F18/startup/system_MK65F18.h" FileDate="2015-08-11, 20:16:44" FileAge="1439320604914" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/hal/inc/fsl_i2c_hal.h" FileDate="2015-08-07, 10:21:00" FileAge="1438939260925" FileType="1048576" CompNumb="0" />
       <File Name="Generated_Code/dspiCom2.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557204" FileType="45637" CompNumb="61" />
-      <File Name="Generated_Code/dspiCom2.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557196" FileType="45637" CompNumb="61" />
-      <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555682" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/include/usb_class.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556009" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_uart_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556123" FileType="1048576" CompNumb="65" />
+      <File Name="SDK/platform/hal/inc/fsl_pmc_hal.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2015-08-07, 10:07:09" FileAge="1438938429900" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/usb/usb_core/include/types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555817" FileType="1048576" CompNumb="50" />
+      <File Name="Generated_Code/dspiCom2.c" FileDate="2015-08-11, 15:12:02" FileAge="1439302322004" FileType="45637" CompNumb="61" />
+      <File Name="SDK/platform/drivers/src/uart/fsl_uart_common.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556101" FileType="1048576" CompNumb="65" />
       <File Name="SDK/platform/devices/startup.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814665" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555535" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555601" FileType="1048576" CompNumb="54" />
       <File Name="SDK/platform/devices/startup.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814650" FileType="1048576" CompNumb="28" />
       <File Name="SDK/platform/devices/MK26F18/include/MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb_misc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555862" FileType="1048576" />
-      <File Name="SDK/usb/adapter/sources/sdk/adapter_cfg.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555786" FileType="1048576" />
-      <File Name="Sources/Events.h" FileDate="2015-08-07, 14:52:38" FileAge="1438955558966" FileType="131328" />
-      <File Name="SDK/usb/usb_core/hal/fsl_usb_features.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555756" FileType="1048576" />
-      <File Name="Sources/Events.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558992" FileType="131328" />
+      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556067" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555559" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/usb/usb_core/include/usb_ehci.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555847" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/usb_framework.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555932" FileType="1048576" CompNumb="50" />
+      <File Name="Sources/Events.h" FileDate="2015-08-11, 19:55:20" FileAge="1439319320595" FileType="131328" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/usb_framework.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555917" FileType="1048576" CompNumb="50" />
+      <File Name="Sources/Events.c" FileDate="2015-08-11, 19:55:20" FileAge="1439319320722" FileType="131328" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2015-08-06, 20:53:31" FileAge="1438890811891" FileType="1048576" CompNumb="0" />
-      <File Name="SDK/usb/adapter/sources/sdk/adapter_sdk.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555790" FileType="1048576" />
-      <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555708" FileType="1048576" />
-      <File Name="SDK/usb/adapter/sources/sdk/adapter_sdk.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555799" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814314" FileType="1048576" CompNumb="0" />
-      <File Name="SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555601" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/khci/device_khci_interface.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555941" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_master_driver.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260976" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_i2c_master_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261055" FileType="1048576" CompNumb="34" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/common/usb_class_internal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555975" FileType="1048576" CompNumb="47" />
+      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556058" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814213" FileType="1048576" CompNumb="5" />
-      <File Name="Generated_Code/usbDsc1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557305" FileType="45637" CompNumb="48" />
-      <File Name="Generated_Code/usbDsc1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557292" FileType="45637" CompNumb="48" />
-      <File Name="SDK/usb/adapter/sources/adapter.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555775" FileType="1048576" />
-      <File Name="SDK/usb/adapter/sources/adapter_types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555779" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555964" FileType="1048576" CompNumb="50" />
+      <File Name="Generated_Code/usbDsc1.h" FileDate="2015-08-10, 10:32:20" FileAge="1439199140682" FileType="45637" CompNumb="48" />
+      <File Name="SDK/platform/drivers/inc/fsl_dspi_shared_function.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556072" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/usbDsc1.c" FileDate="2015-08-10, 10:32:20" FileAge="1439199140640" FileType="45637" CompNumb="48" />
+      <File Name="SDK/platform/drivers/inc/fsl_dspi_slave_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556094" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814130" FileType="1048576" CompNumb="18" />
-      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429889" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/i2c/fsl_i2c_hal.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260912" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/usb_desc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555837" FileType="1048576" CompNumb="50" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2015-08-06, 20:53:31" FileAge="1438890811901" FileType="1048576" CompNumb="0" />
       <File Name="Generated_Code/clockMan1.h" FileDate="2015-08-07, 14:52:38" FileAge="1438955558020" FileType="45637" CompNumb="5" />
-      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_shared_function.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261042" FileType="1048576" />
       <File Name="SDK/platform/devices/MK65F18/include/MK65F18_extension.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823542" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/usb/usb_core/device/include/usb_device_stack_interface.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555892" FileType="1048576" />
-      <File Name="Generated_Code/clockMan1.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558084" FileType="45637" CompNumb="5" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2015-08-11, 17:05:37" FileAge="1439309137800" FileType="45637" CompNumb="5" />
       <File Name="Generated_Code/SDK/usb/usb_core/device/include/usb_device_config.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557323" FileType="45637" CompNumb="50" />
       <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814485" FileType="1048576" CompNumb="28" />
       <File Name="SDK/platform/devices/MK26F18/include/fsl_bitaccess.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/SDK/usb/usb_core/device/sources/classes/include/config/usb_hid_config.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557275" FileType="45637" CompNumb="48" />
       <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814228" FileType="1048576" CompNumb="5" />
       <File Name="SDK/platform/devices/MK26F18/include/MK26F18_features.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="Generated_Code/SDK/usb/usb_core/device/sources/bsp/usb_dev_bsp.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557314" FileType="45637" CompNumb="50" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/usb_dev.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555922" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/hal/fsl_usb_khci_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555765" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/usb_dev.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555907" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429987" FileType="1048576" />
-      <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555702" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555817" FileType="1048576" />
-      <File Name="ProjectInfo.xml" FileDate="2015-08-07, 14:52:45" FileAge="1438955565431" FileType="45637" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/hid/usb_hid.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555993" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_common.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260963" FileType="1048576" />
-      <File Name="SDK/platform/utilities/src/print_scan.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555694" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/hid/usb_hid.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556002" FileType="1048576" />
+      <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555682" FileType="1048576" CompNumb="52" />
+      <File Name="SDK/platform/drivers/inc/fsl_i2c_slave_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261072" FileType="1048576" CompNumb="34" />
+      <File Name="Generated_Code/SDK/usb/usb_core/device/sources/bsp/usb_dev_bsp.c" FileDate="2015-08-11, 15:12:01" FileAge="1439302321754" FileType="45637" CompNumb="50" />
+      <File Name="SDK/platform/hal/src/ftm/fsl_ftm_hal.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261085" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_llwu_hal.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/drivers/src/ftm/fsl_ftm_common.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261102" FileType="1048576" CompNumb="37" />
+      <File Name="ProjectInfo.xml" FileDate="2015-08-11, 20:05:29" FileAge="1439319929912" FileType="45637" />
+      <File Name="SDK/usb/usb_core/include/usb_misc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555862" FileType="1048576" CompNumb="50" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2015-08-07, 10:01:45" FileAge="1438938105472" FileType="45637" CompNumb="28" />
-      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556067" FileType="1048576" />
       <File Name="SDK/platform/devices/MK65F18/include/MK65F18_features.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823554" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/common/usb_class_internal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555975" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/ftm/fsl_ftm_driver.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261112" FileType="1048576" />
+      <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555708" FileType="1048576" CompNumb="52" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429972" FileType="1048576" CompNumb="31" />
       <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814521" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/usb/usb_core/include/usb_error.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555852" FileType="1048576" />
-      <File Name="Generated_Code/hardware_init.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558423" FileType="45637" CompNumb="9" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/include/usb_class_hid.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556013" FileType="1048576" CompNumb="47" />
+      <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555535" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2015-08-10, 23:06:04" FileAge="1439244364849" FileType="45637" CompNumb="9" />
       <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814495" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/usb/usb_core/include/compiler.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555807" FileType="1048576" />
-      <File Name="Generated_Code/Cpu.h" FileDate="2015-08-07, 14:52:38" FileAge="1438955558515" FileType="45637" CompNumb="28" />
-      <File Name="SDK/platform/hal/inc/fsl_dspi_hal.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556036" FileType="1048576" />
-      <File Name="Generated_Code/Cpu.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558596" FileType="45637" CompNumb="28" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-08-11, 20:05:07" FileAge="1439319907240" FileType="45637" CompNumb="28" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/hid/usb_hid.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555993" FileType="1048576" CompNumb="47" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-08-11, 19:55:20" FileAge="1439319320319" FileType="45637" CompNumb="28" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/hid/usb_hid.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556002" FileType="1048576" CompNumb="47" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/include/usb_class.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556009" FileType="1048576" CompNumb="47" />
       <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811924" FileType="1048576" CompNumb="0" />
-      <File Name="SDK/platform/hal/src/dspi/fsl_dspi_hal.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556025" FileType="1048576" />
-      <File Name="Sources/main.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558479" FileType="128" />
+      <File Name="Sources/main.c" FileDate="2015-08-11, 19:55:19" FileAge="1439319319908" FileType="128" />
       <File Name="SDK/platform/devices/MK65F18/include/MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823517" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/platform/drivers/inc/fsl_dspi_master_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556082" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/device/include/usb_device_stack_interface.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555892" FileType="1048576" CompNumb="50" />
       <File Name="Generated_Code/pin_mux.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557913" FileType="45637" CompNumb="9" />
-      <File Name="SDK/platform/drivers/src/uart/fsl_uart_common.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556101" FileType="1048576" />
       <File Name="Generated_Code/pin_mux.c" FileDate="2015-08-07, 14:52:38" FileAge="1438955558343" FileType="45637" CompNumb="9" />
-      <File Name="SDK/platform/drivers/inc/fsl_dspi_shared_function.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556072" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555956" FileType="1048576" CompNumb="50" />
       <File Name="Generated_Code/PE_low_level_init.h" FileDate="2015-08-07, 10:01:46" FileAge="1438938106249" FileType="45637" CompNumb="28" />
+      <File Name="SDK/platform/drivers/inc/fsl_dspi_master_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556082" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555951" FileType="1048576" CompNumb="50" />
       <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2015-08-07, 10:01:46" FileAge="1438938106175" FileType="8" CompNumb="28" />
+      <File Name="SDK/platform/hal/inc/fsl_rcm_hal.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Generated_Code/gpio2.h" FileDate="2015-08-07, 10:07:10" FileAge="1438938430557" FileType="45637" CompNumb="31" />
-      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2015-08-07, 10:07:09" FileAge="1438938429900" FileType="1048576" />
       <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814118" FileType="1048576" CompNumb="8" />
       <File Name="Generated_Code/gpio2.c" FileDate="2015-08-07, 10:07:10" FileAge="1438938430550" FileType="45637" CompNumb="31" />
       <File Name="Generated_Code/hid1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557251" FileType="45637" CompNumb="47" />
-      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2015-08-07, 10:07:10" FileAge="1438938430016" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429889" FileType="1048576" CompNumb="0" />
       <File Name="Generated_Code/hid1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557239" FileType="45637" CompNumb="47" />
       <File Name="SDK/platform/devices/MK65F18/startup/system_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823625" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2015-08-07, 10:07:10" FileAge="1438938430016" FileType="1048576" CompNumb="31" />
+      <File Name="SDK/platform/drivers/src/uart/fsl_uart_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556113" FileType="1048576" CompNumb="65" />
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814392" FileType="1048576" CompNumb="14" />
       <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811932" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/src/flexbus/fsl_flexbus_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814323" FileType="1048576" CompNumb="13" />
       <File Name="Generated_Code/dspiCom1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557226" FileType="45637" CompNumb="59" />
-      <File Name="Generated_Code/dspiCom1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557213" FileType="45637" CompNumb="59" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/include/usb_class_hid.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556013" FileType="1048576" />
-      <File Name="Sources/hid1_hid.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556728" FileType="131328" />
-      <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555559" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_lpuart_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555670" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/usb_error.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555852" FileType="1048576" CompNumb="50" />
+      <File Name="Generated_Code/dspiCom1.c" FileDate="2015-08-11, 15:12:01" FileAge="1439302321923" FileType="45637" CompNumb="59" />
+      <File Name="Sources/hid1_hid.h" FileDate="2015-08-11, 19:55:20" FileAge="1439319320419" FileType="131328" />
+      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_shared_function.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261042" FileType="1048576" CompNumb="34" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/usb_dev.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555922" FileType="1048576" CompNumb="50" />
       <File Name="Sources/hid1_hid.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556722" FileType="131328" />
       <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814341" FileType="1048576" CompNumb="17" />
-      <File Name="SDK/platform/drivers/inc/fsl_i2c_master_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261055" FileType="1048576" />
+      <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2015-08-07, 10:21:00" FileAge="1438939260956" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/usb_dev.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555907" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_common.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556043" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/devices/MK26F18/startup/gcc/startup_MK26F18.S" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="SDK/platform/drivers/inc/fsl_i2c_shared_function.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261060" FileType="1048576" />
       <File Name="SDK/platform/devices/MK65F18/startup/gcc/startup_MK65F18.S" FileDate="2015-08-07, 08:00:23" FileAge="1438930823599" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/usb/usb_core/include/usb_pin_detect.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555872" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_master_driver.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260976" FileType="1048576" CompNumb="34" />
+      <File Name="SDK/usb/adapter/sources/adapter.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555775" FileType="1048576" CompNumb="51" />
       <File Name="Generated_Code/flexTimer1.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261836" FileType="45637" CompNumb="37" />
       <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2015-08-07, 14:52:38" FileAge="1438955558881" FileType="45637" CompNumb="28" />
       <File Name="Generated_Code/flexTimer1.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261830" FileType="45637" CompNumb="37" />
-      <File Name="SDK/platform/drivers/inc/fsl_i2c_slave_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261072" FileType="1048576" />
-      <File Name="SDK/platform/hal/src/ftm/fsl_ftm_hal.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261085" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb_types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555876" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555826" FileType="1048576" />
-      <File Name="SDK/platform/hal/inc/fsl_ftm_hal.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261095" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/hal/fsl_usb_features.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555756" FileType="1048576" CompNumb="51" />
+      <File Name="SDK/usb/adapter/sources/sdk/adapter_cfg.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555786" FileType="1048576" CompNumb="51" />
+      <File Name="SDK/platform/system/src/power/fsl_power_manager_common.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/devices/MK65F18/include/fsl_bitaccess.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823498" FileType="1048576" CompNumb="28" />
-      <File Name="Documentation/Splinter bringup_Settings.xml" FileDate="2015-08-07, 14:52:40" FileAge="1438955560430" FileType="3072" />
-      <File Name="SDK/platform/drivers/inc/fsl_ftm_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261123" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/usb_opt.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555867" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/platform/system/inc/fsl_power_manager.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_ftm_hal.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261095" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/usb/adapter/sources/sdk/adapter_sdk.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555790" FileType="1048576" CompNumb="51" />
+      <File Name="SDK/platform/hal/src/smc/fsl_smc_hal.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/usb/adapter/sources/adapter_types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555779" FileType="1048576" CompNumb="51" />
+      <File Name="SDK/usb/adapter/sources/sdk/adapter_sdk.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555799" FileType="1048576" CompNumb="51" />
+      <File Name="SDK/platform/hal/src/llwu/fsl_llwu_hal.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/compiler.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555807" FileType="1048576" CompNumb="50" />
+      <File Name="Documentation/Splinter bringup_Settings.xml" FileDate="2015-08-11, 20:05:19" FileAge="1439319919488" FileType="3072" />
+      <File Name="SDK/platform/hal/src/dspi/fsl_dspi_hal.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556025" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/CMSIS/Include/core_cm4.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814415" FileType="1048576" CompNumb="28" />
-      <File Name="SDK/platform/drivers/inc/fsl_dspi_slave_driver.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556094" FileType="1048576" />
       <File Name="Documentation/doxygen/Splinter bringup_project.txt" FileDate="2015-08-07, 10:01:45" FileAge="1438938105550" FileType="45637" CompNumb="28" />
       <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814050" FileType="1048576" CompNumb="8" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814168" FileType="1048576" CompNumb="5" />
       <File Name="Generated_Code/usbFmw1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557338" FileType="45637" CompNumb="50" />
-      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_slave_driver.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261035" FileType="1048576" />
       <File Name="Generated_Code/DbgCs1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557353" FileType="45637" CompNumb="52" />
       <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814163" FileType="1048576" CompNumb="5" />
       <File Name="Generated_Code/usbFmw1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557331" FileType="45637" CompNumb="50" />
       <File Name="Generated_Code/DbgCs1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557346" FileType="45637" CompNumb="52" />
-      <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2015-08-07, 10:21:00" FileAge="1438939260956" FileType="1048576" />
       <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814559" FileType="1048576" CompNumb="28" />
       <File Name="SDK/platform/hal/inc/fsl_flexbus_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814333" FileType="1048576" CompNumb="13" />
+      <File Name="SDK/platform/drivers/src/ftm/fsl_ftm_driver.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261112" FileType="1048576" CompNumb="37" />
       <File Name="Generated_Code/board.h" FileDate="2015-08-07, 10:01:46" FileAge="1438938106551" FileType="45637" CompNumb="9" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555964" FileType="1048576" />
       <File Name="Generated_Code/uartCom1.h" FileDate="2015-08-07, 14:52:37" FileAge="1438955557189" FileType="45637" CompNumb="65" />
-      <File Name="SDK/usb/usb_core/include/usb_ehci.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555847" FileType="1048576" />
+      <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555702" FileType="1048576" CompNumb="52" />
       <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814140" FileType="1048576" CompNumb="18" />
       <File Name="Generated_Code/uartCom1.c" FileDate="2015-08-07, 14:52:37" FileAge="1438955557180" FileType="45637" CompNumb="65" />
-      <File Name="Documentation/Splinter bringup.txt" FileDate="2015-08-07, 14:52:45" FileAge="1438955565557" FileType="3072" />
+      <File Name="Documentation/Splinter bringup.txt" FileDate="2015-08-11, 20:05:30" FileAge="1439319930047" FileType="3072" />
+      <File Name="SDK/platform/utilities/src/print_scan.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555694" FileType="1048576" CompNumb="52" />
       <File Name="Generated_Code/i2cCom1.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261848" FileType="45637" CompNumb="34" />
+      <File Name="SDK/usb/usb_core/hal/fsl_usb_khci_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555765" FileType="1048576" CompNumb="51" />
       <File Name="SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823389" FileType="1048576" CompNumb="5" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555956" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/device/sources/classes/common/usb_class.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555985" FileType="1048576" CompNumb="47" />
+      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_common.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260963" FileType="1048576" CompNumb="34" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429987" FileType="1048576" CompNumb="31" />
+      <File Name="SDK/platform/drivers/src/i2c/fsl_i2c_slave_driver.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261035" FileType="1048576" CompNumb="34" />
       <File Name="Generated_Code/i2cCom1.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261842" FileType="45637" CompNumb="34" />
       <File Name="SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823376" FileType="1048576" CompNumb="5" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/khci/khci_dev.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555951" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/device/sources/controller/khci/device_khci_interface.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555941" FileType="1048576" CompNumb="50" />
       <File Name="Documentation/doxygen/pex.css" FileDate="2015-08-06, 20:53:28" FileAge="1438890808226" FileType="16384" CompNumb="28" />
       <File Name="Generated_Code/osa1.h" FileDate="2015-08-07, 10:01:46" FileAge="1438938106350" FileType="45637" CompNumb="14" />
-      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2015-08-07, 10:07:09" FileAge="1438938429972" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/usb_types.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555876" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/platform/hal/src/i2c/fsl_i2c_hal.c" FileDate="2015-08-07, 10:21:00" FileAge="1438939260912" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/devices/MK26F18/include/MK26F18_extension.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814712" FileType="1048576" CompNumb="28" />
-      <File Name="Generated_Code/osa1.c" FileDate="2015-08-07, 10:01:46" FileAge="1438938106329" FileType="45637" CompNumb="14" />
       <File Name="SDK/platform/system/src/clock/MK26F18/fsl_clock_MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/osa1.c" FileDate="2015-08-07, 10:01:46" FileAge="1438938106329" FileType="45637" CompNumb="14" />
       <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814301" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/system/src/clock/MK26F18/fsl_clock_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb_opt.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555867" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_lpuart_hal.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555670" FileType="1048576" CompNumb="54" />
       <File Name="SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h" FileDate="2015-08-07, 08:00:23" FileAge="1438930823203" FileType="1048576" CompNumb="0" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/usb_framework.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555932" FileType="1048576" />
-      <File Name="SDK/usb/usb_core/include/usb_desc.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555837" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/ftm/fsl_ftm_common.c" FileDate="2015-08-07, 10:21:01" FileAge="1438939261102" FileType="1048576" />
       <File Name="SDK/platform/devices/MK26F18/startup/system_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c" FileDate="2015-08-07, 08:00:23" FileAge="1438930823178" FileType="1048576" CompNumb="0" />
-      <File Name="SDK/usb/usb_core/device/sources/controller/usb_framework.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555917" FileType="1048576" />
-      <File Name="SDK/platform/drivers/src/uart/fsl_uart_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556113" FileType="1048576" />
+      <File Name="SDK/platform/system/src/power/fsl_power_manager.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/drivers/inc/fsl_ftm_driver.h" FileDate="2015-08-07, 10:21:01" FileAge="1438939261123" FileType="1048576" CompNumb="37" />
       <File Name="SDK/platform/hal/src/sim/MK26F18/fsl_sim_hal_MK26F18.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814384" FileType="1048576" CompNumb="14" />
       <File Name="SDK/platform/hal/src/sim/MK26F18/fsl_sim_hal_MK26F18.c" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/usb/usb_core/include/usb.h" FileDate="2015-08-07, 14:52:35" FileAge="1438955555826" FileType="1048576" CompNumb="50" />
+      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c" FileDate="2015-08-07, 14:52:36" FileAge="1438955556053" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="2015-08-06, 20:53:34" FileAge="1438890814367" FileType="1048576" CompNumb="14" />
-      <File Name="SDK/usb/usb_core/device/sources/classes/common/usb_class.c" FileDate="2015-08-07, 14:52:35" FileAge="1438955555985" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_dspi_hal.h" FileDate="2015-08-07, 14:52:36" FileAge="1438955556036" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2015-08-06, 20:53:31" FileAge="1438890811914" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_smc_hal.h" FileDate="1970-01-01, 00:59:59" FileAge="-1" FileType="1048576" />
       <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2015-08-06, 20:53:34" FileAge="1438890814441" FileType="1048576" CompNumb="28" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>11</CodeGenReference>
+  <CodeGenReference>31</CodeGenReference>
 </CodeGenerationInfo>

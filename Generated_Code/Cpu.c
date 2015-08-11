@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : K65P169M180SF5RMV2, Rev. 1, Mar 2015
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-11, 19:53, # CodeGen: 28
 **     Abstract    :
 **
 **     Settings    :
@@ -126,7 +126,7 @@ void Components_Init(void)
   
   /*! DbgCs1 Auto initialization start */
   /* Enable clock source for LPUART - bitfield LPUART0SRC within SIM_SOPT2 */
-  CLOCK_SYS_SetLpuartSrc(BOARD_DEBUG_UART_INSTANCE,kClockLpuartSrcPllFllSel);
+  CLOCK_SYS_SetLpuartSrc(BOARD_DEBUG_UART_INSTANCE,kClockLpuartSrcOsc0erClk);
   /* Debug console initialization */
   DbgConsole_Init(BOARD_DEBUG_UART_INSTANCE, DEBUG_UART_BAUD, DEBUG_UART_TYPE);
   /*! DbgCs1 Auto initialization end */

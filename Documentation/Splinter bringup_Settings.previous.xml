@@ -460,5 +460,186 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
+  <Bean name="hid1" type="fsl_usb_device_hid_class">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="hid1" />
+      <fsl_usb_descriptor_component_link v="usbDsc1" />
+      <Update_fsl_usb_descriptor_component v="" />
+      <group name="HID class setting">
+        <Subclass_code v="0x00 No Subclass" />
+        <Protocol_code v="0x02 Mouse" />
+      </group>
+      <list name="Optional class descriptor" v="0">
+        <EmptySection_DummyValue />
+      </list>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="usbDsc1" type="fsl_usb_descriptors">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="usbDsc1" />
+      <Lower_level_component_link v="usbFmw1" />
+      <list name="Supported languages" v="1">
+        <Language_0 v="0x0409 English (United States)" />
+      </list>
+      <External_power_source v="yes" />
+      <group name="Common device settings">
+        <USB_revision v="USB 2.0" />
+        <Vendor_ID v="0" />
+        <Product_ID v="0" />
+        <Device_release_number v="01.00" />
+        <boolgroup name="Manufacturer description" v="Enabled">
+          <list name="Language list" v="1">
+            <Language_0 v="Freescale Processor Expert" />
+          </list>
+        </boolgroup>
+        <boolgroup name="Product description" v="Enabled">
+          <list name="Language list" v="1">
+            <Language_0 v="Processor Expert USB Device component" />
+          </list>
+        </boolgroup>
+        <boolgroup name="Device&amp;apos;s serial number" v="Enabled">
+          <Descriptor_index v="3" />
+          <list name="Language list" v="1">
+            <Language_0 v="123456789ABCDEF" />
+          </list>
+        </boolgroup>
+        <enumgroup name="Device speed" v="Full speed">
+          <EmptySection_DummyValue />
+        </enumgroup>
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="usbFmw1" type="fsl_usb_framework">
+    <Enabled v="Y" />
+    <Properties>
+      <group name="HiddenGroup">
+        <group name="Component name">
+          <Component_name v="usbFmw1" />
+        </group>
+        <group name="Device">
+          <Device v="USB0" />
+        </group>
+      </group>
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="DbgCs1" type="fsl_debug_console">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="DbgCs1" />
+      <Device v="LPUART0" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dspiCom1" type="fsl_dspi">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dspiCom1" />
+      <Device v="SPI0" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dspiCom2" type="fsl_dspi">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dspiCom2" />
+      <Device v="SPI1" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dspiCom3" type="fsl_dspi_hal">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dspiCom3" />
+      <Device v="SPI2" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="uartCom1" type="fsl_uart">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="uartCom1" />
+      <Device v="UART0" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="uartCom2" type="fsl_uart_hal">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="uartCom2" />
+      <Device v="UART1" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="systemModuleCntrl1" type="fsl_smc_hal">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="systemModuleCntrl1" />
+      <Device v="SMC" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
 </PE_PROJECT_SETTINGS_DOCUMENTATION>
 

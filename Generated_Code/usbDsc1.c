@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-10, 10:31, # CodeGen: 11
 **     Abstract    :
 **          This component encapsulates the Universal Serial Bus (USB)
 **          module in the device mode according to specification 2.0. 
@@ -42,7 +42,7 @@
 **              Language list                              : 1
 **                Language 0                               : 123456789ABCDEF
 **            Device speed                                 : Full speed
-**              Device description                         : Full speed
+**              Device description                         : 
 **                Class code                               : 0x00 Class information at interface level
 **                Subclass code                            : 0
 **                Protocol code                            : 0

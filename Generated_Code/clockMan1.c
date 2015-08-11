@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-11, 17:03, # CodeGen: 25
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -55,7 +55,7 @@
 
 /*! @brief OSC Initialization Configuration Structure */  
 osc_user_config_t clockMan1_osc0_Config = {
-    .freq = 24000000U,
+    .freq = 16000000U,
     .enableCapacitor2p = false,
     .enableCapacitor4p = false,
     .enableCapacitor8p = false,
@@ -97,7 +97,7 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
         .pll0EnableInFllMode = true, /*!< PLL0 enable in FLL mode */
         .pll0EnableInStop = false, /*!< PLL0 enable in stop mode */
         .prdiv0 = 1U, /*!< PRDIV0 */
-        .vdiv0 = 8U, /*!< VDIV0 */
+        .vdiv0 = 29U, /*!< VDIV0 */
     },       
      
     /*! @brief Configuration of OSCERCLK */
@@ -110,12 +110,12 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
     /*! @brief Configuration of SIM module */  
     .simConfig = 
     {
-        .pllFllSel = kClockPllFllSelPll, /*!< Pll0 clock  */
+        .pllFllSel = kClockPllFllSelIrc48M, /*!< IRC48MCLK  */
         .er32kSrc = kClockEr32kSrcLpo, /*!< ERCLK32K source selection */
         .outdiv1 = 0U, /*!< OUTDIV1 setting */
         .outdiv2 = 2U, /*!< OUTDIV2 setting */
         .outdiv3 = 2U, /*!< OUTDIV3 setting */
-        .outdiv4 = 5U, /*!< OUTDIV4 setting */
+        .outdiv4 = 6U, /*!< OUTDIV4 setting */
     }
 };     
 

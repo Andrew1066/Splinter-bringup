@@ -6,7 +6,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-11, 15:10, # CodeGen: 22
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -71,20 +71,16 @@ usb_status bsp_usb_dev_init(uint8_t controller_id)
     /* Disable USB clock gating */
     CLOCK_SYS_DisableUsbfsClock(controller_id);   
     /* Clock setting */
-    /* Input clock source:      Auto select */
-    /* Input clock frequency:   144 MHz */
+    /* Input clock source:      IRC48 MHz clock */
+    /* Input clock frequency:   48 MHz */
     /* Input clock multiplier:  1 */
-    /* Input clock divider:     3 */
+    /* Input clock divider:     1 */
     /* Module clock frequency:  48 MHz */
     CLOCK_SYS_SetUsbfsSrc(controller_id, kClockUsbfsSrcPllFllSel);              
     /* USB clock divider */
-    CLOCK_SYS_SetUsbfsDiv(controller_id, 2U, 0U);
+    CLOCK_SYS_SetUsbfsDiv(controller_id, 0U, 0U);
     /* Enable USB clock gating */
     CLOCK_SYS_EnableUsbfsClock(controller_id);  
-    /* Enable MPU clock gating */
-    CLOCK_SYS_EnableMpuClock(0);
-    /* Disable MPU - all accesses from all bus masters are allowed */
-    MPU_CESR = 0x00;
     /* Weak pull downs */
     usb_hal_khci_set_weak_pulldown(base_addres);
     #if FSL_FEATURE_SIM_OPT_HAS_USB_VOLTAGE_REGULATOR
