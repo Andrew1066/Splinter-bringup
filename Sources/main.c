@@ -72,7 +72,8 @@ int main(void)
   /* Write your code here */
   /* For example: for(;;) { } */
   // Initialize the uart module with base address and config structure
-   CLOCK_SYS_EnableUartClock(BOARD_DEBUG_UART_INSTANCE);
+#if 0
+  CLOCK_SYS_EnableUartClock(BOARD_DEBUG_UART_INSTANCE);
 
    // Get working uart clock
    uartSourceClock = CLOCK_SYS_GetUartFreq(BOARD_DEBUG_UART_INSTANCE);
@@ -106,7 +107,7 @@ int main(void)
            UART_HAL_SendDataPolling(baseAddr, &rxChar, 1u);
        }
    }
-
+#endif
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
   #ifdef PEX_RTOS_START

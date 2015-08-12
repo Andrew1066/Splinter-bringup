@@ -87,7 +87,7 @@ extern "C" {
    0 ... Default  part configuration
          Multipurpose Clock Generator (MCG) in PEE mode.
          Reference clock source for MCG module: System oscillator 0 reference clock
-         Core clock = 180MHz
+         Core clock = 120MHz
          Bus clock  = 60MHz
 */
  
@@ -99,7 +99,8 @@ extern "C" {
 #define CPU_INT_IRC_CLK_HZ             48000000U           /* Value of the 48M internal oscillator clock frequency in Hz */
 
 /* RTC oscillator setting */
-/* #undef SYSTEM_RTC_CR_VALUE */                           /* RTC oscillator not enabled. Commented out for MISRA compliance. */  
+/* RTC_CR: SC2P=0,SC4P=0,SC8P=0,SC16P=0,CLKO=1,OSCE=1,WPS=0,UM=0,SUP=0,WPE=0,SWR=0 */
+#define SYSTEM_RTC_CR_VALUE            0x0300U             /* RTC_CR */
 
 /* Low power mode enable */
 /* SMC_PMPROT: AHSRUN=0,AVLP=0,ALLS=0,AVLLS=0 */
@@ -113,20 +114,20 @@ extern "C" {
 
 #ifdef CLOCK_SETUP      
 #if (CLOCK_SETUP == 0)
-  #define DEFAULT_SYSTEM_CLOCK         180000000U          /* Default System clock value */
+  #define DEFAULT_SYSTEM_CLOCK         120000000U          /* Default System clock value */
   #define MCG_MODE                     MCG_MODE_PEE /* Clock generator mode */
   /* MCG_C1: CLKS=0,FRDIV=4,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
   #define SYSTEM_MCG_C1_VALUE          0x22U               /* MCG_C1 */
-  /* MCG_C2: LOCRE0=0,FCFTRIM=0,RANGE=2,HGO=0,EREFS=1,LP=0,IRCS=1 */
-  #define SYSTEM_MCG_C2_VALUE          0x25U               /* MCG_C2 */
+  /* MCG_C2: LOCRE0=0,FCFTRIM=0,RANGE=2,HGO=0,EREFS=1,LP=0,IRCS=0 */
+  #define SYSTEM_MCG_C2_VALUE          0x24U               /* MCG_C2 */
   /* MCG_C4: DMX32=0,DRST_DRS=0,FCTRIM=0,SCFTRIM=0 */
   #define SYSTEM_MCG_C4_VALUE          0x00U               /* MCG_C4 */
-  /* MCG_SC: ATME=0,ATMS=0,ATMF=0,FLTPRSRV=0,FCRDIV=1,LOCS0=0 */
-  #define SYSTEM_MCG_SC_VALUE          0x02U               /* MCG_SC */
+  /* MCG_SC: ATME=0,ATMS=0,ATMF=0,FLTPRSRV=0,FCRDIV=0,LOCS0=0 */
+  #define SYSTEM_MCG_SC_VALUE          0x00U               /* MCG_SC */
   /* MCG_C5: PLLCLKEN=0,PLLSTEN=0,PRDIV=1 */
   #define SYSTEM_MCG_C5_VALUE          0x01U               /* MCG_C5 */
-  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV=0x1D */
-  #define SYSTEM_MCG_C6_VALUE          0x5DU               /* MCG_C6 */
+  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV=0x0E */
+  #define SYSTEM_MCG_C6_VALUE          0x4EU               /* MCG_C6 */
   /* MCG_C7: OSCSEL=0 */
   #define SYSTEM_MCG_C7_VALUE          0x00U               /* MCG_C7 */
   /* MCG_C9: PLL_CME=0,PLL_LOCRE=0,EXT_PLL_LOCS=0 */
@@ -135,20 +136,18 @@ extern "C" {
   #define SYSTEM_MCG_C11_VALUE         0x00U               /* MCG_C11 */
   /* OSC_CR: ERCLKEN=1,EREFSTEN=0,SC2P=0,SC4P=0,SC8P=0,SC16P=0 */
   #define SYSTEM_OSC_CR_VALUE          0x80U               /* OSC_CR */
-  /* SMC_PMCTRL: RUNM=3,STOPA=0,STOPM=0 */
-  #define SYSTEM_SMC_PMCTRL_VALUE      0x60U               /* SMC_PMCTRL */
-  /* SIM_CLKDIV1: OUTDIV1=0,OUTDIV2=2,OUTDIV3=2,OUTDIV4=6 */
-  #define SYSTEM_SIM_CLKDIV1_VALUE     0x02260000U         /* SIM_CLKDIV1 */
+  /* SMC_PMCTRL: RUNM=0,STOPA=0,STOPM=0 */
+  #define SYSTEM_SMC_PMCTRL_VALUE      0x00U               /* SMC_PMCTRL */
+  /* SIM_CLKDIV1: OUTDIV1=0,OUTDIV2=1,OUTDIV3=1,OUTDIV4=4 */
+  #define SYSTEM_SIM_CLKDIV1_VALUE     0x01140000U         /* SIM_CLKDIV1 */
   /* SIM_CLKDIV2: USBDIV=0,USBFRAC=0 */
   #define SYSTEM_SIM_CLKDIV2_VALUE     0x00U               /* SIM_CLKDIV2 */
   /* SIM_CLKDIV3: PLLFLLDIV=0,PLLFLLFRAC=0 */
   #define SYSTEM_SIM_CLKDIV3_VALUE     0x00U               /* SIM_CLKDIV3 */
-  /* SIM_SOPT1: USBREGEN=0,USBSSTBY=0,USBVSTBY=0,OSC32KSEL=3,RAMSIZE=0 */
-  #define SYSTEM_SIM_SOPT1_VALUE       0x000C0000U         /* SIM_SOPT1 */
+  /* SIM_SOPT1: USBREGEN=0,USBSSTBY=0,USBVSTBY=0,OSC32KSEL=2,RAMSIZE=0 */
+  #define SYSTEM_SIM_SOPT1_VALUE       0x00080000U         /* SIM_SOPT1 */
   /* SIM_SOPT2: SDHCSRC=0,LPUARTSRC=0,TPMSRC=1,TIMESRC=0,RMIISRC=0,USBSRC=0,PLLFLLSEL=3,TRACECLKSEL=0,FBSL=0,CLKOUTSEL=0,RTCCLKOUTSEL=0,USBREGEN=0,USBSLSRC=0 */
   #define SYSTEM_SIM_SOPT2_VALUE       0x01030000U         /* SIM_SOPT2 */
-  /* USBPHY_ANACTRL: PFD_STABLE=0,EMPH_CUR_CTRL=0,EMPH_EN=0,EMPH_PULSE_CTRL=0,DEV_PULLDOWN=0,PFD_FRAC=0x18,PFD_CLK_SEL=2,PFD_CLKGATE=1,TESTCLK_SEL=0 */
-  #define SYSTEM_USBPHY_ANACTRL_VALUE  0x018AU             /* USBPHY_ANACTRL */
 #else
   #error The selected clock setup is not supported.  
 #endif

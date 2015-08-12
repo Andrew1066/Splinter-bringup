@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 10:20, # CodeGen: 8
+**     Date/Time   : 2015-08-11, 22:23, # CodeGen: 35
 **     Comment     :
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
@@ -64,7 +64,7 @@ ftm_phase_params_t flexTimer1_QdConfig0 = {
 ftm_pwm_param_t flexTimer1_ChnConfig0 = {
   .mode = kFtmEdgeAlignedPWM,
   .edgeMode = kFtmHighTrue,
-  .uFrequencyHZ = 0U,
+  .uFrequencyHZ = 100U,
   .uDutyCyclePercent = 0U,
   .uFirstEdgeDelayPercent = 0U,
 };

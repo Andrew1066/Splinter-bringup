@@ -2,7 +2,7 @@
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>Splinter bringup</ProjectName>
-    <ProjectDirectory>C:\Users\Andrew\workspace.kds\Splinter bringup\</ProjectDirectory>
+    <ProjectDirectory>\home\alexf\work\Splinter\Splinter-bringup\</ProjectDirectory>
     <ProjectMainModuleName>main</ProjectMainModuleName>
     <DestEventsDirectory>Sources\</DestEventsDirectory>
     <DestDriversSubDirectory>..\Generated_Code\</DestDriversSubDirectory>
@@ -29,13 +29,13 @@
         <Line>Documentation\doxygen\pex.css</Line>
       </GenExtraFiles>
       <GenExtraFileSrcDir11>Repositories\lib\doxygen\</GenExtraFileSrcDir11>
-      <XtraAge0>1191944726</XtraAge0>
-      <XtraAge1>1191661623</XtraAge1>
-      <XtraAge2>1191884994</XtraAge2>
-      <XtraAge3>1191671442</XtraAge3>
-      <XtraAge4>1191934336</XtraAge4>
-      <XtraAge5>1191671442</XtraAge5>
-      <XtraAge6>1191661623</XtraAge6>
+      <XtraAge0>1191949350</XtraAge0>
+      <XtraAge1>1191933584</XtraAge1>
+      <XtraAge2>1191933584</XtraAge2>
+      <XtraAge3>1191933584</XtraAge3>
+      <XtraAge4>1191933584</XtraAge4>
+      <XtraAge5>1191933584</XtraAge5>
+      <XtraAge6>1191933584</XtraAge6>
       <GenExtraFileType11>5</GenExtraFileType11>
       <GenExtraFileType10>4</GenExtraFileType10>
       <GenExtraFileType9>4</GenExtraFileType9>
@@ -50,997 +50,997 @@
       <GenExtraFileType0>4</GenExtraFileType0>
       <GenLinkedFiles lines_count="0" />
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\mcg\fsl_mcg_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/mcg/fsl_mcg_hal.c</SrcFileName>
         <OrigSrcFileHash>ACDCDB33FDCF899B45B9B15AB2A57D1CB448B0706D1CA688D16BA3E4E1A26596E09628FF786B5AA299DC504D40A9437775D0BDBA999FF9F0C659897C74D497F2</OrigSrcFileHash>
         <ReviewedSrcFileHash>ACDCDB33FDCF899B45B9B15AB2A57D1CB448B0706D1CA688D16BA3E4E1A26596E09628FF786B5AA299DC504D40A9437775D0BDBA999FF9F0C659897C74D497F2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\mcg\fsl_mcg_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/mcg/fsl_mcg_hal.c</PrjFileName>
         <PrjFileHash>ACDCDB33FDCF899B45B9B15AB2A57D1CB448B0706D1CA688D16BA3E4E1A26596E09628FF786B5AA299DC504D40A9437775D0BDBA999FF9F0C659897C74D497F2</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\mcg\fsl_mcg_hal_modes.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/mcg/fsl_mcg_hal_modes.c</SrcFileName>
         <OrigSrcFileHash>67EB73B7E6BF0D8FB27B1D3F116545A799DC30243C30B4ACD8758332C0FE2BF1122450C19EB0EF68BE88C787776D499BDAEE93EF71E3226674D259874C3492EB</OrigSrcFileHash>
         <ReviewedSrcFileHash>67EB73B7E6BF0D8FB27B1D3F116545A799DC30243C30B4ACD8758332C0FE2BF1122450C19EB0EF68BE88C787776D499BDAEE93EF71E3226674D259874C3492EB</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</PrjFileName>
         <PrjFileHash>67EB73B7E6BF0D8FB27B1D3F116545A799DC30243C30B4ACD8758332C0FE2BF1122450C19EB0EF68BE88C787776D499BDAEE93EF71E3226674D259874C3492EB</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_mcg_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal.h</SrcFileName>
         <OrigSrcFileHash>259ABFEB0CBECBBFE793EFDF8C01F291901B892C3DCAF967F024EACBFCA9AD9F3D385F47B41A4A5D4B850FC9DE42E7A247E2010EF3EFBE84398188F03C203EC2</OrigSrcFileHash>
         <ReviewedSrcFileHash>259ABFEB0CBECBBFE793EFDF8C01F291901B892C3DCAF967F024EACBFCA9AD9F3D385F47B41A4A5D4B850FC9DE42E7A247E2010EF3EFBE84398188F03C203EC2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_mcg_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_mcg_hal.h</PrjFileName>
         <PrjFileHash>259ABFEB0CBECBBFE793EFDF8C01F291901B892C3DCAF967F024EACBFCA9AD9F3D385F47B41A4A5D4B850FC9DE42E7A247E2010EF3EFBE84398188F03C203EC2</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_mcg_hal_modes.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_mcg_hal_modes.h</SrcFileName>
         <OrigSrcFileHash>9D07D05C2B8AD03FB4F5A5850A6601FB1645C9A3A62B096AC23127A037C5C3BE067F8CF9F660678F89B735FDDC84468FAD23A7D3096BB16867B7AD820C9AE605</OrigSrcFileHash>
         <ReviewedSrcFileHash>9D07D05C2B8AD03FB4F5A5850A6601FB1645C9A3A62B096AC23127A037C5C3BE067F8CF9F660678F89B735FDDC84468FAD23A7D3096BB16867B7AD820C9AE605</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_mcg_hal_modes.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_mcg_hal_modes.h</PrjFileName>
         <PrjFileHash>9D07D05C2B8AD03FB4F5A5850A6601FB1645C9A3A62B096AC23127A037C5C3BE067F8CF9F660678F89B735FDDC84468FAD23A7D3096BB16867B7AD820C9AE605</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_sim_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_sim_hal.h</SrcFileName>
         <OrigSrcFileHash>21A6E27098D1E7E222B732BDCA375B6F8A9489CCAB657F5BF6EADC6BD7E4A3CB2FEEA5C760B0135AAC32263BCAB29254D86167C1314ABEA1E7799673D9D6694A</OrigSrcFileHash>
         <ReviewedSrcFileHash>21A6E27098D1E7E222B732BDCA375B6F8A9489CCAB657F5BF6EADC6BD7E4A3CB2FEEA5C760B0135AAC32263BCAB29254D86167C1314ABEA1E7799673D9D6694A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_sim_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_sim_hal.h</PrjFileName>
         <PrjFileHash>21A6E27098D1E7E222B732BDCA375B6F8A9489CCAB657F5BF6EADC6BD7E4A3CB2FEEA5C760B0135AAC32263BCAB29254D86167C1314ABEA1E7799673D9D6694A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c</SrcFileName>
         <OrigSrcFileHash>084ABBBB1D542217515EBF06B89E889367AAA6852BB5D2A1DCE73A917CC8FA689999F6FA30A8615E84031C8B44C70AC766784CD6D00F8B3D281FE377F658C81D</OrigSrcFileHash>
         <ReviewedSrcFileHash>084ABBBB1D542217515EBF06B89E889367AAA6852BB5D2A1DCE73A917CC8FA689999F6FA30A8615E84031C8B44C70AC766784CD6D00F8B3D281FE377F658C81D</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c</PrjFileName>
         <PrjFileHash>084ABBBB1D542217515EBF06B89E889367AAA6852BB5D2A1DCE73A917CC8FA689999F6FA30A8615E84031C8B44C70AC766784CD6D00F8B3D281FE377F658C81D</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h</SrcFileName>
         <OrigSrcFileHash>74CF4ED43873E11F9F95B1C3F7C7B43731BEEA0F5F340A8D0004E8C14993812EF8394ABAC9CD99C1A8D7AC573AEA784D6D0EABBAB5C9E95F8D737E26543D593D</OrigSrcFileHash>
         <ReviewedSrcFileHash>74CF4ED43873E11F9F95B1C3F7C7B43731BEEA0F5F340A8D0004E8C14993812EF8394ABAC9CD99C1A8D7AC573AEA784D6D0EABBAB5C9E95F8D737E26543D593D</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h</PrjFileName>
         <PrjFileHash>74CF4ED43873E11F9F95B1C3F7C7B43731BEEA0F5F340A8D0004E8C14993812EF8394ABAC9CD99C1A8D7AC573AEA784D6D0EABBAB5C9E95F8D737E26543D593D</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\osc\fsl_osc_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/osc/fsl_osc_hal.c</SrcFileName>
         <OrigSrcFileHash>A8CF21DADF0557713D58D99F4BEDDEAAD6E6A0DDE27E42C2E56A46D66ED64ED8DEAA8790C1048DB7A18C663D9EFB215C18E817D46F579EC410B71791341B1417</OrigSrcFileHash>
         <ReviewedSrcFileHash>A8CF21DADF0557713D58D99F4BEDDEAAD6E6A0DDE27E42C2E56A46D66ED64ED8DEAA8790C1048DB7A18C663D9EFB215C18E817D46F579EC410B71791341B1417</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\osc\fsl_osc_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/osc/fsl_osc_hal.c</PrjFileName>
         <PrjFileHash>A8CF21DADF0557713D58D99F4BEDDEAAD6E6A0DDE27E42C2E56A46D66ED64ED8DEAA8790C1048DB7A18C663D9EFB215C18E817D46F579EC410B71791341B1417</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_osc_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_osc_hal.h</SrcFileName>
         <OrigSrcFileHash>EB95989ED4A87C0F52AFEFCB5F3AB9ACD0102A630ACB691C6AB1190AF439A312BB4B0DF1B00F56C84F4640D1DF6856C32C711E7B0282AE7081D179B0FDC8E94E</OrigSrcFileHash>
         <ReviewedSrcFileHash>EB95989ED4A87C0F52AFEFCB5F3AB9ACD0102A630ACB691C6AB1190AF439A312BB4B0DF1B00F56C84F4640D1DF6856C32C711E7B0282AE7081D179B0FDC8E94E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_osc_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_osc_hal.h</PrjFileName>
         <PrjFileHash>EB95989ED4A87C0F52AFEFCB5F3AB9ACD0102A630ACB691C6AB1190AF439A312BB4B0DF1B00F56C84F4640D1DF6856C32C711E7B0282AE7081D179B0FDC8E94E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\rtc\fsl_rtc_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/rtc/fsl_rtc_hal.c</SrcFileName>
         <OrigSrcFileHash>C50056C84FBA03C1566838DBE0C57AE7E8DAD23B7DE0718D7B024985903679F08915C3683883F5007AE8175B26BFCF8663029C7477961E79F48E8FED886C7013</OrigSrcFileHash>
         <ReviewedSrcFileHash>C50056C84FBA03C1566838DBE0C57AE7E8DAD23B7DE0718D7B024985903679F08915C3683883F5007AE8175B26BFCF8663029C7477961E79F48E8FED886C7013</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/rtc/fsl_rtc_hal.c</PrjFileName>
         <PrjFileHash>C50056C84FBA03C1566838DBE0C57AE7E8DAD23B7DE0718D7B024985903679F08915C3683883F5007AE8175B26BFCF8663029C7477961E79F48E8FED886C7013</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_rtc_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_rtc_hal.h</SrcFileName>
         <OrigSrcFileHash>403702BEB479E67F5A6853B6060E407636823DF66E29A9925561D9DACF8D463C575BD6AAB40ED13C6C4583047AB2747A2DCB353A39BB649A0C5E083938534334</OrigSrcFileHash>
         <ReviewedSrcFileHash>403702BEB479E67F5A6853B6060E407636823DF66E29A9925561D9DACF8D463C575BD6AAB40ED13C6C4583047AB2747A2DCB353A39BB649A0C5E083938534334</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_rtc_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_rtc_hal.h</PrjFileName>
         <PrjFileHash>403702BEB479E67F5A6853B6060E407636823DF66E29A9925561D9DACF8D463C575BD6AAB40ED13C6C4583047AB2747A2DCB353A39BB649A0C5E083938534334</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\src\clock\fsl_clock_manager.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/src/clock/fsl_clock_manager.c</SrcFileName>
         <OrigSrcFileHash>93ABD08E1A35F312592BF75FA0467C15FCD8D4B08CEBBD22F5ABA6380540B99DA144AF0E6C1A0E139FE3BBC46BBCF9039784B33BF3FE4F7CAD15295053A8D5C8</OrigSrcFileHash>
         <ReviewedSrcFileHash>93ABD08E1A35F312592BF75FA0467C15FCD8D4B08CEBBD22F5ABA6380540B99DA144AF0E6C1A0E139FE3BBC46BBCF9039784B33BF3FE4F7CAD15295053A8D5C8</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\src\clock\fsl_clock_manager.c</PrjFileName>
+        <PrjFileName>SDK/platform/system/src/clock/fsl_clock_manager.c</PrjFileName>
         <PrjFileHash>93ABD08E1A35F312592BF75FA0467C15FCD8D4B08CEBBD22F5ABA6380540B99DA144AF0E6C1A0E139FE3BBC46BBCF9039784B33BF3FE4F7CAD15295053A8D5C8</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\src\clock\fsl_clock_manager_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/src/clock/fsl_clock_manager_common.c</SrcFileName>
         <OrigSrcFileHash>23D94FE04DC13A75831149EA28EDA132FB343214760C50DD786ADF8C7F02B7849E53DFBFF4E060D119D0DEED465D8B7AAEC99A50055B263A3D84C4FBCD60192A</OrigSrcFileHash>
         <ReviewedSrcFileHash>23D94FE04DC13A75831149EA28EDA132FB343214760C50DD786ADF8C7F02B7849E53DFBFF4E060D119D0DEED465D8B7AAEC99A50055B263A3D84C4FBCD60192A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\src\clock\fsl_clock_manager_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/system/src/clock/fsl_clock_manager_common.c</PrjFileName>
         <PrjFileHash>23D94FE04DC13A75831149EA28EDA132FB343214760C50DD786ADF8C7F02B7849E53DFBFF4E060D119D0DEED465D8B7AAEC99A50055B263A3D84C4FBCD60192A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c</SrcFileName>
         <OrigSrcFileHash>76B84A28A61B7FE511902F4CF79C5419FAC99EF84665E4B8F8765CACE5B8B3FBAC5B12C8EDDEC83B3E7DA8528B5B542B67A05D903B5BE64DEE290D6154A29838</OrigSrcFileHash>
         <ReviewedSrcFileHash>76B84A28A61B7FE511902F4CF79C5419FAC99EF84665E4B8F8765CACE5B8B3FBAC5B12C8EDDEC83B3E7DA8528B5B542B67A05D903B5BE64DEE290D6154A29838</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.c</PrjFileName>
+        <PrjFileName>SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c</PrjFileName>
         <PrjFileHash>76B84A28A61B7FE511902F4CF79C5419FAC99EF84665E4B8F8765CACE5B8B3FBAC5B12C8EDDEC83B3E7DA8528B5B542B67A05D903B5BE64DEE290D6154A29838</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h</SrcFileName>
         <OrigSrcFileHash>7EF067D14DA194C8C3DEB2C5825FB066A0E06016A8525FA34C0A01B556DA0D03DD69F9A8466D258176082AE52CEA6CFAD96A71861F66E454E6211427B1A62105</OrigSrcFileHash>
         <ReviewedSrcFileHash>7EF067D14DA194C8C3DEB2C5825FB066A0E06016A8525FA34C0A01B556DA0D03DD69F9A8466D258176082AE52CEA6CFAD96A71861F66E454E6211427B1A62105</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.h</PrjFileName>
+        <PrjFileName>SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h</PrjFileName>
         <PrjFileHash>7EF067D14DA194C8C3DEB2C5825FB066A0E06016A8525FA34C0A01B556DA0D03DD69F9A8466D258176082AE52CEA6CFAD96A71861F66E454E6211427B1A62105</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\inc\fsl_clock_manager.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/inc/fsl_clock_manager.h</SrcFileName>
         <OrigSrcFileHash>29292139DD756C0266151CE17350D7B17159206E6A5CAE0274FF1D61CF7A7ECAAFAF055016D19D2DF2595EFB5B0E2516ABC6774EF8B4F380C2BDE683DEE3F0EF</OrigSrcFileHash>
         <ReviewedSrcFileHash>29292139DD756C0266151CE17350D7B17159206E6A5CAE0274FF1D61CF7A7ECAAFAF055016D19D2DF2595EFB5B0E2516ABC6774EF8B4F380C2BDE683DEE3F0EF</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\inc\fsl_clock_manager.h</PrjFileName>
+        <PrjFileName>SDK/platform/system/inc/fsl_clock_manager.h</PrjFileName>
         <PrjFileHash>29292139DD756C0266151CE17350D7B17159206E6A5CAE0274FF1D61CF7A7ECAAFAF055016D19D2DF2595EFB5B0E2516ABC6774EF8B4F380C2BDE683DEE3F0EF</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\rtc\fsl_rtc_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/rtc/fsl_rtc_common.c</SrcFileName>
         <OrigSrcFileHash>3C03DA21669489DF7A4927FD211E58291447CBF7F024938E0BF2BF82015BA4E1C6FBD9E98AFD8AFD0F96554A3AC931EAEEAFD97850699789D7FBC83DBC389EA3</OrigSrcFileHash>
         <ReviewedSrcFileHash>3C03DA21669489DF7A4927FD211E58291447CBF7F024938E0BF2BF82015BA4E1C6FBD9E98AFD8AFD0F96554A3AC931EAEEAFD97850699789D7FBC83DBC389EA3</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/rtc/fsl_rtc_common.c</PrjFileName>
         <PrjFileHash>3C03DA21669489DF7A4927FD211E58291447CBF7F024938E0BF2BF82015BA4E1C6FBD9E98AFD8AFD0F96554A3AC931EAEEAFD97850699789D7FBC83DBC389EA3</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\port\fsl_port_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/port/fsl_port_hal.c</SrcFileName>
         <OrigSrcFileHash>D76383F04D3FC0CA22166FBCB57379B69AE3828D452A17B64D5392139A0935990F6709053133F40356B770CBC00482CCD7D8D9750914DAF4636C7449F33AAE8F</OrigSrcFileHash>
         <ReviewedSrcFileHash>D76383F04D3FC0CA22166FBCB57379B69AE3828D452A17B64D5392139A0935990F6709053133F40356B770CBC00482CCD7D8D9750914DAF4636C7449F33AAE8F</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\port\fsl_port_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/port/fsl_port_hal.c</PrjFileName>
         <PrjFileHash>D76383F04D3FC0CA22166FBCB57379B69AE3828D452A17B64D5392139A0935990F6709053133F40356B770CBC00482CCD7D8D9750914DAF4636C7449F33AAE8F</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_port_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_port_hal.h</SrcFileName>
         <OrigSrcFileHash>EEFB3CC9FA14B2271449F62AD6919E7C90FD40C934357A58201F4993B2CE97FDF3E41383BCE10E78447586DB6DAFA8A72D54E55CF94599FF22A59492BF9D0C60</OrigSrcFileHash>
         <ReviewedSrcFileHash>EEFB3CC9FA14B2271449F62AD6919E7C90FD40C934357A58201F4993B2CE97FDF3E41383BCE10E78447586DB6DAFA8A72D54E55CF94599FF22A59492BF9D0C60</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_port_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_port_hal.h</PrjFileName>
         <PrjFileHash>EEFB3CC9FA14B2271449F62AD6919E7C90FD40C934357A58201F4993B2CE97FDF3E41383BCE10E78447586DB6DAFA8A72D54E55CF94599FF22A59492BF9D0C60</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\flexbus\fsl_flexbus_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/flexbus/fsl_flexbus_hal.c</SrcFileName>
         <OrigSrcFileHash>1A5ADD588EA26C46EBA6E781C04D5A819345A2CB06C13264823FD5C83E6913BEE022C69111871FC5566AA694AAE05D8B89C9DE119F142C15A4E1E943B6B441F1</OrigSrcFileHash>
         <ReviewedSrcFileHash>1A5ADD588EA26C46EBA6E781C04D5A819345A2CB06C13264823FD5C83E6913BEE022C69111871FC5566AA694AAE05D8B89C9DE119F142C15A4E1E943B6B441F1</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\flexbus\fsl_flexbus_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/flexbus/fsl_flexbus_hal.c</PrjFileName>
         <PrjFileHash>1A5ADD588EA26C46EBA6E781C04D5A819345A2CB06C13264823FD5C83E6913BEE022C69111871FC5566AA694AAE05D8B89C9DE119F142C15A4E1E943B6B441F1</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_flexbus_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_flexbus_hal.h</SrcFileName>
         <OrigSrcFileHash>CBA692105447A5454C267F14F584E4FC3E234C91D3C9980B30779C37DEE24B564A4468F0A1307905725D37CB70570CCD841E0D8F6CBC8BBD6B9D5570F0D13F7E</OrigSrcFileHash>
         <ReviewedSrcFileHash>CBA692105447A5454C267F14F584E4FC3E234C91D3C9980B30779C37DEE24B564A4468F0A1307905725D37CB70570CCD841E0D8F6CBC8BBD6B9D5570F0D13F7E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_flexbus_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_flexbus_hal.h</PrjFileName>
         <PrjFileHash>CBA692105447A5454C267F14F584E4FC3E234C91D3C9980B30779C37DEE24B564A4468F0A1307905725D37CB70570CCD841E0D8F6CBC8BBD6B9D5570F0D13F7E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\src\interrupt\fsl_interrupt_manager.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/src/interrupt/fsl_interrupt_manager.c</SrcFileName>
         <OrigSrcFileHash>31F56CFCFF9C8A4289007EE01B6C997D0EA887654181B038EB871D094D1BF5F1F60AA6AF19ECC29F3C2E679FE5B7B8FCF584C9421EA68BE916BE20F7CA0B6436</OrigSrcFileHash>
         <ReviewedSrcFileHash>31F56CFCFF9C8A4289007EE01B6C997D0EA887654181B038EB871D094D1BF5F1F60AA6AF19ECC29F3C2E679FE5B7B8FCF584C9421EA68BE916BE20F7CA0B6436</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\src\interrupt\fsl_interrupt_manager.c</PrjFileName>
+        <PrjFileName>SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</PrjFileName>
         <PrjFileHash>31F56CFCFF9C8A4289007EE01B6C997D0EA887654181B038EB871D094D1BF5F1F60AA6AF19ECC29F3C2E679FE5B7B8FCF584C9421EA68BE916BE20F7CA0B6436</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\system\inc\fsl_interrupt_manager.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/system/inc/fsl_interrupt_manager.h</SrcFileName>
         <OrigSrcFileHash>310A790D53AFE6502DCCAF90798E1FEE5EEA7265E30092065F5FE4184A9DFA4BFA66379BBDE74636E7EEF72519EB5C6186F3ED60A02C621C53BD2BB9EBFBF9F9</OrigSrcFileHash>
         <ReviewedSrcFileHash>310A790D53AFE6502DCCAF90798E1FEE5EEA7265E30092065F5FE4184A9DFA4BFA66379BBDE74636E7EEF72519EB5C6186F3ED60A02C621C53BD2BB9EBFBF9F9</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\system\inc\fsl_interrupt_manager.h</PrjFileName>
+        <PrjFileName>SDK/platform/system/inc/fsl_interrupt_manager.h</PrjFileName>
         <PrjFileHash>310A790D53AFE6502DCCAF90798E1FEE5EEA7265E30092065F5FE4184A9DFA4BFA66379BBDE74636E7EEF72519EB5C6186F3ED60A02C621C53BD2BB9EBFBF9F9</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\osa\src\fsl_os_abstraction_bm.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/osa/src/fsl_os_abstraction_bm.c</SrcFileName>
         <OrigSrcFileHash>1D2B81EF9C9DDAD186BD3A1EDBF2D9E63F3EC05E471A4855AC1DA9C1D2EAD6F947AB6118B74CDFBC896B59C04EC7F364B547D498EA0720A93B8558136363AA78</OrigSrcFileHash>
         <ReviewedSrcFileHash>1D2B81EF9C9DDAD186BD3A1EDBF2D9E63F3EC05E471A4855AC1DA9C1D2EAD6F947AB6118B74CDFBC896B59C04EC7F364B547D498EA0720A93B8558136363AA78</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\osa\src\fsl_os_abstraction_bm.c</PrjFileName>
+        <PrjFileName>SDK/platform/osa/src/fsl_os_abstraction_bm.c</PrjFileName>
         <PrjFileHash>1D2B81EF9C9DDAD186BD3A1EDBF2D9E63F3EC05E471A4855AC1DA9C1D2EAD6F947AB6118B74CDFBC896B59C04EC7F364B547D498EA0720A93B8558136363AA78</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\osa\inc\fsl_os_abstraction.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction.h</SrcFileName>
         <OrigSrcFileHash>CFD81E74A8CFDFE786567F6D2B315E2952BB63749AB18CC47A4B8E64C67FE080B5D1D4D9833105244DF7F6B65A4E048B80C8611C773B2A7DF4D86CD0189014EC</OrigSrcFileHash>
         <ReviewedSrcFileHash>CFD81E74A8CFDFE786567F6D2B315E2952BB63749AB18CC47A4B8E64C67FE080B5D1D4D9833105244DF7F6B65A4E048B80C8611C773B2A7DF4D86CD0189014EC</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\osa\inc\fsl_os_abstraction.h</PrjFileName>
+        <PrjFileName>SDK/platform/osa/inc/fsl_os_abstraction.h</PrjFileName>
         <PrjFileHash>CFD81E74A8CFDFE786567F6D2B315E2952BB63749AB18CC47A4B8E64C67FE080B5D1D4D9833105244DF7F6B65A4E048B80C8611C773B2A7DF4D86CD0189014EC</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\osa\inc\fsl_os_abstraction_bm.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/osa/inc/fsl_os_abstraction_bm.h</SrcFileName>
         <OrigSrcFileHash>E559E821ED37AF837B8BBE3193BA2FC35DFE0207AB1EB01F26016C664706517A76DDF8B961C63342C7DFA3A20F2359255423B6CB1D149DCF313DD1C68FB1CAA9</OrigSrcFileHash>
         <ReviewedSrcFileHash>E559E821ED37AF837B8BBE3193BA2FC35DFE0207AB1EB01F26016C664706517A76DDF8B961C63342C7DFA3A20F2359255423B6CB1D149DCF313DD1C68FB1CAA9</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PrjFileName>
+        <PrjFileName>SDK/platform/osa/inc/fsl_os_abstraction_bm.h</PrjFileName>
         <PrjFileHash>E559E821ED37AF837B8BBE3193BA2FC35DFE0207AB1EB01F26016C664706517A76DDF8B961C63342C7DFA3A20F2359255423B6CB1D149DCF313DD1C68FB1CAA9</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\gpio\fsl_gpio_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/gpio/fsl_gpio_hal.c</SrcFileName>
         <OrigSrcFileHash>067D2448C84F9E66264133E1A713F90D47B65BAE68E31980406743A72BC9C9C4A498F7BE3880F9CCF0D5E63F28A2459520A758A2B5C020D4F772C4874B08E820</OrigSrcFileHash>
         <ReviewedSrcFileHash>067D2448C84F9E66264133E1A713F90D47B65BAE68E31980406743A72BC9C9C4A498F7BE3880F9CCF0D5E63F28A2459520A758A2B5C020D4F772C4874B08E820</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/gpio/fsl_gpio_hal.c</PrjFileName>
         <PrjFileHash>067D2448C84F9E66264133E1A713F90D47B65BAE68E31980406743A72BC9C9C4A498F7BE3880F9CCF0D5E63F28A2459520A758A2B5C020D4F772C4874B08E820</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_gpio_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_gpio_hal.h</SrcFileName>
         <OrigSrcFileHash>0D9C1D936875FC24008C10AA8DFAA8509823A15BC9FA5F2F69AB1192781D8D9DD986C29B534894B7A580CEE0FCB5400AC2CE15A09B90D77C38207A28F8FD97B5</OrigSrcFileHash>
         <ReviewedSrcFileHash>0D9C1D936875FC24008C10AA8DFAA8509823A15BC9FA5F2F69AB1192781D8D9DD986C29B534894B7A580CEE0FCB5400AC2CE15A09B90D77C38207A28F8FD97B5</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_gpio_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_gpio_hal.h</PrjFileName>
         <PrjFileHash>0D9C1D936875FC24008C10AA8DFAA8509823A15BC9FA5F2F69AB1192781D8D9DD986C29B534894B7A580CEE0FCB5400AC2CE15A09B90D77C38207A28F8FD97B5</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\gpio\fsl_gpio_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/gpio/fsl_gpio_common.c</SrcFileName>
         <OrigSrcFileHash>75336755BDC00F510A9918B12AD81868DDC81FC98197DE236439E8E2C8802171A1786032790D9D5C271C5E8C61A73A39B61B97B9316C9FE503E6B713CA47E6B3</OrigSrcFileHash>
         <ReviewedSrcFileHash>75336755BDC00F510A9918B12AD81868DDC81FC98197DE236439E8E2C8802171A1786032790D9D5C271C5E8C61A73A39B61B97B9316C9FE503E6B713CA47E6B3</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/gpio/fsl_gpio_common.c</PrjFileName>
         <PrjFileHash>75336755BDC00F510A9918B12AD81868DDC81FC98197DE236439E8E2C8802171A1786032790D9D5C271C5E8C61A73A39B61B97B9316C9FE503E6B713CA47E6B3</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\gpio\fsl_gpio_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/gpio/fsl_gpio_driver.c</SrcFileName>
         <OrigSrcFileHash>FF33E491A20965175788B880420D3A18536FE44B3964A80DD7EBAD9549FE2B479DD6EB53CD608842F5B208951DD3F9AD047A36A5AC4DD9F781F72D93152D1940</OrigSrcFileHash>
         <ReviewedSrcFileHash>FF33E491A20965175788B880420D3A18536FE44B3964A80DD7EBAD9549FE2B479DD6EB53CD608842F5B208951DD3F9AD047A36A5AC4DD9F781F72D93152D1940</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/gpio/fsl_gpio_driver.c</PrjFileName>
         <PrjFileHash>FF33E491A20965175788B880420D3A18536FE44B3964A80DD7EBAD9549FE2B479DD6EB53CD608842F5B208951DD3F9AD047A36A5AC4DD9F781F72D93152D1940</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_gpio_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_gpio_driver.h</SrcFileName>
         <OrigSrcFileHash>125C6DE0A071BD56270C596775B76AE0119620DB43C3B490F49232884C9FEEB3A639AFF0C7D7B25DE21B8F25E9827764C1AC882C2FBE965D52458B3AB74C15D1</OrigSrcFileHash>
         <ReviewedSrcFileHash>125C6DE0A071BD56270C596775B76AE0119620DB43C3B490F49232884C9FEEB3A639AFF0C7D7B25DE21B8F25E9827764C1AC882C2FBE965D52458B3AB74C15D1</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_gpio_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_gpio_driver.h</PrjFileName>
         <PrjFileHash>125C6DE0A071BD56270C596775B76AE0119620DB43C3B490F49232884C9FEEB3A639AFF0C7D7B25DE21B8F25E9827764C1AC882C2FBE965D52458B3AB74C15D1</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\i2c\fsl_i2c_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/i2c/fsl_i2c_hal.c</SrcFileName>
         <OrigSrcFileHash>9EE3FDAFEA6AEDE7246860AE778CE95EC24C94EB8A87A5A9A4740A78B43FAAF3AF9F200C44E0DE376F27FDA1B3D1FE209FCA07573EA72556E2A47AEAAD0898EF</OrigSrcFileHash>
         <ReviewedSrcFileHash>9EE3FDAFEA6AEDE7246860AE778CE95EC24C94EB8A87A5A9A4740A78B43FAAF3AF9F200C44E0DE376F27FDA1B3D1FE209FCA07573EA72556E2A47AEAAD0898EF</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\i2c\fsl_i2c_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/i2c/fsl_i2c_hal.c</PrjFileName>
         <PrjFileHash>9EE3FDAFEA6AEDE7246860AE778CE95EC24C94EB8A87A5A9A4740A78B43FAAF3AF9F200C44E0DE376F27FDA1B3D1FE209FCA07573EA72556E2A47AEAAD0898EF</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_i2c_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_i2c_hal.h</SrcFileName>
         <OrigSrcFileHash>3802247A7BAAD8641000C3985912F97A9967ECABCA55E8BDB51FDB5918FD4E8AB4E99CEEBD44CABE3A637B2F0BC4E487CDE53CA90598179F284589C0BFB4E6D6</OrigSrcFileHash>
         <ReviewedSrcFileHash>3802247A7BAAD8641000C3985912F97A9967ECABCA55E8BDB51FDB5918FD4E8AB4E99CEEBD44CABE3A637B2F0BC4E487CDE53CA90598179F284589C0BFB4E6D6</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_i2c_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_i2c_hal.h</PrjFileName>
         <PrjFileHash>3802247A7BAAD8641000C3985912F97A9967ECABCA55E8BDB51FDB5918FD4E8AB4E99CEEBD44CABE3A637B2F0BC4E487CDE53CA90598179F284589C0BFB4E6D6</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\utilities\inc\fsl_misc_utilities.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_misc_utilities.h</SrcFileName>
         <OrigSrcFileHash>E3260F5B354B53E9C0D7E7CDECB9DDAD4E7D08DAEB1D2433588EB9E4F16C5C1F116DEDA1A70B01DB2B954317992FB0D1276D4AB73A2F8E50047969F680090B5E</OrigSrcFileHash>
         <ReviewedSrcFileHash>E3260F5B354B53E9C0D7E7CDECB9DDAD4E7D08DAEB1D2433588EB9E4F16C5C1F116DEDA1A70B01DB2B954317992FB0D1276D4AB73A2F8E50047969F680090B5E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\utilities\inc\fsl_misc_utilities.h</PrjFileName>
+        <PrjFileName>SDK/platform/utilities/inc/fsl_misc_utilities.h</PrjFileName>
         <PrjFileHash>E3260F5B354B53E9C0D7E7CDECB9DDAD4E7D08DAEB1D2433588EB9E4F16C5C1F116DEDA1A70B01DB2B954317992FB0D1276D4AB73A2F8E50047969F680090B5E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\i2c\fsl_i2c_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/i2c/fsl_i2c_common.c</SrcFileName>
         <OrigSrcFileHash>A5412ED7614F5F7AF3AEDD00954A38CEC12F29294A9239FB63DC6C71C4991F925EB067BD4D04A29F4CFE9DFFDCFAAC408F73D8A053F145CE8E50B8483D352D69</OrigSrcFileHash>
         <ReviewedSrcFileHash>A5412ED7614F5F7AF3AEDD00954A38CEC12F29294A9239FB63DC6C71C4991F925EB067BD4D04A29F4CFE9DFFDCFAAC408F73D8A053F145CE8E50B8483D352D69</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\i2c\fsl_i2c_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/i2c/fsl_i2c_common.c</PrjFileName>
         <PrjFileHash>A5412ED7614F5F7AF3AEDD00954A38CEC12F29294A9239FB63DC6C71C4991F925EB067BD4D04A29F4CFE9DFFDCFAAC408F73D8A053F145CE8E50B8483D352D69</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\i2c\fsl_i2c_master_driver.c</SrcFileName>
-        <OrigSrcFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</OrigSrcFileHash>
-        <ReviewedSrcFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\i2c\fsl_i2c_master_driver.c</PrjFileName>
-        <PrjFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\i2c\fsl_i2c_slave_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/i2c/fsl_i2c_slave_driver.c</SrcFileName>
         <OrigSrcFileHash>60A5FF6453DFE09C0EC9441B24425878C0A40BCA1DB504D6974813FA49C282BD3F09788672F048286AD207631D67C55B08015BADB30E94C2AEA3603BE3B9D312</OrigSrcFileHash>
         <ReviewedSrcFileHash>60A5FF6453DFE09C0EC9441B24425878C0A40BCA1DB504D6974813FA49C282BD3F09788672F048286AD207631D67C55B08015BADB30E94C2AEA3603BE3B9D312</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\i2c\fsl_i2c_slave_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/i2c/fsl_i2c_slave_driver.c</PrjFileName>
         <PrjFileHash>60A5FF6453DFE09C0EC9441B24425878C0A40BCA1DB504D6974813FA49C282BD3F09788672F048286AD207631D67C55B08015BADB30E94C2AEA3603BE3B9D312</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\i2c\fsl_i2c_shared_function.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/i2c/fsl_i2c_master_driver.c</SrcFileName>
+        <OrigSrcFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</OrigSrcFileHash>
+        <ReviewedSrcFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/drivers/src/i2c/fsl_i2c_master_driver.c</PrjFileName>
+        <PrjFileHash>8177763311F06BCB1D637FE276151BEACADE73CCC46FEC4AFA823E69484C6F39F79B7B736D04D7825102BE2584EA19107A17EC2E3B406227A93340F147D3F7D5</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/i2c/fsl_i2c_shared_function.c</SrcFileName>
         <OrigSrcFileHash>1F3A1529C2D3201B0C4D2EC971EF52419297E6A0BB6CC397EEE9AB9772AC0D407249FF9A2C2726789C005C5EE2EE29A68A018D94FF37887BE37581209C146219</OrigSrcFileHash>
         <ReviewedSrcFileHash>1F3A1529C2D3201B0C4D2EC971EF52419297E6A0BB6CC397EEE9AB9772AC0D407249FF9A2C2726789C005C5EE2EE29A68A018D94FF37887BE37581209C146219</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\i2c\fsl_i2c_shared_function.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/i2c/fsl_i2c_shared_function.c</PrjFileName>
         <PrjFileHash>1F3A1529C2D3201B0C4D2EC971EF52419297E6A0BB6CC397EEE9AB9772AC0D407249FF9A2C2726789C005C5EE2EE29A68A018D94FF37887BE37581209C146219</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_i2c_master_driver.h</SrcFileName>
-        <OrigSrcFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</OrigSrcFileHash>
-        <ReviewedSrcFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_i2c_master_driver.h</PrjFileName>
-        <PrjFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_i2c_shared_function.h</SrcFileName>
-        <OrigSrcFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</OrigSrcFileHash>
-        <ReviewedSrcFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_i2c_shared_function.h</PrjFileName>
-        <PrjFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_i2c_slave_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_i2c_slave_driver.h</SrcFileName>
         <OrigSrcFileHash>CC2A2471248BC255CA299460695E24EC257C78593ED389B3B2448397738991271491F2DD9D916BF8CA84A12310ADD9E6A1C14AE01BD418E8515916D7E3711E54</OrigSrcFileHash>
         <ReviewedSrcFileHash>CC2A2471248BC255CA299460695E24EC257C78593ED389B3B2448397738991271491F2DD9D916BF8CA84A12310ADD9E6A1C14AE01BD418E8515916D7E3711E54</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_i2c_slave_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_i2c_slave_driver.h</PrjFileName>
         <PrjFileHash>CC2A2471248BC255CA299460695E24EC257C78593ED389B3B2448397738991271491F2DD9D916BF8CA84A12310ADD9E6A1C14AE01BD418E8515916D7E3711E54</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\ftm\fsl_ftm_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_i2c_shared_function.h</SrcFileName>
+        <OrigSrcFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</OrigSrcFileHash>
+        <ReviewedSrcFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_i2c_shared_function.h</PrjFileName>
+        <PrjFileHash>CD3A49AC90D11F087387DBC5517C09B988C564ACDACEF52F4DEF477EC59AF7612D476042FC3F379FD41A5D817A16C48D7219903B2CA67462C6754C606254A084</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_i2c_master_driver.h</SrcFileName>
+        <OrigSrcFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</OrigSrcFileHash>
+        <ReviewedSrcFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_i2c_master_driver.h</PrjFileName>
+        <PrjFileHash>0B53CC0BAB90BC1D42CC5F96A226D2C1CFEA5B1D752631B18DC4709AA4C0307B45344FC0869E972016701A283321221F0A4594981C41DB102C1A86ED27C151A9</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/ftm/fsl_ftm_hal.c</SrcFileName>
         <OrigSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</OrigSrcFileHash>
         <ReviewedSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/ftm/fsl_ftm_hal.c</PrjFileName>
         <PrjFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_ftm_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_ftm_hal.h</SrcFileName>
         <OrigSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</OrigSrcFileHash>
         <ReviewedSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_ftm_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_ftm_hal.h</PrjFileName>
         <PrjFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/ftm/fsl_ftm_common.c</SrcFileName>
         <OrigSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</OrigSrcFileHash>
         <ReviewedSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/ftm/fsl_ftm_common.c</PrjFileName>
         <PrjFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/ftm/fsl_ftm_driver.c</SrcFileName>
         <OrigSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</OrigSrcFileHash>
         <ReviewedSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/ftm/fsl_ftm_driver.c</PrjFileName>
         <PrjFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_ftm_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_ftm_driver.h</SrcFileName>
         <OrigSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</OrigSrcFileHash>
         <ReviewedSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_ftm_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_ftm_driver.h</PrjFileName>
         <PrjFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\uart\fsl_uart_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/uart/fsl_uart_hal.c</SrcFileName>
         <OrigSrcFileHash>25412CE61F4683F246A4D964ACF40A39A83072ED97F51FFAEF6F893BF5457BDB4C815903BD302628424CFFB56C18FA13748072ACC526BA292E9E16D91654F310</OrigSrcFileHash>
         <ReviewedSrcFileHash>25412CE61F4683F246A4D964ACF40A39A83072ED97F51FFAEF6F893BF5457BDB4C815903BD302628424CFFB56C18FA13748072ACC526BA292E9E16D91654F310</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\uart\fsl_uart_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/uart/fsl_uart_hal.c</PrjFileName>
         <PrjFileHash>25412CE61F4683F246A4D964ACF40A39A83072ED97F51FFAEF6F893BF5457BDB4C815903BD302628424CFFB56C18FA13748072ACC526BA292E9E16D91654F310</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_uart_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_uart_hal.h</SrcFileName>
         <OrigSrcFileHash>397C351E33602DB48DC14D4E8AD023E744ED8C3829F7EA8E9ADA5D3F78223CD8815BE5DD9D3F35F40E9CF613C27DA8C9EF1D13322BBB9DB70BF7E5F7BA37BB82</OrigSrcFileHash>
         <ReviewedSrcFileHash>397C351E33602DB48DC14D4E8AD023E744ED8C3829F7EA8E9ADA5D3F78223CD8815BE5DD9D3F35F40E9CF613C27DA8C9EF1D13322BBB9DB70BF7E5F7BA37BB82</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_uart_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_uart_hal.h</PrjFileName>
         <PrjFileHash>397C351E33602DB48DC14D4E8AD023E744ED8C3829F7EA8E9ADA5D3F78223CD8815BE5DD9D3F35F40E9CF613C27DA8C9EF1D13322BBB9DB70BF7E5F7BA37BB82</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\lpuart\fsl_lpuart_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/lpuart/fsl_lpuart_hal.c</SrcFileName>
         <OrigSrcFileHash>E5CD7E7D12E583B791FF42BC07949F6A8FC170A50419FF8321DCECE68BB301A38CEB07CA3DBEC472A8CD08C2377DC735C1D17C5589129324519D3769B99F798B</OrigSrcFileHash>
         <ReviewedSrcFileHash>E5CD7E7D12E583B791FF42BC07949F6A8FC170A50419FF8321DCECE68BB301A38CEB07CA3DBEC472A8CD08C2377DC735C1D17C5589129324519D3769B99F798B</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\lpuart\fsl_lpuart_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c</PrjFileName>
         <PrjFileHash>E5CD7E7D12E583B791FF42BC07949F6A8FC170A50419FF8321DCECE68BB301A38CEB07CA3DBEC472A8CD08C2377DC735C1D17C5589129324519D3769B99F798B</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_lpuart_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_lpuart_hal.h</SrcFileName>
         <OrigSrcFileHash>F806A8B073070EA4EC7CC4EE84CDD5DDD1847C2CA4340AECE06D985CE84725E9A5D06E303C7460EB0FCC8EBE8A6C44C09F0EE1D84927C806ED5172854D246B56</OrigSrcFileHash>
         <ReviewedSrcFileHash>F806A8B073070EA4EC7CC4EE84CDD5DDD1847C2CA4340AECE06D985CE84725E9A5D06E303C7460EB0FCC8EBE8A6C44C09F0EE1D84927C806ED5172854D246B56</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_lpuart_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_lpuart_hal.h</PrjFileName>
         <PrjFileHash>F806A8B073070EA4EC7CC4EE84CDD5DDD1847C2CA4340AECE06D985CE84725E9A5D06E303C7460EB0FCC8EBE8A6C44C09F0EE1D84927C806ED5172854D246B56</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\utilities\src\fsl_debug_console.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/utilities/src/fsl_debug_console.c</SrcFileName>
         <OrigSrcFileHash>CA331F01137B97474BE8D7328B0159EB4169548EA4BA45713E6E168FE8519A65545CB809ECF11C5EE44415AA8C4472850F1B12878007C758B35603E36C4D8072</OrigSrcFileHash>
         <ReviewedSrcFileHash>CA331F01137B97474BE8D7328B0159EB4169548EA4BA45713E6E168FE8519A65545CB809ECF11C5EE44415AA8C4472850F1B12878007C758B35603E36C4D8072</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\utilities\src\fsl_debug_console.c</PrjFileName>
+        <PrjFileName>SDK/platform/utilities/src/fsl_debug_console.c</PrjFileName>
         <PrjFileHash>CA331F01137B97474BE8D7328B0159EB4169548EA4BA45713E6E168FE8519A65545CB809ECF11C5EE44415AA8C4472850F1B12878007C758B35603E36C4D8072</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\utilities\src\print_scan.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/utilities/src/print_scan.c</SrcFileName>
         <OrigSrcFileHash>4A2066B0E96F5F3E187860E3E217E1EF74DA16460977CB90612B833F4B93CD3C19AC9CC74110B92D26D31AF9ABA5254B085C3E876B481038B142CC6834BC8C84</OrigSrcFileHash>
         <ReviewedSrcFileHash>4A2066B0E96F5F3E187860E3E217E1EF74DA16460977CB90612B833F4B93CD3C19AC9CC74110B92D26D31AF9ABA5254B085C3E876B481038B142CC6834BC8C84</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\utilities\src\print_scan.c</PrjFileName>
+        <PrjFileName>SDK/platform/utilities/src/print_scan.c</PrjFileName>
         <PrjFileHash>4A2066B0E96F5F3E187860E3E217E1EF74DA16460977CB90612B833F4B93CD3C19AC9CC74110B92D26D31AF9ABA5254B085C3E876B481038B142CC6834BC8C84</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\utilities\src\print_scan.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/utilities/src/print_scan.h</SrcFileName>
         <OrigSrcFileHash>9E5D41D96780E6A97725711E64CB85D7371D74B20917ECC9E5F755E1E043A3996C7320F4FE386A1C31D8AB38EE9A84B3086B25876758F5A54011F6C03E2CF303</OrigSrcFileHash>
         <ReviewedSrcFileHash>9E5D41D96780E6A97725711E64CB85D7371D74B20917ECC9E5F755E1E043A3996C7320F4FE386A1C31D8AB38EE9A84B3086B25876758F5A54011F6C03E2CF303</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\utilities\src\print_scan.h</PrjFileName>
+        <PrjFileName>SDK/platform/utilities/src/print_scan.h</PrjFileName>
         <PrjFileHash>9E5D41D96780E6A97725711E64CB85D7371D74B20917ECC9E5F755E1E043A3996C7320F4FE386A1C31D8AB38EE9A84B3086B25876758F5A54011F6C03E2CF303</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\utilities\inc\fsl_debug_console.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/utilities/inc/fsl_debug_console.h</SrcFileName>
         <OrigSrcFileHash>8CD8EDC3F2EFF8E8928058D64D1DEB5855C14402E2DB5314B6FB01B5940226C50C1349C8E69F0927848A48EFD95C9EC5A1468D75F5BD954E594B1DBCF35DE753</OrigSrcFileHash>
         <ReviewedSrcFileHash>8CD8EDC3F2EFF8E8928058D64D1DEB5855C14402E2DB5314B6FB01B5940226C50C1349C8E69F0927848A48EFD95C9EC5A1468D75F5BD954E594B1DBCF35DE753</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\utilities\inc\fsl_debug_console.h</PrjFileName>
+        <PrjFileName>SDK/platform/utilities/inc/fsl_debug_console.h</PrjFileName>
         <PrjFileHash>8CD8EDC3F2EFF8E8928058D64D1DEB5855C14402E2DB5314B6FB01B5940226C50C1349C8E69F0927848A48EFD95C9EC5A1468D75F5BD954E594B1DBCF35DE753</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\hal\fsl_usb_features.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/hal/fsl_usb_features.h</SrcFileName>
         <OrigSrcFileHash>42E67EC5B04AA88F8885CD5B3F30CC023E37F1E6AAE38CF8AD5EA1F0AB7A741E2DC76B908B5A2039E01479E67276FA265C59FDDD1A5F07E61A2871DD9F4119DB</OrigSrcFileHash>
         <ReviewedSrcFileHash>42E67EC5B04AA88F8885CD5B3F30CC023E37F1E6AAE38CF8AD5EA1F0AB7A741E2DC76B908B5A2039E01479E67276FA265C59FDDD1A5F07E61A2871DD9F4119DB</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\hal\fsl_usb_features.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/hal/fsl_usb_features.h</PrjFileName>
         <PrjFileHash>42E67EC5B04AA88F8885CD5B3F30CC023E37F1E6AAE38CF8AD5EA1F0AB7A741E2DC76B908B5A2039E01479E67276FA265C59FDDD1A5F07E61A2871DD9F4119DB</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\hal\fsl_usb_khci_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/hal/fsl_usb_khci_hal.h</SrcFileName>
         <OrigSrcFileHash>9BBF1617A9CA739B7BAA0A2DBD982E7F38D6BA78FD9DB4DCEB833044CF42E955E2474EB125635399C755AEA3ECC014194F58A0E829AB7EFE2288306C7BB07472</OrigSrcFileHash>
         <ReviewedSrcFileHash>9BBF1617A9CA739B7BAA0A2DBD982E7F38D6BA78FD9DB4DCEB833044CF42E955E2474EB125635399C755AEA3ECC014194F58A0E829AB7EFE2288306C7BB07472</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\hal\fsl_usb_khci_hal.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/hal/fsl_usb_khci_hal.h</PrjFileName>
         <PrjFileHash>9BBF1617A9CA739B7BAA0A2DBD982E7F38D6BA78FD9DB4DCEB833044CF42E955E2474EB125635399C755AEA3ECC014194F58A0E829AB7EFE2288306C7BB07472</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\adapter\sources\adapter.h</SrcFileName>
-        <OrigSrcFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</OrigSrcFileHash>
-        <ReviewedSrcFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\adapter\sources\adapter.h</PrjFileName>
-        <PrjFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\adapter\sources\adapter_types.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/adapter/sources/adapter_types.h</SrcFileName>
         <OrigSrcFileHash>A6221124534A5D770DDF1535D7B502F1589560E23CA3FD54DB2D8C52661C549AE8581F3250AC4FC7135150B84D090EDE65082C57C947F472DD47719324D6708A</OrigSrcFileHash>
         <ReviewedSrcFileHash>A6221124534A5D770DDF1535D7B502F1589560E23CA3FD54DB2D8C52661C549AE8581F3250AC4FC7135150B84D090EDE65082C57C947F472DD47719324D6708A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\adapter\sources\adapter_types.h</PrjFileName>
+        <PrjFileName>SDK/usb/adapter/sources/adapter_types.h</PrjFileName>
         <PrjFileHash>A6221124534A5D770DDF1535D7B502F1589560E23CA3FD54DB2D8C52661C549AE8581F3250AC4FC7135150B84D090EDE65082C57C947F472DD47719324D6708A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\adapter\sources\sdk\adapter_cfg.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/adapter/sources/adapter.h</SrcFileName>
+        <OrigSrcFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</OrigSrcFileHash>
+        <ReviewedSrcFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/adapter/sources/adapter.h</PrjFileName>
+        <PrjFileHash>621D702AE5FAA00B44AB65572BB53A4EED2A01840AA61A6FEF122C9D1E9C91CD17808D2B0B6959816881EBD34A483C6F32255CDDE717E0A77937E7268052DB02</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/adapter/sources/sdk/adapter_cfg.h</SrcFileName>
         <OrigSrcFileHash>00F6A1AE2B90F6EF53FB5436BB037635DE76DDA9F54425B7F45CB5B423C0DA13501B2434B8A42BA735EE5675B320E757378DF8A97DFAC435421FF9632B6AA4C0</OrigSrcFileHash>
         <ReviewedSrcFileHash>00F6A1AE2B90F6EF53FB5436BB037635DE76DDA9F54425B7F45CB5B423C0DA13501B2434B8A42BA735EE5675B320E757378DF8A97DFAC435421FF9632B6AA4C0</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\adapter\sources\sdk\adapter_cfg.h</PrjFileName>
+        <PrjFileName>SDK/usb/adapter/sources/sdk/adapter_cfg.h</PrjFileName>
         <PrjFileHash>00F6A1AE2B90F6EF53FB5436BB037635DE76DDA9F54425B7F45CB5B423C0DA13501B2434B8A42BA735EE5675B320E757378DF8A97DFAC435421FF9632B6AA4C0</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\adapter\sources\sdk\adapter_sdk.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/adapter/sources/sdk/adapter_sdk.h</SrcFileName>
         <OrigSrcFileHash>D5E34CB2777BFA5CAC76E97749AB12661DD34F3497803BE0BDB767778B70C1405E2148CA79E25ADF379E0BED58A228356A8BF038F443AED5297BF09BE0B4A089</OrigSrcFileHash>
         <ReviewedSrcFileHash>D5E34CB2777BFA5CAC76E97749AB12661DD34F3497803BE0BDB767778B70C1405E2148CA79E25ADF379E0BED58A228356A8BF038F443AED5297BF09BE0B4A089</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\adapter\sources\sdk\adapter_sdk.h</PrjFileName>
+        <PrjFileName>SDK/usb/adapter/sources/sdk/adapter_sdk.h</PrjFileName>
         <PrjFileHash>D5E34CB2777BFA5CAC76E97749AB12661DD34F3497803BE0BDB767778B70C1405E2148CA79E25ADF379E0BED58A228356A8BF038F443AED5297BF09BE0B4A089</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\adapter\sources\sdk\adapter_sdk.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/adapter/sources/sdk/adapter_sdk.c</SrcFileName>
         <OrigSrcFileHash>ED2163714F31AFB0C40767E04B03023FADA5CD60ED4C4DBC11E454469FCB49286E7ABECB1B652991F83B27230940261F710231D74D79F168068FC44BE823F58A</OrigSrcFileHash>
         <ReviewedSrcFileHash>ED2163714F31AFB0C40767E04B03023FADA5CD60ED4C4DBC11E454469FCB49286E7ABECB1B652991F83B27230940261F710231D74D79F168068FC44BE823F58A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\adapter\sources\sdk\adapter_sdk.c</PrjFileName>
+        <PrjFileName>SDK/usb/adapter/sources/sdk/adapter_sdk.c</PrjFileName>
         <PrjFileHash>ED2163714F31AFB0C40767E04B03023FADA5CD60ED4C4DBC11E454469FCB49286E7ABECB1B652991F83B27230940261F710231D74D79F168068FC44BE823F58A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\compiler.h</SrcFileName>
-        <OrigSrcFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</OrigSrcFileHash>
-        <ReviewedSrcFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\compiler.h</PrjFileName>
-        <PrjFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\types.h</SrcFileName>
-        <OrigSrcFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</OrigSrcFileHash>
-        <ReviewedSrcFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\types.h</PrjFileName>
-        <PrjFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb.h</SrcFileName>
-        <OrigSrcFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</OrigSrcFileHash>
-        <ReviewedSrcFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb.h</PrjFileName>
-        <PrjFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_desc.h</SrcFileName>
-        <OrigSrcFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</OrigSrcFileHash>
-        <ReviewedSrcFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_desc.h</PrjFileName>
-        <PrjFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_ehci.h</SrcFileName>
-        <OrigSrcFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</OrigSrcFileHash>
-        <ReviewedSrcFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_ehci.h</PrjFileName>
-        <PrjFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_error.h</SrcFileName>
-        <OrigSrcFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</OrigSrcFileHash>
-        <ReviewedSrcFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_error.h</PrjFileName>
-        <PrjFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_misc.h</SrcFileName>
-        <OrigSrcFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</OrigSrcFileHash>
-        <ReviewedSrcFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_misc.h</PrjFileName>
-        <PrjFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_opt.h</SrcFileName>
-        <OrigSrcFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</OrigSrcFileHash>
-        <ReviewedSrcFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_opt.h</PrjFileName>
-        <PrjFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_pin_detect.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_pin_detect.h</SrcFileName>
         <OrigSrcFileHash>376CFC24A4FBD2518333172C88526E444666C45F029A91349F6008982CD79038868B5C668BF1FB1C7A1E20BEF934FBE27E3715981EEC0073F5A5723F2FF4C70F</OrigSrcFileHash>
         <ReviewedSrcFileHash>376CFC24A4FBD2518333172C88526E444666C45F029A91349F6008982CD79038868B5C668BF1FB1C7A1E20BEF934FBE27E3715981EEC0073F5A5723F2FF4C70F</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_pin_detect.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/include/usb_pin_detect.h</PrjFileName>
         <PrjFileHash>376CFC24A4FBD2518333172C88526E444666C45F029A91349F6008982CD79038868B5C668BF1FB1C7A1E20BEF934FBE27E3715981EEC0073F5A5723F2FF4C70F</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\include\usb_types.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_types.h</SrcFileName>
         <OrigSrcFileHash>10848305DF764536B29E27657EFDCD7294D1C3C5AA055703C6A555D45EA24797EB7AF733148861B38FFCDF4D1034A6A0C3B8DF736B8A58ED2932A63D48EF3ED1</OrigSrcFileHash>
         <ReviewedSrcFileHash>10848305DF764536B29E27657EFDCD7294D1C3C5AA055703C6A555D45EA24797EB7AF733148861B38FFCDF4D1034A6A0C3B8DF736B8A58ED2932A63D48EF3ED1</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\include\usb_types.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/include/usb_types.h</PrjFileName>
         <PrjFileHash>10848305DF764536B29E27657EFDCD7294D1C3C5AA055703C6A555D45EA24797EB7AF733148861B38FFCDF4D1034A6A0C3B8DF736B8A58ED2932A63D48EF3ED1</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\include\usb_device_stack_interface.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_opt.h</SrcFileName>
+        <OrigSrcFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</OrigSrcFileHash>
+        <ReviewedSrcFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb_opt.h</PrjFileName>
+        <PrjFileHash>5EF835FBE2F7B9398B3973E4EE5398ACA05260AE8229D27BDB626810461ECAB681B1E311CB8D5CFAA74330E73F958A219327C15ED089F608D4A066B9F61357F2</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_ehci.h</SrcFileName>
+        <OrigSrcFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</OrigSrcFileHash>
+        <ReviewedSrcFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb_ehci.h</PrjFileName>
+        <PrjFileHash>75BCCEDE2E36C702DA4F7925BE87C3351760ECC5A02E6A9CAE3AF3FB02C8635578C88B5D4E93B844A19F4F9990449C113E3424ADFA692D49F7288562FEB5C9B2</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_misc.h</SrcFileName>
+        <OrigSrcFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</OrigSrcFileHash>
+        <ReviewedSrcFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb_misc.h</PrjFileName>
+        <PrjFileHash>7E9435B576F6C310DBDFAE2D508D425583698C0118307748B50CC1E107B012DD966CE557C81B80B504C711A06180E8A66E198B1F4CB1830E7FDDA2077806FBE4</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/compiler.h</SrcFileName>
+        <OrigSrcFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</OrigSrcFileHash>
+        <ReviewedSrcFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/compiler.h</PrjFileName>
+        <PrjFileHash>E7AA0EFC8D2C045660A3F329F8DCCFBF0520E401B784E308292635E9FF16EB4722D3160D3FA91DF1EB3A4C17B1F3E21156A0594E686F9977E9D8DE41EC0A1460</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/types.h</SrcFileName>
+        <OrigSrcFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</OrigSrcFileHash>
+        <ReviewedSrcFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/types.h</PrjFileName>
+        <PrjFileHash>F0F773EE695CE72A11483939E2A5F2765A7953012105021D714B929C5763E1988F9F6E20675EE1C465DE448FDDCE381C6CC3CE79A4DF5E5C97AE49408618907C</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_error.h</SrcFileName>
+        <OrigSrcFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</OrigSrcFileHash>
+        <ReviewedSrcFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb_error.h</PrjFileName>
+        <PrjFileHash>1879A0DC285EB3435C6702B40B28602F2044103AD2B8F93FB9966386C596167031E32A4B95BB2DF61A3E373D7C88DBC8E1C20FC212C3B6007C5425C09B0B2D14</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb.h</SrcFileName>
+        <OrigSrcFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</OrigSrcFileHash>
+        <ReviewedSrcFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb.h</PrjFileName>
+        <PrjFileHash>911526425F6C696A5C64EB7FEF83F47D566F56509CC8AE260E05B18E60BE4ADC9F592ECA4CA99A4DCC9C259A831BCA2F2358C81C8DEFF1639D61DD8F98EF1067</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/include/usb_desc.h</SrcFileName>
+        <OrigSrcFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</OrigSrcFileHash>
+        <ReviewedSrcFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/include/usb_desc.h</PrjFileName>
+        <PrjFileHash>6881C1F205FE0A3B2E45BF2587DD5517C6276FAFA66EC56CEEB89E65508710E0DB18ACF9C62EC64E1EDFC8C66FFC09261215659B3DB53477990D8007B6165661</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/include/usb_device_stack_interface.h</SrcFileName>
         <OrigSrcFileHash>28C878FDFA49DEB17180AA6AE7BE4929F59FBE1E80B74490AF316A3E335782D27BEA5C3F4E320FCCF174A4E8EB2D5F75F00A422D01AA9E50B878702211EFE584</OrigSrcFileHash>
         <ReviewedSrcFileHash>28C878FDFA49DEB17180AA6AE7BE4929F59FBE1E80B74490AF316A3E335782D27BEA5C3F4E320FCCF174A4E8EB2D5F75F00A422D01AA9E50B878702211EFE584</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\include\usb_device_stack_interface.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/include/usb_device_stack_interface.h</PrjFileName>
         <PrjFileHash>28C878FDFA49DEB17180AA6AE7BE4929F59FBE1E80B74490AF316A3E335782D27BEA5C3F4E320FCCF174A4E8EB2D5F75F00A422D01AA9E50B878702211EFE584</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\usb_dev.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/usb_dev.c</SrcFileName>
         <OrigSrcFileHash>428D7D671A48FB6BF2C399F5E0520DC2E0BEBA3BE253475E7E60C846196145649AE1D346B506782582193305BF5E020E65C68CAED17A08EA8318EC5125ADF5E3</OrigSrcFileHash>
         <ReviewedSrcFileHash>428D7D671A48FB6BF2C399F5E0520DC2E0BEBA3BE253475E7E60C846196145649AE1D346B506782582193305BF5E020E65C68CAED17A08EA8318EC5125ADF5E3</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\usb_dev.c</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/usb_dev.c</PrjFileName>
         <PrjFileHash>428D7D671A48FB6BF2C399F5E0520DC2E0BEBA3BE253475E7E60C846196145649AE1D346B506782582193305BF5E020E65C68CAED17A08EA8318EC5125ADF5E3</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\usb_framework.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/usb_framework.c</SrcFileName>
         <OrigSrcFileHash>05977ACABC6D028FD975BA7B0B47D1D01E2B36B94675386C5C26CB8933CA44EE15B304D9D2BCB01E957003CE72B1E7D66146694A9D3CBA5C381397C9FF22B48E</OrigSrcFileHash>
         <ReviewedSrcFileHash>05977ACABC6D028FD975BA7B0B47D1D01E2B36B94675386C5C26CB8933CA44EE15B304D9D2BCB01E957003CE72B1E7D66146694A9D3CBA5C381397C9FF22B48E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\usb_framework.c</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/usb_framework.c</PrjFileName>
         <PrjFileHash>05977ACABC6D028FD975BA7B0B47D1D01E2B36B94675386C5C26CB8933CA44EE15B304D9D2BCB01E957003CE72B1E7D66146694A9D3CBA5C381397C9FF22B48E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\usb_dev.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/usb_dev.h</SrcFileName>
         <OrigSrcFileHash>EC07461A55CB3093E406AD05ADB80899B5E7EC8BC21258858CB03FDAE186B6C7BCFD1E61815EF32668C48C9C7E7D0EDFC13F633DE21CE74FDBF2EEAAE79D7E73</OrigSrcFileHash>
         <ReviewedSrcFileHash>EC07461A55CB3093E406AD05ADB80899B5E7EC8BC21258858CB03FDAE186B6C7BCFD1E61815EF32668C48C9C7E7D0EDFC13F633DE21CE74FDBF2EEAAE79D7E73</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\usb_dev.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/usb_dev.h</PrjFileName>
         <PrjFileHash>EC07461A55CB3093E406AD05ADB80899B5E7EC8BC21258858CB03FDAE186B6C7BCFD1E61815EF32668C48C9C7E7D0EDFC13F633DE21CE74FDBF2EEAAE79D7E73</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\usb_framework.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/usb_framework.h</SrcFileName>
         <OrigSrcFileHash>03E797DD638CB5BC8B748BE2459E6EEC92394CBEF21C808D5AD34CD1BEDD62AFA99C37458DC4AC2E841650BB38D5BFEBE9A3F8D950C5CC33095D7CDD8AE097B2</OrigSrcFileHash>
         <ReviewedSrcFileHash>03E797DD638CB5BC8B748BE2459E6EEC92394CBEF21C808D5AD34CD1BEDD62AFA99C37458DC4AC2E841650BB38D5BFEBE9A3F8D950C5CC33095D7CDD8AE097B2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\usb_framework.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/usb_framework.h</PrjFileName>
         <PrjFileHash>03E797DD638CB5BC8B748BE2459E6EEC92394CBEF21C808D5AD34CD1BEDD62AFA99C37458DC4AC2E841650BB38D5BFEBE9A3F8D950C5CC33095D7CDD8AE097B2</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\khci\device_khci_interface.c</SrcFileName>
-        <OrigSrcFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</OrigSrcFileHash>
-        <ReviewedSrcFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\khci\device_khci_interface.c</PrjFileName>
-        <PrjFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\khci\khci_dev.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/khci/khci_dev.c</SrcFileName>
         <OrigSrcFileHash>0475431F5FF79CB5EEF25D3ACB7F25DDC57AD4A60321025BE3660E03A432364AAC7DDDA7B2C906802D6D7EF4434FB10E7A6B50B8FDF23D195027AA99B19E377E</OrigSrcFileHash>
         <ReviewedSrcFileHash>0475431F5FF79CB5EEF25D3ACB7F25DDC57AD4A60321025BE3660E03A432364AAC7DDDA7B2C906802D6D7EF4434FB10E7A6B50B8FDF23D195027AA99B19E377E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\khci\khci_dev.c</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/khci/khci_dev.c</PrjFileName>
         <PrjFileHash>0475431F5FF79CB5EEF25D3ACB7F25DDC57AD4A60321025BE3660E03A432364AAC7DDDA7B2C906802D6D7EF4434FB10E7A6B50B8FDF23D195027AA99B19E377E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\khci\khci_dev.h</SrcFileName>
-        <OrigSrcFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</OrigSrcFileHash>
-        <ReviewedSrcFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\khci\khci_dev.h</PrjFileName>
-        <PrjFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</PrjFileHash>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/khci/device_khci_interface.c</SrcFileName>
+        <OrigSrcFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</OrigSrcFileHash>
+        <ReviewedSrcFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/khci/device_khci_interface.c</PrjFileName>
+        <PrjFileHash>5650FFB0188891F76E3AF493684059A96D33713989D3104C14E43EAC222301D6E56E199E33EB28ACAEBBEAB6A843787C5135B29EBAE27A03DB39808E39BB6F8A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\controller\khci\khci_dev_misc.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h</SrcFileName>
         <OrigSrcFileHash>94AB1BFDE0538D3561BABC6313ACE4A08A068E04E9994E4708D583D95D04050BB6C0AE1F212B0AAD03299825AE8F2C543E8F3B0F9688110F3BD202D017A21723</OrigSrcFileHash>
         <ReviewedSrcFileHash>94AB1BFDE0538D3561BABC6313ACE4A08A068E04E9994E4708D583D95D04050BB6C0AE1F212B0AAD03299825AE8F2C543E8F3B0F9688110F3BD202D017A21723</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\controller\khci\khci_dev_misc.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h</PrjFileName>
         <PrjFileHash>94AB1BFDE0538D3561BABC6313ACE4A08A068E04E9994E4708D583D95D04050BB6C0AE1F212B0AAD03299825AE8F2C543E8F3B0F9688110F3BD202D017A21723</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\common\usb_class_internal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/controller/khci/khci_dev.h</SrcFileName>
+        <OrigSrcFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</OrigSrcFileHash>
+        <ReviewedSrcFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</ReviewedSrcFileHash>
+        <PrjFileName>SDK/usb/usb_core/device/sources/controller/khci/khci_dev.h</PrjFileName>
+        <PrjFileHash>B4FBA4623A5EF14B8FD3374114FDC568ED9C33DCAF1F830FB0D9163BBACB0ABF8B45A6E57A5B96D8FC42456AAB1D67B9540285997512DDBC68DCE38CCC05AFA6</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/common/usb_class_internal.h</SrcFileName>
         <OrigSrcFileHash>6B9D2B082D4F4DFE6B35283BFF182D6DC7879C5748C1E2DAD42BD9D7CC97FD6165D3B66F07B01B01668DA212F506C41DD92699F4A29DDA9959948284E3B923A6</OrigSrcFileHash>
         <ReviewedSrcFileHash>6B9D2B082D4F4DFE6B35283BFF182D6DC7879C5748C1E2DAD42BD9D7CC97FD6165D3B66F07B01B01668DA212F506C41DD92699F4A29DDA9959948284E3B923A6</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\common\usb_class_internal.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/common/usb_class_internal.h</PrjFileName>
         <PrjFileHash>6B9D2B082D4F4DFE6B35283BFF182D6DC7879C5748C1E2DAD42BD9D7CC97FD6165D3B66F07B01B01668DA212F506C41DD92699F4A29DDA9959948284E3B923A6</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\common\usb_class.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/common/usb_class.c</SrcFileName>
         <OrigSrcFileHash>35DCA39288E27A3B62AEFF43F620D55F4EBE00C978B8A648A607C3DE1CFC21444A6B0A1862A0B2E89C9E672ECD59BFF7E63B744ADD65F549F33F8310863EF67C</OrigSrcFileHash>
         <ReviewedSrcFileHash>35DCA39288E27A3B62AEFF43F620D55F4EBE00C978B8A648A607C3DE1CFC21444A6B0A1862A0B2E89C9E672ECD59BFF7E63B744ADD65F549F33F8310863EF67C</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\common\usb_class.c</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/common/usb_class.c</PrjFileName>
         <PrjFileHash>35DCA39288E27A3B62AEFF43F620D55F4EBE00C978B8A648A607C3DE1CFC21444A6B0A1862A0B2E89C9E672ECD59BFF7E63B744ADD65F549F33F8310863EF67C</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\hid\usb_hid.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/hid/usb_hid.h</SrcFileName>
         <OrigSrcFileHash>742D706BDF6D311602059B87C0FA64432AA49144BAFEE56CC5609CD950BCC0D7AF7F92F22C375C0C03056AB64DBB8320DE85179A2EC603566BF6A5B74379D23B</OrigSrcFileHash>
         <ReviewedSrcFileHash>742D706BDF6D311602059B87C0FA64432AA49144BAFEE56CC5609CD950BCC0D7AF7F92F22C375C0C03056AB64DBB8320DE85179A2EC603566BF6A5B74379D23B</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\hid\usb_hid.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/hid/usb_hid.h</PrjFileName>
         <PrjFileHash>742D706BDF6D311602059B87C0FA64432AA49144BAFEE56CC5609CD950BCC0D7AF7F92F22C375C0C03056AB64DBB8320DE85179A2EC603566BF6A5B74379D23B</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\hid\usb_hid.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/hid/usb_hid.c</SrcFileName>
         <OrigSrcFileHash>57C232D9651B414C2DD6D014C948B3F6982E525DBC0441BF149D89FBD909289832B9FA2D738662F90DB61D243D3633C1F0FCE773D49CC2139750B2F5569DA134</OrigSrcFileHash>
         <ReviewedSrcFileHash>57C232D9651B414C2DD6D014C948B3F6982E525DBC0441BF149D89FBD909289832B9FA2D738662F90DB61D243D3633C1F0FCE773D49CC2139750B2F5569DA134</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\hid\usb_hid.c</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/hid/usb_hid.c</PrjFileName>
         <PrjFileHash>57C232D9651B414C2DD6D014C948B3F6982E525DBC0441BF149D89FBD909289832B9FA2D738662F90DB61D243D3633C1F0FCE773D49CC2139750B2F5569DA134</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\include\usb_class.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/include/usb_class.h</SrcFileName>
         <OrigSrcFileHash>034D37E3B2A52D55FE630130228D163C6D739304873F79D4C9F1595BBB37538497867581E166E708B27302AA63F9CB5E032FFF96A6E0FD202801C7066D2C2BE6</OrigSrcFileHash>
         <ReviewedSrcFileHash>034D37E3B2A52D55FE630130228D163C6D739304873F79D4C9F1595BBB37538497867581E166E708B27302AA63F9CB5E032FFF96A6E0FD202801C7066D2C2BE6</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\include\usb_class.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/include/usb_class.h</PrjFileName>
         <PrjFileHash>034D37E3B2A52D55FE630130228D163C6D739304873F79D4C9F1595BBB37538497867581E166E708B27302AA63F9CB5E032FFF96A6E0FD202801C7066D2C2BE6</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\usb\usb_core\device\sources\classes\include\usb_class_hid.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/usb/usb_core/device/sources/classes/include/usb_class_hid.h</SrcFileName>
         <OrigSrcFileHash>8BD54A2ED98D26E90F6B0AEFE057F68B73F0964125D1C7E5645E5E8166D251EEA58124BC87F0499BCE6A7EA526EBE85F61A4A494016325C0636E5392DB878235</OrigSrcFileHash>
         <ReviewedSrcFileHash>8BD54A2ED98D26E90F6B0AEFE057F68B73F0964125D1C7E5645E5E8166D251EEA58124BC87F0499BCE6A7EA526EBE85F61A4A494016325C0636E5392DB878235</ReviewedSrcFileHash>
-        <PrjFileName>SDK\usb\usb_core\device\sources\classes\include\usb_class_hid.h</PrjFileName>
+        <PrjFileName>SDK/usb/usb_core/device/sources/classes/include/usb_class_hid.h</PrjFileName>
         <PrjFileHash>8BD54A2ED98D26E90F6B0AEFE057F68B73F0964125D1C7E5645E5E8166D251EEA58124BC87F0499BCE6A7EA526EBE85F61A4A494016325C0636E5392DB878235</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\src\dspi\fsl_dspi_hal.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/src/dspi/fsl_dspi_hal.c</SrcFileName>
         <OrigSrcFileHash>C5D8CB55912EE44D58CCED5B67A891CE9900C3B099A9266101930E9250E81DCF0D943EFF21BAD395B08DE42735BBE8F302155599C22E41AB6B04700BDF3B90FE</OrigSrcFileHash>
         <ReviewedSrcFileHash>C5D8CB55912EE44D58CCED5B67A891CE9900C3B099A9266101930E9250E81DCF0D943EFF21BAD395B08DE42735BBE8F302155599C22E41AB6B04700BDF3B90FE</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\dspi\fsl_dspi_hal.c</PrjFileName>
+        <PrjFileName>SDK/platform/hal/src/dspi/fsl_dspi_hal.c</PrjFileName>
         <PrjFileHash>C5D8CB55912EE44D58CCED5B67A891CE9900C3B099A9266101930E9250E81DCF0D943EFF21BAD395B08DE42735BBE8F302155599C22E41AB6B04700BDF3B90FE</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\hal\inc\fsl_dspi_hal.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/hal/inc/fsl_dspi_hal.h</SrcFileName>
         <OrigSrcFileHash>DF82721AC87F56DAD16B08571CEF80885BACB8557286D5A97876F9AFB92109253F6F45D50D576D4230A4A65563520EB804D06C7D720A3438AD7B8475275BC79D</OrigSrcFileHash>
         <ReviewedSrcFileHash>DF82721AC87F56DAD16B08571CEF80885BACB8557286D5A97876F9AFB92109253F6F45D50D576D4230A4A65563520EB804D06C7D720A3438AD7B8475275BC79D</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_dspi_hal.h</PrjFileName>
+        <PrjFileName>SDK/platform/hal/inc/fsl_dspi_hal.h</PrjFileName>
         <PrjFileHash>DF82721AC87F56DAD16B08571CEF80885BACB8557286D5A97876F9AFB92109253F6F45D50D576D4230A4A65563520EB804D06C7D720A3438AD7B8475275BC79D</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\dspi\fsl_dspi_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/dspi/fsl_dspi_common.c</SrcFileName>
         <OrigSrcFileHash>F826F6F09717BDC2A5F921BFFF98A92FA5EBEC17A16A032B150C2C714B88051FD3349741CDDEB065AF04DD47EB2918780C4A46DE4881AFDC195E10C63A7DDEBE</OrigSrcFileHash>
         <ReviewedSrcFileHash>F826F6F09717BDC2A5F921BFFF98A92FA5EBEC17A16A032B150C2C714B88051FD3349741CDDEB065AF04DD47EB2918780C4A46DE4881AFDC195E10C63A7DDEBE</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\dspi\fsl_dspi_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/dspi/fsl_dspi_common.c</PrjFileName>
         <PrjFileHash>F826F6F09717BDC2A5F921BFFF98A92FA5EBEC17A16A032B150C2C714B88051FD3349741CDDEB065AF04DD47EB2918780C4A46DE4881AFDC195E10C63A7DDEBE</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\dspi\fsl_dspi_master_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/dspi/fsl_dspi_master_driver.c</SrcFileName>
         <OrigSrcFileHash>7BE6DE77A1E4BFFAA7A85BDD87F165D56F6C1DA588CAB739068F2F710A33EFDD73B16D5A82FB6118429A05DC5388C26C210E3CDED39DC6585C221C011E74D41E</OrigSrcFileHash>
         <ReviewedSrcFileHash>7BE6DE77A1E4BFFAA7A85BDD87F165D56F6C1DA588CAB739068F2F710A33EFDD73B16D5A82FB6118429A05DC5388C26C210E3CDED39DC6585C221C011E74D41E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c</PrjFileName>
         <PrjFileHash>7BE6DE77A1E4BFFAA7A85BDD87F165D56F6C1DA588CAB739068F2F710A33EFDD73B16D5A82FB6118429A05DC5388C26C210E3CDED39DC6585C221C011E74D41E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\dspi\fsl_dspi_shared_function.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/dspi/fsl_dspi_shared_function.c</SrcFileName>
         <OrigSrcFileHash>16BFB1C0E9A5E46E3322D2C5C46D2C9DC9A3F54823D81EBFDEBBC706147272B08C84771BE25D425B787966E7B2013D41E15E29603F568827284378258C031316</OrigSrcFileHash>
         <ReviewedSrcFileHash>16BFB1C0E9A5E46E3322D2C5C46D2C9DC9A3F54823D81EBFDEBBC706147272B08C84771BE25D425B787966E7B2013D41E15E29603F568827284378258C031316</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c</PrjFileName>
         <PrjFileHash>16BFB1C0E9A5E46E3322D2C5C46D2C9DC9A3F54823D81EBFDEBBC706147272B08C84771BE25D425B787966E7B2013D41E15E29603F568827284378258C031316</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/dspi/fsl_dspi_slave_driver.c</SrcFileName>
         <OrigSrcFileHash>2233ABB38F9A5FF8D6E73B6E208739B827EE37642E94B887D024B1DC0C40B1C8A2EB4C23B636AA0306A0559B3CFC944B4931E5094E085B36F4B7A5BFB5B1EC02</OrigSrcFileHash>
         <ReviewedSrcFileHash>2233ABB38F9A5FF8D6E73B6E208739B827EE37642E94B887D024B1DC0C40B1C8A2EB4C23B636AA0306A0559B3CFC944B4931E5094E085B36F4B7A5BFB5B1EC02</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c</PrjFileName>
         <PrjFileHash>2233ABB38F9A5FF8D6E73B6E208739B827EE37642E94B887D024B1DC0C40B1C8A2EB4C23B636AA0306A0559B3CFC944B4931E5094E085B36F4B7A5BFB5B1EC02</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_dspi_shared_function.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_dspi_shared_function.h</SrcFileName>
         <OrigSrcFileHash>387BE0A764663B735515595267C1AEF283763125B8579B692E7175ADD3A13DAACF4DE42813DA3BD9F64F9910278E2633FD66600BDE8FE940A71A3173B532F3D2</OrigSrcFileHash>
         <ReviewedSrcFileHash>387BE0A764663B735515595267C1AEF283763125B8579B692E7175ADD3A13DAACF4DE42813DA3BD9F64F9910278E2633FD66600BDE8FE940A71A3173B532F3D2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_dspi_shared_function.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_dspi_shared_function.h</PrjFileName>
         <PrjFileHash>387BE0A764663B735515595267C1AEF283763125B8579B692E7175ADD3A13DAACF4DE42813DA3BD9F64F9910278E2633FD66600BDE8FE940A71A3173B532F3D2</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_dspi_master_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_dspi_master_driver.h</SrcFileName>
         <OrigSrcFileHash>C1BD9B9FED2181525C83FE1EECB78D606473D2BE1B570CC9A0A35CAED4D12A5F058FAC8C1E062B955FBAE3F08A19AA913FD1930300D76AAC670BC6A04479D014</OrigSrcFileHash>
         <ReviewedSrcFileHash>C1BD9B9FED2181525C83FE1EECB78D606473D2BE1B570CC9A0A35CAED4D12A5F058FAC8C1E062B955FBAE3F08A19AA913FD1930300D76AAC670BC6A04479D014</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_dspi_master_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_dspi_master_driver.h</PrjFileName>
         <PrjFileHash>C1BD9B9FED2181525C83FE1EECB78D606473D2BE1B570CC9A0A35CAED4D12A5F058FAC8C1E062B955FBAE3F08A19AA913FD1930300D76AAC670BC6A04479D014</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_dspi_slave_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_dspi_slave_driver.h</SrcFileName>
         <OrigSrcFileHash>0B2893F56F5CECCF246E7A118DE1980004EB457171A94E6B07A2E2DB8B04B3D142D04E8E1E755F0043609073DD7AE1B095202934A55326DF83B5A7AE0F7E092C</OrigSrcFileHash>
         <ReviewedSrcFileHash>0B2893F56F5CECCF246E7A118DE1980004EB457171A94E6B07A2E2DB8B04B3D142D04E8E1E755F0043609073DD7AE1B095202934A55326DF83B5A7AE0F7E092C</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_dspi_slave_driver.h</PrjFileName>
         <PrjFileHash>0B2893F56F5CECCF246E7A118DE1980004EB457171A94E6B07A2E2DB8B04B3D142D04E8E1E755F0043609073DD7AE1B095202934A55326DF83B5A7AE0F7E092C</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\uart\fsl_uart_common.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/uart/fsl_uart_common.c</SrcFileName>
         <OrigSrcFileHash>29D0C3CD54EA10567746152763208569F4658E06B4BAF268D63F5F351D39EE2BFD8C4FFF9752AF9D5F9632D4CCB6DFE50285591728E01061AE8F4FB3EEC2F306</OrigSrcFileHash>
         <ReviewedSrcFileHash>29D0C3CD54EA10567746152763208569F4658E06B4BAF268D63F5F351D39EE2BFD8C4FFF9752AF9D5F9632D4CCB6DFE50285591728E01061AE8F4FB3EEC2F306</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\uart\fsl_uart_common.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/uart/fsl_uart_common.c</PrjFileName>
         <PrjFileHash>29D0C3CD54EA10567746152763208569F4658E06B4BAF268D63F5F351D39EE2BFD8C4FFF9752AF9D5F9632D4CCB6DFE50285591728E01061AE8F4FB3EEC2F306</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\src\uart\fsl_uart_driver.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/src/uart/fsl_uart_driver.c</SrcFileName>
         <OrigSrcFileHash>BAFA47AF98B4B45F8C9AB07DC185D21ACB5B44FA1E04344335E7ED7B124D83D5C48306D46907C5D5FF2AEC2E29E619E79A06AF4F6D04BF32AD33A1AE9B2B4029</OrigSrcFileHash>
         <ReviewedSrcFileHash>BAFA47AF98B4B45F8C9AB07DC185D21ACB5B44FA1E04344335E7ED7B124D83D5C48306D46907C5D5FF2AEC2E29E619E79A06AF4F6D04BF32AD33A1AE9B2B4029</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\uart\fsl_uart_driver.c</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/src/uart/fsl_uart_driver.c</PrjFileName>
         <PrjFileHash>BAFA47AF98B4B45F8C9AB07DC185D21ACB5B44FA1E04344335E7ED7B124D83D5C48306D46907C5D5FF2AEC2E29E619E79A06AF4F6D04BF32AD33A1AE9B2B4029</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\drivers\inc\fsl_uart_driver.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/drivers/inc/fsl_uart_driver.h</SrcFileName>
         <OrigSrcFileHash>AEBBF0295FE3BE25AE9348EF3D75FA36EA63D90E0B7B6626C025D6FCB8E75F432E6A149AEA8DD8DBFCD5EE4441CB7F81132B1084F85A55E850B656035302EC8B</OrigSrcFileHash>
         <ReviewedSrcFileHash>AEBBF0295FE3BE25AE9348EF3D75FA36EA63D90E0B7B6626C025D6FCB8E75F432E6A149AEA8DD8DBFCD5EE4441CB7F81132B1084F85A55E850B656035302EC8B</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_uart_driver.h</PrjFileName>
+        <PrjFileName>SDK/platform/drivers/inc/fsl_uart_driver.h</PrjFileName>
         <PrjFileHash>AEBBF0295FE3BE25AE9348EF3D75FA36EA63D90E0B7B6626C025D6FCB8E75F432E6A149AEA8DD8DBFCD5EE4441CB7F81132B1084F85A55E850B656035302EC8B</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cm4.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cm4.h</SrcFileName>
         <OrigSrcFileHash>7B599D7F26FDEE102B63369C8D32BD68F4AD4F54C47468C19E1824996041E780DA1FAE65243D211F96660665CEF8630A12C15568FCF4CF0EAD81D9EFEA7CC9D2</OrigSrcFileHash>
         <ReviewedSrcFileHash>7B599D7F26FDEE102B63369C8D32BD68F4AD4F54C47468C19E1824996041E780DA1FAE65243D211F96660665CEF8630A12C15568FCF4CF0EAD81D9EFEA7CC9D2</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\core_cm4.h</PrjFileName>
+        <PrjFileName>SDK/platform/CMSIS/Include/core_cm4.h</PrjFileName>
         <PrjFileHash>7B599D7F26FDEE102B63369C8D32BD68F4AD4F54C47468C19E1824996041E780DA1FAE65243D211F96660665CEF8630A12C15568FCF4CF0EAD81D9EFEA7CC9D2</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmSimd.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmSimd.h</SrcFileName>
         <OrigSrcFileHash>BB98CBFE699EFFA4C53EDC83C0E3CF73B13DFAEDE8CE82237A79CBF40B255FE6FE5951B9415AA2D11F83F072094C053A2E49F919E3E53DD3CCD98D8BA52CF4C3</OrigSrcFileHash>
         <ReviewedSrcFileHash>BB98CBFE699EFFA4C53EDC83C0E3CF73B13DFAEDE8CE82237A79CBF40B255FE6FE5951B9415AA2D11F83F072094C053A2E49F919E3E53DD3CCD98D8BA52CF4C3</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\core_cmSimd.h</PrjFileName>
+        <PrjFileName>SDK/platform/CMSIS/Include/core_cmSimd.h</PrjFileName>
         <PrjFileHash>BB98CBFE699EFFA4C53EDC83C0E3CF73B13DFAEDE8CE82237A79CBF40B255FE6FE5951B9415AA2D11F83F072094C053A2E49F919E3E53DD3CCD98D8BA52CF4C3</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmFunc.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmFunc.h</SrcFileName>
         <OrigSrcFileHash>8BBB6C0645876382450824813028EC236DA0DF1BDE27DB776D265703E4E3B5D229E0EA91D8FC28CD05E132D10B39A96FEAC3557233462510A490537F9B19816C</OrigSrcFileHash>
         <ReviewedSrcFileHash>8BBB6C0645876382450824813028EC236DA0DF1BDE27DB776D265703E4E3B5D229E0EA91D8FC28CD05E132D10B39A96FEAC3557233462510A490537F9B19816C</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\core_cmFunc.h</PrjFileName>
+        <PrjFileName>SDK/platform/CMSIS/Include/core_cmFunc.h</PrjFileName>
         <PrjFileHash>8BBB6C0645876382450824813028EC236DA0DF1BDE27DB776D265703E4E3B5D229E0EA91D8FC28CD05E132D10B39A96FEAC3557233462510A490537F9B19816C</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\core_cmInstr.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/core_cmInstr.h</SrcFileName>
         <OrigSrcFileHash>68E5FC661C0719C0A6ECBC9BCDA1404262899CA61C9B846476E2A67DE474FECF4204C384CB6D8F5065FBF7790D2F4B771ACAB0CF005DAC33D779C529C71355E1</OrigSrcFileHash>
         <ReviewedSrcFileHash>68E5FC661C0719C0A6ECBC9BCDA1404262899CA61C9B846476E2A67DE474FECF4204C384CB6D8F5065FBF7790D2F4B771ACAB0CF005DAC33D779C529C71355E1</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\core_cmInstr.h</PrjFileName>
+        <PrjFileName>SDK/platform/CMSIS/Include/core_cmInstr.h</PrjFileName>
         <PrjFileHash>68E5FC661C0719C0A6ECBC9BCDA1404262899CA61C9B846476E2A67DE474FECF4204C384CB6D8F5065FBF7790D2F4B771ACAB0CF005DAC33D779C529C71355E1</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_common_tables.h</SrcFileName>
-        <OrigSrcFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</OrigSrcFileHash>
-        <ReviewedSrcFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\arm_common_tables.h</PrjFileName>
-        <PrjFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_const_structs.h</SrcFileName>
-        <OrigSrcFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</OrigSrcFileHash>
-        <ReviewedSrcFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\arm_const_structs.h</PrjFileName>
-        <PrjFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\CMSIS\Include\arm_math.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/arm_math.h</SrcFileName>
         <OrigSrcFileHash>CFD847D492145AF042AA487F7A2AA676F5A7A3AE4209035ECAC43E3A0AF28B09524AFB4ACB8758DA776095593A767D8805968753ECF877972CCD683B7E536996</OrigSrcFileHash>
         <ReviewedSrcFileHash>CFD847D492145AF042AA487F7A2AA676F5A7A3AE4209035ECAC43E3A0AF28B09524AFB4ACB8758DA776095593A767D8805968753ECF877972CCD683B7E536996</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\CMSIS\Include\arm_math.h</PrjFileName>
+        <PrjFileName>SDK/platform/CMSIS/Include/arm_math.h</PrjFileName>
         <PrjFileHash>CFD847D492145AF042AA487F7A2AA676F5A7A3AE4209035ECAC43E3A0AF28B09524AFB4ACB8758DA776095593A767D8805968753ECF877972CCD683B7E536996</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\fsl_device_registers.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/arm_const_structs.h</SrcFileName>
+        <OrigSrcFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</OrigSrcFileHash>
+        <ReviewedSrcFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/CMSIS/Include/arm_const_structs.h</PrjFileName>
+        <PrjFileHash>354D836EC57739B68447A886545DA76A2B5528D395E417D6FC80907C9B443F738A99AC1876011229AAE5ED3779370CDC15B2DDE5C59293A12A818171617640AC</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/CMSIS/Include/arm_common_tables.h</SrcFileName>
+        <OrigSrcFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</OrigSrcFileHash>
+        <ReviewedSrcFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/CMSIS/Include/arm_common_tables.h</PrjFileName>
+        <PrjFileHash>E5EF95A3A572B592F1A0D79EF565DBFB6F20BFF4DEFA8A12807B23C2F9A962C49756D753BC62E7A1D7A0059CFF2E4E965A9CAD13E1EC3E566DA619C77C0CED13</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/devices/fsl_device_registers.h</SrcFileName>
         <OrigSrcFileHash>C61B96D9531473C8B9B710E5CC7CFC811E569D04BC15BF3F93A2BFD6B242344B81536EFD7E2F0CF563225243F3890FE3999DDB5778DBCB930D8BB7AAA51C019A</OrigSrcFileHash>
         <ReviewedSrcFileHash>C61B96D9531473C8B9B710E5CC7CFC811E569D04BC15BF3F93A2BFD6B242344B81536EFD7E2F0CF563225243F3890FE3999DDB5778DBCB930D8BB7AAA51C019A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\devices\fsl_device_registers.h</PrjFileName>
+        <PrjFileName>SDK/platform/devices/fsl_device_registers.h</PrjFileName>
         <PrjFileHash>C61B96D9531473C8B9B710E5CC7CFC811E569D04BC15BF3F93A2BFD6B242344B81536EFD7E2F0CF563225243F3890FE3999DDB5778DBCB930D8BB7AAA51C019A</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\include\fsl_bitaccess.h</SrcFileName>
-        <OrigSrcFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</OrigSrcFileHash>
-        <ReviewedSrcFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\devices\MK65F18\include\fsl_bitaccess.h</PrjFileName>
-        <PrjFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\include\MK65F18.h</SrcFileName>
-        <OrigSrcFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</OrigSrcFileHash>
-        <ReviewedSrcFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\devices\MK65F18\include\MK65F18.h</PrjFileName>
-        <PrjFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\include\MK65F18_extension.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/devices/MK65F18/include/MK65F18_extension.h</SrcFileName>
         <OrigSrcFileHash>9C883CD0D597A6B367E966D0F577D76CE985B110C505206E5C38FB29E0952B03F24060024CAFD22C149E34404ECF03DFA82D6F97FC5591288BCACE0190EF6148</OrigSrcFileHash>
         <ReviewedSrcFileHash>9C883CD0D597A6B367E966D0F577D76CE985B110C505206E5C38FB29E0952B03F24060024CAFD22C149E34404ECF03DFA82D6F97FC5591288BCACE0190EF6148</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\devices\MK65F18\include\MK65F18_extension.h</PrjFileName>
+        <PrjFileName>SDK/platform/devices/MK65F18/include/MK65F18_extension.h</PrjFileName>
         <PrjFileHash>9C883CD0D597A6B367E966D0F577D76CE985B110C505206E5C38FB29E0952B03F24060024CAFD22C149E34404ECF03DFA82D6F97FC5591288BCACE0190EF6148</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\include\MK65F18_features.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/devices/MK65F18/include/MK65F18.h</SrcFileName>
+        <OrigSrcFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</OrigSrcFileHash>
+        <ReviewedSrcFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/devices/MK65F18/include/MK65F18.h</PrjFileName>
+        <PrjFileHash>0B6D541ECC847ACEA70990AF5BEFE3C648B25632437F1839BFD1CBD5ACE5FE8483A971765D701E51674CD09E55F3BBF6362D7D419F27C240DB373D683A2EA919</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/devices/MK65F18/include/MK65F18_features.h</SrcFileName>
         <OrigSrcFileHash>0299F51F14C35979CF1FFDB3E577B9ED71FA66759098C114A10BAE97E7F91DED5498639A36DDB2E8D51E5DA6BE7CE7B4F1531B68747633CDD6AD046830D5424D</OrigSrcFileHash>
         <ReviewedSrcFileHash>0299F51F14C35979CF1FFDB3E577B9ED71FA66759098C114A10BAE97E7F91DED5498639A36DDB2E8D51E5DA6BE7CE7B4F1531B68747633CDD6AD046830D5424D</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\devices\MK65F18\include\MK65F18_features.h</PrjFileName>
+        <PrjFileName>SDK/platform/devices/MK65F18/include/MK65F18_features.h</PrjFileName>
         <PrjFileHash>0299F51F14C35979CF1FFDB3E577B9ED71FA66759098C114A10BAE97E7F91DED5498639A36DDB2E8D51E5DA6BE7CE7B4F1531B68747633CDD6AD046830D5424D</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\startup.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0/platform/devices/MK65F18/include/fsl_bitaccess.h</SrcFileName>
+        <OrigSrcFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</OrigSrcFileHash>
+        <ReviewedSrcFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</ReviewedSrcFileHash>
+        <PrjFileName>SDK/platform/devices/MK65F18/include/fsl_bitaccess.h</PrjFileName>
+        <PrjFileHash>D2A1736ACD33EB3C5D6E691B27960B181B4B3A7A21C8D3EA11483ED8F1FFAFACFB6077EC22430ED6223D6B5408A41E26CF1215B5079C27821D5516E597AB5ABE</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0\platform\devices\startup.c</SrcFileName>
         <OrigSrcFileHash>AA115858AD2944BD82F69D885254C989499507FD09F6CFFFEAD399B523DA9162D0A830031EDD1BECFE91AD2D70DDE8FCABB5651C0155DB0C4134CC9CA29EBB72</OrigSrcFileHash>
         <ReviewedSrcFileHash>AA115858AD2944BD82F69D885254C989499507FD09F6CFFFEAD399B523DA9162D0A830031EDD1BECFE91AD2D70DDE8FCABB5651C0155DB0C4134CC9CA29EBB72</ReviewedSrcFileHash>
         <PrjFileName>SDK\platform\devices\startup.c</PrjFileName>
@@ -1049,7 +1049,7 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\startup.h</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0\platform\devices\startup.h</SrcFileName>
         <OrigSrcFileHash>96D57B6104C51D2AD132FD711DAA395863BEE1A03753B2CE1B6B0E2A24A963151EA311BD22DA134EA718B8B0D18C2BDEFE5EC6B54529621CE7D8A0F7751423AB</OrigSrcFileHash>
         <ReviewedSrcFileHash>96D57B6104C51D2AD132FD711DAA395863BEE1A03753B2CE1B6B0E2A24A963151EA311BD22DA134EA718B8B0D18C2BDEFE5EC6B54529621CE7D8A0F7751423AB</ReviewedSrcFileHash>
         <PrjFileName>SDK\platform\devices\startup.h</PrjFileName>
@@ -1058,7 +1058,7 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\startup\gcc\startup_MK65F18.S</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0\platform\devices\MK65F18\startup\gcc\startup_MK65F18.S</SrcFileName>
         <OrigSrcFileHash>76D2752C08D13A3D55460CBFF817574A21E3CB62025E3C5C9537DE052C46ADEF1E08232B589C087D7852ECA954B10268F4C25D9967D4221202C812D11508C5C7</OrigSrcFileHash>
         <ReviewedSrcFileHash>76D2752C08D13A3D55460CBFF817574A21E3CB62025E3C5C9537DE052C46ADEF1E08232B589C087D7852ECA954B10268F4C25D9967D4221202C812D11508C5C7</ReviewedSrcFileHash>
         <PrjFileName>SDK\platform\devices\MK65F18\startup\gcc\startup_MK65F18.S</PrjFileName>
@@ -1067,7 +1067,7 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KSDK_1.2.0\platform\devices\MK65F18\startup\system_MK65F18.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KSDK_1.2.0\platform\devices\MK65F18\startup\system_MK65F18.c</SrcFileName>
         <OrigSrcFileHash>BD81E1A334561C55F23E00E0A11CC54762E8992439BF56E1DFE789118796CC862A7D95ECAD4D20797D26F3F5C795AE17FDF71336D9A7446DE25CA2254F6A03D2</OrigSrcFileHash>
         <ReviewedSrcFileHash>BD81E1A334561C55F23E00E0A11CC54762E8992439BF56E1DFE789118796CC862A7D95ECAD4D20797D26F3F5C795AE17FDF71336D9A7446DE25CA2254F6A03D2</ReviewedSrcFileHash>
         <PrjFileName>SDK\platform\devices\MK65F18\startup\system_MK65F18.c</PrjFileName>
@@ -1076,10 +1076,10 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\Repositories\KSDK120_Repository\lib\Kinetis\pex_sdk\src\PE_low_level_init.c</SrcFileName>
+        <SrcFileName>/opt/Freescale/KDS_3.0.0/eclipse/ProcessorExpert/Repositories/KSDK120_Repository/lib/Kinetis/pex_sdk/src/PE_low_level_init.c</SrcFileName>
         <OrigSrcFileHash>24DD7261E85DA1C1CCDD9FFD44F027A1C9D79BB284EC270C63CA60784098C3D890CDE32B045C963322DD4998B7ECD4F9713569EB1BC340BC6D1346DDF60AE5BB</OrigSrcFileHash>
         <ReviewedSrcFileHash>24DD7261E85DA1C1CCDD9FFD44F027A1C9D79BB284EC270C63CA60784098C3D890CDE32B045C963322DD4998B7ECD4F9713569EB1BC340BC6D1346DDF60AE5BB</ReviewedSrcFileHash>
-        <PrjFileName>Static_Code\System\PE_low_level_init.c</PrjFileName>
+        <PrjFileName>Static_Code/System/PE_low_level_init.c</PrjFileName>
         <PrjFileHash>24DD7261E85DA1C1CCDD9FFD44F027A1C9D79BB284EC270C63CA60784098C3D890CDE32B045C963322DD4998B7ECD4F9713569EB1BC340BC6D1346DDF60AE5BB</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
@@ -1138,7 +1138,7 @@
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>19</ProjectModificationStamp>
+    <ProjectModificationStamp>26</ProjectModificationStamp>
   </Options>
   <CpuID_22>
     <Generated>false</Generated>
@@ -1209,8 +1209,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191944355</HeaderAge>
-    <CodeAge>1191943914</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -1225,7 +1225,7 @@
     <GenExtraFilesCount>23</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\PE_low_level_init.h</ExtraFile0>
     <ExtraFile1>Project_Settings\Linker_Files\ProcessorExpert.ld</ExtraFile1>
-    <ExtraFile2>Static_Code\System\PE_low_level_init.c</ExtraFile2>
+    <ExtraFile2>Static_Code/System/PE_low_level_init.c</ExtraFile2>
     <ExtraFile3>Documentation\doxygen\Splinter bringup_project.txt</ExtraFile3>
     <ExtraFile4>Documentation\doxygen\RoutingReport_component.txt</ExtraFile4>
     <ExtraFile5>Documentation\doxygen\pex.doxyfile</ExtraFile5>
@@ -1234,18 +1234,18 @@
     <ExtraFile8>SDK\platform\devices\MK65F18\startup\gcc\startup_MK65F18.S</ExtraFile8>
     <ExtraFile9>SDK\platform\devices\startup.h</ExtraFile9>
     <ExtraFile10>SDK\platform\devices\startup.c</ExtraFile10>
-    <ExtraFile11>SDK\platform\devices\MK65F18\include\MK65F18_features.h</ExtraFile11>
-    <ExtraFile12>SDK\platform\devices\MK65F18\include\MK65F18_extension.h</ExtraFile12>
-    <ExtraFile13>SDK\platform\devices\MK65F18\include\MK65F18.h</ExtraFile13>
-    <ExtraFile14>SDK\platform\devices\MK65F18\include\fsl_bitaccess.h</ExtraFile14>
-    <ExtraFile15>SDK\platform\devices\fsl_device_registers.h</ExtraFile15>
-    <ExtraFile16>SDK\platform\CMSIS\Include\arm_math.h</ExtraFile16>
-    <ExtraFile17>SDK\platform\CMSIS\Include\arm_const_structs.h</ExtraFile17>
-    <ExtraFile18>SDK\platform\CMSIS\Include\arm_common_tables.h</ExtraFile18>
-    <ExtraFile19>SDK\platform\CMSIS\Include\core_cmInstr.h</ExtraFile19>
-    <ExtraFile20>SDK\platform\CMSIS\Include\core_cmFunc.h</ExtraFile20>
-    <ExtraFile21>SDK\platform\CMSIS\Include\core_cmSimd.h</ExtraFile21>
-    <ExtraFile22>SDK\platform\CMSIS\Include\core_cm4.h</ExtraFile22>
+    <ExtraFile11>SDK/platform/devices/MK65F18/include/fsl_bitaccess.h</ExtraFile11>
+    <ExtraFile12>SDK/platform/devices/MK65F18/include/MK65F18_features.h</ExtraFile12>
+    <ExtraFile13>SDK/platform/devices/MK65F18/include/MK65F18.h</ExtraFile13>
+    <ExtraFile14>SDK/platform/devices/MK65F18/include/MK65F18_extension.h</ExtraFile14>
+    <ExtraFile15>SDK/platform/devices/fsl_device_registers.h</ExtraFile15>
+    <ExtraFile16>SDK/platform/CMSIS/Include/arm_common_tables.h</ExtraFile16>
+    <ExtraFile17>SDK/platform/CMSIS/Include/arm_const_structs.h</ExtraFile17>
+    <ExtraFile18>SDK/platform/CMSIS/Include/arm_math.h</ExtraFile18>
+    <ExtraFile19>SDK/platform/CMSIS/Include/core_cmInstr.h</ExtraFile19>
+    <ExtraFile20>SDK/platform/CMSIS/Include/core_cmFunc.h</ExtraFile20>
+    <ExtraFile21>SDK/platform/CMSIS/Include/core_cmSimd.h</ExtraFile21>
+    <ExtraFile22>SDK/platform/CMSIS/Include/core_cm4.h</ExtraFile22>
   </CpuID_28>
   <ComponentID_5>
     <Generated>true</Generated>
@@ -1253,8 +1253,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191671443</HeaderAge>
-    <CodeAge>1191938226</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191949350</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>208</GenNumMethods>
     <CLOCK_SYS_SetOutDiv1>true</CLOCK_SYS_SetOutDiv1>
@@ -1496,12 +1496,12 @@
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>7</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\SDK\platform\devices\MK65F18\startup\system_MK65F18.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\rtc\fsl_rtc_common.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\system\inc\fsl_clock_manager.h</ExtraFile2>
-    <ExtraFile3>SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.h</ExtraFile3>
-    <ExtraFile4>SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.c</ExtraFile4>
-    <ExtraFile5>SDK\platform\system\src\clock\fsl_clock_manager_common.c</ExtraFile5>
-    <ExtraFile6>SDK\platform\system\src\clock\fsl_clock_manager.c</ExtraFile6>
+    <ExtraFile1>SDK/platform/drivers/src/rtc/fsl_rtc_common.c</ExtraFile1>
+    <ExtraFile2>SDK/platform/system/inc/fsl_clock_manager.h</ExtraFile2>
+    <ExtraFile3>SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h</ExtraFile3>
+    <ExtraFile4>SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c</ExtraFile4>
+    <ExtraFile5>SDK/platform/system/src/clock/fsl_clock_manager_common.c</ExtraFile5>
+    <ExtraFile6>SDK/platform/system/src/clock/fsl_clock_manager.c</ExtraFile6>
     <InhrCompID_6>
       <Generated>true</Generated>
       <GenCompName>fsl_mcg_hal2</GenCompName>
@@ -1573,10 +1573,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_mcg_hal_modes.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\inc\fsl_mcg_hal.h</ExtraFile1>
-      <ExtraFile2>SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</ExtraFile2>
-      <ExtraFile3>SDK\platform\hal\src\mcg\fsl_mcg_hal.c</ExtraFile3>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
+      <ExtraFile2>SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
+      <ExtraFile3>SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
     </InhrCompID_6>
     <InhrCompID_7>
       <Generated>true</Generated>
@@ -1708,9 +1708,9 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>3</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.c</ExtraFile1>
-      <ExtraFile2>SDK\platform\hal\inc\fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile0>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c</ExtraFile1>
+      <ExtraFile2>SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
     </InhrCompID_7>
     <InhrCompID_8>
       <Generated>true</Generated>
@@ -1734,8 +1734,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_osc_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\osc\fsl_osc_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_osc_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/osc/fsl_osc_hal.c</ExtraFile1>
     </InhrCompID_8>
     <InhrCompID_18>
       <Generated>true</Generated>
@@ -1814,8 +1814,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_rtc_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\rtc\fsl_rtc_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_rtc_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/rtc/fsl_rtc_hal.c</ExtraFile1>
     </InhrCompID_18>
   </ComponentID_5>
   <ComponentID_9>
@@ -1824,8 +1824,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191671443</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>73</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -1958,8 +1958,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_port_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\port\fsl_port_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_port_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/port/fsl_port_hal.c</ExtraFile1>
     </InhrCompID_10>
     <InhrCompID_11>
       <Generated>true</Generated>
@@ -2091,9 +2091,9 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>3</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.c</ExtraFile1>
-      <ExtraFile2>SDK\platform\hal\inc\fsl_sim_hal.h</ExtraFile2>
+      <ExtraFile0>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c</ExtraFile1>
+      <ExtraFile2>SDK/platform/hal/inc/fsl_sim_hal.h</ExtraFile2>
     </InhrCompID_11>
     <InhrCompID_12>
       <Generated>true</Generated>
@@ -2166,10 +2166,10 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>4</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_mcg_hal_modes.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\inc\fsl_mcg_hal.h</ExtraFile1>
-      <ExtraFile2>SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</ExtraFile2>
-      <ExtraFile3>SDK\platform\hal\src\mcg\fsl_mcg_hal.c</ExtraFile3>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_mcg_hal_modes.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/inc/fsl_mcg_hal.h</ExtraFile1>
+      <ExtraFile2>SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</ExtraFile2>
+      <ExtraFile3>SDK/platform/hal/src/mcg/fsl_mcg_hal.c</ExtraFile3>
     </InhrCompID_12>
     <InhrCompID_13>
       <Generated>true</Generated>
@@ -2214,8 +2214,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_flexbus_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\flexbus\fsl_flexbus_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_flexbus_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/flexbus/fsl_flexbus_hal.c</ExtraFile1>
     </InhrCompID_13>
   </ComponentID_9>
   <ComponentID_14>
@@ -2224,8 +2224,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1191661623</HeaderAge>
-    <CodeAge>1191661623</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>36</GenNumMethods>
     <OSA_PollAllOtherTasks>true</OSA_PollAllOtherTasks>
@@ -2298,9 +2298,9 @@
       <LineEnd>145</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\osa\inc\fsl_os_abstraction_bm.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\osa\inc\fsl_os_abstraction.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\osa\src\fsl_os_abstraction_bm.c</ExtraFile2>
+    <ExtraFile0>SDK/platform/osa/inc/fsl_os_abstraction_bm.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/osa/inc/fsl_os_abstraction.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/osa/src/fsl_os_abstraction_bm.c</ExtraFile2>
     <InhrCompID_20>
       <Generated>false</Generated>
       <GenCompName />
@@ -2354,8 +2354,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\system\inc\fsl_interrupt_manager.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\system\src\interrupt\fsl_interrupt_manager.c</ExtraFile1>
+    <ExtraFile0>SDK/platform/system/inc/fsl_interrupt_manager.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</ExtraFile1>
   </ComponentID_17>
   <ComponentID_30>
     <Generated>true</Generated>
@@ -2389,8 +2389,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\hal\inc\fsl_gpio_hal.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\hal\src\gpio\fsl_gpio_hal.c</ExtraFile1>
+    <ExtraFile0>SDK/platform/hal/inc/fsl_gpio_hal.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/hal/src/gpio/fsl_gpio_hal.c</ExtraFile1>
   </ComponentID_30>
   <ComponentID_31>
     <Generated>true</Generated>
@@ -2398,8 +2398,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191661797</HeaderAge>
-    <CodeAge>1191661797</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>13</GenNumMethods>
     <GPIO_DRV_Init>true</GPIO_DRV_Init>
@@ -2436,9 +2436,9 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_gpio_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\src\gpio\fsl_gpio_common.c</ExtraFile2>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_gpio_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/src/gpio/fsl_gpio_driver.c</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/src/gpio/fsl_gpio_common.c</ExtraFile2>
     <InhrCompID_32>
       <Generated>true</Generated>
       <GenCompName>fsl_gpio_hal1</GenCompName>
@@ -2471,8 +2471,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_gpio_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\gpio\fsl_gpio_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_gpio_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/gpio/fsl_gpio_hal.c</ExtraFile1>
     </InhrCompID_32>
     <InhrCompID_33>
       <Generated>true</Generated>
@@ -2509,8 +2509,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_port_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\port\fsl_port_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_port_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/port/fsl_port_hal.c</ExtraFile1>
     </InhrCompID_33>
   </ComponentID_31>
   <ComponentID_34>
@@ -2519,8 +2519,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191662240</HeaderAge>
-    <CodeAge>1191662240</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>29</GenNumMethods>
     <I2C_DRV_IRQHandler>true</I2C_DRV_IRQHandler>
@@ -2564,13 +2564,13 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>7</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_i2c_slave_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\inc\fsl_i2c_shared_function.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\inc\fsl_i2c_master_driver.h</ExtraFile2>
-    <ExtraFile3>SDK\platform\drivers\src\i2c\fsl_i2c_shared_function.c</ExtraFile3>
-    <ExtraFile4>SDK\platform\drivers\src\i2c\fsl_i2c_slave_driver.c</ExtraFile4>
-    <ExtraFile5>SDK\platform\drivers\src\i2c\fsl_i2c_master_driver.c</ExtraFile5>
-    <ExtraFile6>SDK\platform\drivers\src\i2c\fsl_i2c_common.c</ExtraFile6>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_i2c_master_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/inc/fsl_i2c_shared_function.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/inc/fsl_i2c_slave_driver.h</ExtraFile2>
+    <ExtraFile3>SDK/platform/drivers/src/i2c/fsl_i2c_shared_function.c</ExtraFile3>
+    <ExtraFile4>SDK/platform/drivers/src/i2c/fsl_i2c_master_driver.c</ExtraFile4>
+    <ExtraFile5>SDK/platform/drivers/src/i2c/fsl_i2c_slave_driver.c</ExtraFile5>
+    <ExtraFile6>SDK/platform/drivers/src/i2c/fsl_i2c_common.c</ExtraFile6>
     <InhrCompID_35>
       <Generated>true</Generated>
       <GenCompName>fsl_i2c_hal1</GenCompName>
@@ -2633,9 +2633,9 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>3</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\utilities\inc\fsl_misc_utilities.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\inc\fsl_i2c_hal.h</ExtraFile1>
-      <ExtraFile2>SDK\platform\hal\src\i2c\fsl_i2c_hal.c</ExtraFile2>
+      <ExtraFile0>SDK/platform/utilities/inc/fsl_misc_utilities.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/inc/fsl_i2c_hal.h</ExtraFile1>
+      <ExtraFile2>SDK/platform/hal/src/i2c/fsl_i2c_hal.c</ExtraFile2>
     </InhrCompID_35>
   </ComponentID_34>
   <ComponentID_36>
@@ -2700,9 +2700,9 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\utilities\inc\fsl_misc_utilities.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\hal\inc\fsl_i2c_hal.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\hal\src\i2c\fsl_i2c_hal.c</ExtraFile2>
+    <ExtraFile0>SDK/platform/utilities/inc/fsl_misc_utilities.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/hal/inc/fsl_i2c_hal.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/hal/src/i2c/fsl_i2c_hal.c</ExtraFile2>
   </ComponentID_36>
   <ComponentID_37>
     <Generated>true</Generated>
@@ -2710,8 +2710,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191662240</HeaderAge>
-    <CodeAge>1191662240</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191949052</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>17</GenNumMethods>
     <FTM_DRV_Init>true</FTM_DRV_Init>
@@ -2740,9 +2740,9 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_ftm_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</ExtraFile2>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_ftm_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/src/ftm/fsl_ftm_driver.c</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/src/ftm/fsl_ftm_common.c</ExtraFile2>
     <InhrCompID_38>
       <Generated>true</Generated>
       <GenCompName>fsl_ftm_hal1</GenCompName>
@@ -2865,8 +2865,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_ftm_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_ftm_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/ftm/fsl_ftm_hal.c</ExtraFile1>
     </InhrCompID_38>
   </ComponentID_37>
   <ComponentID_39>
@@ -2991,8 +2991,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\hal\inc\fsl_ftm_hal.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</ExtraFile1>
+    <ExtraFile0>SDK/platform/hal/inc/fsl_ftm_hal.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/hal/src/ftm/fsl_ftm_hal.c</ExtraFile1>
   </ComponentID_39>
   <ComponentID_47>
     <Generated>true</Generated>
@@ -3000,8 +3000,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>hid1_hid</GenEventModule>
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191671442</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>5</GenNumMethods>
     <USB_Class_HID_Init>true</USB_Class_HID_Init>
@@ -3027,12 +3027,12 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>6</GenExtraFilesCount>
-    <ExtraFile0>SDK\usb\usb_core\device\sources\classes\include\usb_class_hid.h</ExtraFile0>
-    <ExtraFile1>SDK\usb\usb_core\device\sources\classes\include\usb_class.h</ExtraFile1>
-    <ExtraFile2>SDK\usb\usb_core\device\sources\classes\hid\usb_hid.c</ExtraFile2>
-    <ExtraFile3>SDK\usb\usb_core\device\sources\classes\hid\usb_hid.h</ExtraFile3>
-    <ExtraFile4>SDK\usb\usb_core\device\sources\classes\common\usb_class.c</ExtraFile4>
-    <ExtraFile5>SDK\usb\usb_core\device\sources\classes\common\usb_class_internal.h</ExtraFile5>
+    <ExtraFile0>SDK/usb/usb_core/device/sources/classes/include/usb_class_hid.h</ExtraFile0>
+    <ExtraFile1>SDK/usb/usb_core/device/sources/classes/include/usb_class.h</ExtraFile1>
+    <ExtraFile2>SDK/usb/usb_core/device/sources/classes/hid/usb_hid.c</ExtraFile2>
+    <ExtraFile3>SDK/usb/usb_core/device/sources/classes/hid/usb_hid.h</ExtraFile3>
+    <ExtraFile4>SDK/usb/usb_core/device/sources/classes/common/usb_class.c</ExtraFile4>
+    <ExtraFile5>SDK/usb/usb_core/device/sources/classes/common/usb_class_internal.h</ExtraFile5>
   </ComponentID_47>
   <ComponentID_48>
     <Generated>true</Generated>
@@ -3040,8 +3040,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191859210</HeaderAge>
-    <CodeAge>1191859210</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <USB_Composite_Init>false</USB_Composite_Init>
@@ -3063,8 +3063,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191671442</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>52</GenNumMethods>
     <usb_device_init>true</usb_device_init>
@@ -3181,25 +3181,25 @@
     <GenExtraFilesCount>21</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\SDK\usb\usb_core\device\include\usb_device_config.h</ExtraFile0>
     <ExtraFile1>Generated_Code\SDK\usb\usb_core\device\sources\bsp\usb_dev_bsp.c</ExtraFile1>
-    <ExtraFile2>SDK\usb\usb_core\device\sources\controller\khci\khci_dev_misc.h</ExtraFile2>
-    <ExtraFile3>SDK\usb\usb_core\device\sources\controller\khci\khci_dev.h</ExtraFile3>
-    <ExtraFile4>SDK\usb\usb_core\device\sources\controller\khci\khci_dev.c</ExtraFile4>
-    <ExtraFile5>SDK\usb\usb_core\device\sources\controller\khci\device_khci_interface.c</ExtraFile5>
-    <ExtraFile6>SDK\usb\usb_core\device\sources\controller\usb_framework.h</ExtraFile6>
-    <ExtraFile7>SDK\usb\usb_core\device\sources\controller\usb_dev.h</ExtraFile7>
-    <ExtraFile8>SDK\usb\usb_core\device\sources\controller\usb_framework.c</ExtraFile8>
-    <ExtraFile9>SDK\usb\usb_core\device\sources\controller\usb_dev.c</ExtraFile9>
-    <ExtraFile10>SDK\usb\usb_core\device\include\usb_device_stack_interface.h</ExtraFile10>
-    <ExtraFile11>SDK\usb\usb_core\include\usb_types.h</ExtraFile11>
-    <ExtraFile12>SDK\usb\usb_core\include\usb_pin_detect.h</ExtraFile12>
-    <ExtraFile13>SDK\usb\usb_core\include\usb_opt.h</ExtraFile13>
-    <ExtraFile14>SDK\usb\usb_core\include\usb_misc.h</ExtraFile14>
-    <ExtraFile15>SDK\usb\usb_core\include\usb_error.h</ExtraFile15>
-    <ExtraFile16>SDK\usb\usb_core\include\usb_ehci.h</ExtraFile16>
-    <ExtraFile17>SDK\usb\usb_core\include\usb_desc.h</ExtraFile17>
-    <ExtraFile18>SDK\usb\usb_core\include\usb.h</ExtraFile18>
-    <ExtraFile19>SDK\usb\usb_core\include\types.h</ExtraFile19>
-    <ExtraFile20>SDK\usb\usb_core\include\compiler.h</ExtraFile20>
+    <ExtraFile2>SDK/usb/usb_core/device/sources/controller/khci/khci_dev.h</ExtraFile2>
+    <ExtraFile3>SDK/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h</ExtraFile3>
+    <ExtraFile4>SDK/usb/usb_core/device/sources/controller/khci/device_khci_interface.c</ExtraFile4>
+    <ExtraFile5>SDK/usb/usb_core/device/sources/controller/khci/khci_dev.c</ExtraFile5>
+    <ExtraFile6>SDK/usb/usb_core/device/sources/controller/usb_framework.h</ExtraFile6>
+    <ExtraFile7>SDK/usb/usb_core/device/sources/controller/usb_dev.h</ExtraFile7>
+    <ExtraFile8>SDK/usb/usb_core/device/sources/controller/usb_framework.c</ExtraFile8>
+    <ExtraFile9>SDK/usb/usb_core/device/sources/controller/usb_dev.c</ExtraFile9>
+    <ExtraFile10>SDK/usb/usb_core/device/include/usb_device_stack_interface.h</ExtraFile10>
+    <ExtraFile11>SDK/usb/usb_core/include/usb_desc.h</ExtraFile11>
+    <ExtraFile12>SDK/usb/usb_core/include/usb.h</ExtraFile12>
+    <ExtraFile13>SDK/usb/usb_core/include/usb_error.h</ExtraFile13>
+    <ExtraFile14>SDK/usb/usb_core/include/types.h</ExtraFile14>
+    <ExtraFile15>SDK/usb/usb_core/include/compiler.h</ExtraFile15>
+    <ExtraFile16>SDK/usb/usb_core/include/usb_misc.h</ExtraFile16>
+    <ExtraFile17>SDK/usb/usb_core/include/usb_ehci.h</ExtraFile17>
+    <ExtraFile18>SDK/usb/usb_core/include/usb_opt.h</ExtraFile18>
+    <ExtraFile19>SDK/usb/usb_core/include/usb_types.h</ExtraFile19>
+    <ExtraFile20>SDK/usb/usb_core/include/usb_pin_detect.h</ExtraFile20>
     <InhrCompID_51>
       <Generated>true</Generated>
       <GenCompName>fsl_usb_khci_hal1</GenCompName>
@@ -3285,13 +3285,13 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>7</GenExtraFilesCount>
-      <ExtraFile0>SDK\usb\adapter\sources\sdk\adapter_sdk.c</ExtraFile0>
-      <ExtraFile1>SDK\usb\adapter\sources\sdk\adapter_sdk.h</ExtraFile1>
-      <ExtraFile2>SDK\usb\adapter\sources\sdk\adapter_cfg.h</ExtraFile2>
-      <ExtraFile3>SDK\usb\adapter\sources\adapter_types.h</ExtraFile3>
-      <ExtraFile4>SDK\usb\adapter\sources\adapter.h</ExtraFile4>
-      <ExtraFile5>SDK\usb\usb_core\hal\fsl_usb_khci_hal.h</ExtraFile5>
-      <ExtraFile6>SDK\usb\usb_core\hal\fsl_usb_features.h</ExtraFile6>
+      <ExtraFile0>SDK/usb/adapter/sources/sdk/adapter_sdk.c</ExtraFile0>
+      <ExtraFile1>SDK/usb/adapter/sources/sdk/adapter_sdk.h</ExtraFile1>
+      <ExtraFile2>SDK/usb/adapter/sources/sdk/adapter_cfg.h</ExtraFile2>
+      <ExtraFile3>SDK/usb/adapter/sources/adapter.h</ExtraFile3>
+      <ExtraFile4>SDK/usb/adapter/sources/adapter_types.h</ExtraFile4>
+      <ExtraFile5>SDK/usb/usb_core/hal/fsl_usb_khci_hal.h</ExtraFile5>
+      <ExtraFile6>SDK/usb/usb_core/hal/fsl_usb_features.h</ExtraFile6>
     </InhrCompID_51>
   </ComponentID_50>
   <ComponentID_52>
@@ -3300,8 +3300,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191671442</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>6</GenNumMethods>
     <DbgConsole_Init>true</DbgConsole_Init>
@@ -3316,10 +3316,10 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>4</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\utilities\inc\fsl_debug_console.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\utilities\src\print_scan.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\utilities\src\print_scan.c</ExtraFile2>
-    <ExtraFile3>SDK\platform\utilities\src\fsl_debug_console.c</ExtraFile3>
+    <ExtraFile0>SDK/platform/utilities/inc/fsl_debug_console.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/utilities/src/print_scan.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/utilities/src/print_scan.c</ExtraFile2>
+    <ExtraFile3>SDK/platform/utilities/src/fsl_debug_console.c</ExtraFile3>
     <InhrCompID_53>
       <Generated>true</Generated>
       <GenCompName>fsl_uart_hal1</GenCompName>
@@ -3445,8 +3445,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_uart_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\uart\fsl_uart_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile1>
     </InhrCompID_53>
     <InhrCompID_54>
       <Generated>true</Generated>
@@ -3527,8 +3527,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_lpuart_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\lpuart\fsl_lpuart_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_lpuart_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c</ExtraFile1>
     </InhrCompID_54>
   </ComponentID_52>
   <ComponentID_59>
@@ -3537,8 +3537,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191934336</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191949350</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>34</GenNumMethods>
     <DSPI_DRV_IRQHandler>true</DSPI_DRV_IRQHandler>
@@ -3584,13 +3584,13 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>7</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\inc\fsl_dspi_master_driver.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\inc\fsl_dspi_shared_function.h</ExtraFile2>
-    <ExtraFile3>SDK\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</ExtraFile3>
-    <ExtraFile4>SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</ExtraFile4>
-    <ExtraFile5>SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</ExtraFile5>
-    <ExtraFile6>SDK\platform\drivers\src\dspi\fsl_dspi_common.c</ExtraFile6>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_dspi_slave_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/inc/fsl_dspi_master_driver.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/inc/fsl_dspi_shared_function.h</ExtraFile2>
+    <ExtraFile3>SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c</ExtraFile3>
+    <ExtraFile4>SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c</ExtraFile4>
+    <ExtraFile5>SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c</ExtraFile5>
+    <ExtraFile6>SDK/platform/drivers/src/dspi/fsl_dspi_common.c</ExtraFile6>
     <InhrCompID_60>
       <Generated>true</Generated>
       <GenCompName>fsl_dspi_hal1</GenCompName>
@@ -3645,8 +3645,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_dspi_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\dspi\fsl_dspi_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_dspi_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/dspi/fsl_dspi_hal.c</ExtraFile1>
     </InhrCompID_60>
   </ComponentID_59>
   <ComponentID_61>
@@ -3655,8 +3655,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191934337</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191949350</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>34</GenNumMethods>
     <DSPI_DRV_IRQHandler>true</DSPI_DRV_IRQHandler>
@@ -3702,13 +3702,13 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>7</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\inc\fsl_dspi_master_driver.h</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\inc\fsl_dspi_shared_function.h</ExtraFile2>
-    <ExtraFile3>SDK\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</ExtraFile3>
-    <ExtraFile4>SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</ExtraFile4>
-    <ExtraFile5>SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</ExtraFile5>
-    <ExtraFile6>SDK\platform\drivers\src\dspi\fsl_dspi_common.c</ExtraFile6>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_dspi_slave_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/inc/fsl_dspi_master_driver.h</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/inc/fsl_dspi_shared_function.h</ExtraFile2>
+    <ExtraFile3>SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c</ExtraFile3>
+    <ExtraFile4>SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c</ExtraFile4>
+    <ExtraFile5>SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c</ExtraFile5>
+    <ExtraFile6>SDK/platform/drivers/src/dspi/fsl_dspi_common.c</ExtraFile6>
     <InhrCompID_62>
       <Generated>true</Generated>
       <GenCompName>fsl_dspi_hal2</GenCompName>
@@ -3763,8 +3763,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_dspi_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\dspi\fsl_dspi_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_dspi_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/dspi/fsl_dspi_hal.c</ExtraFile1>
     </InhrCompID_62>
   </ComponentID_61>
   <ComponentID_63>
@@ -3821,8 +3821,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\hal\inc\fsl_dspi_hal.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\hal\src\dspi\fsl_dspi_hal.c</ExtraFile1>
+    <ExtraFile0>SDK/platform/hal/inc/fsl_dspi_hal.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/hal/src/dspi/fsl_dspi_hal.c</ExtraFile1>
   </ComponentID_63>
   <ComponentID_65>
     <Generated>true</Generated>
@@ -3830,8 +3830,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1191671442</HeaderAge>
-    <CodeAge>1191671442</CodeAge>
+    <HeaderAge>1191933584</HeaderAge>
+    <CodeAge>1191933584</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
     <UART_DRV_Init>true</UART_DRV_Init>
@@ -3858,9 +3858,9 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_uart_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\uart\fsl_uart_driver.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\src\uart\fsl_uart_common.c</ExtraFile2>
+    <ExtraFile0>SDK/platform/drivers/inc/fsl_uart_driver.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/drivers/src/uart/fsl_uart_driver.c</ExtraFile1>
+    <ExtraFile2>SDK/platform/drivers/src/uart/fsl_uart_common.c</ExtraFile2>
     <InhrCompID_66>
       <Generated>true</Generated>
       <GenCompName>fsl_uart_hal2</GenCompName>
@@ -3986,8 +3986,8 @@
       <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
       <GenMethodPos>0</GenMethodPos>
       <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_uart_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\uart\fsl_uart_hal.c</ExtraFile1>
+      <ExtraFile0>SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile0>
+      <ExtraFile1>SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile1>
     </InhrCompID_66>
   </ComponentID_65>
   <ComponentID_69>
@@ -4115,8 +4115,8 @@
     <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
     <GenMethodPos>0</GenMethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\hal\inc\fsl_uart_hal.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\hal\src\uart\fsl_uart_hal.c</ExtraFile1>
+    <ExtraFile0>SDK/platform/hal/inc/fsl_uart_hal.h</ExtraFile0>
+    <ExtraFile1>SDK/platform/hal/src/uart/fsl_uart_hal.c</ExtraFile1>
   </ComponentID_69>
   <UsedSrcFiles>
     <SrcFile0>Drivers\PEx_Kinetis.src=1186555662</SrcFile0>
@@ -4137,7 +4137,7 @@
     <SrcFile15>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile15>
     <SrcFile16>Drivers\Common\Static_SupportSubroutines.prg=1186555667</SrcFile16>
     <SrcFile17>Drivers\Kinetis\1.2.0\fsl_i2c.drv=-1</SrcFile17>
-    <SrcFile18>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183484979</SrcFile18>
+    <SrcFile18>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183468595</SrcFile18>
     <SrcFile19>Drivers\Kinetis\1.2.0\fsl_osc_hal.drv=-1</SrcFile19>
     <SrcFile20>Drivers\fsl_gpio.src=-1</SrcFile20>
     <SrcFile21>Drivers\fsl_usb_khci_hal.src=-1</SrcFile21>
@@ -4172,7 +4172,7 @@
     <SrcFile50>Drivers\Kinetis\1.2.0\fsl_lpuart_hal.drv=-1</SrcFile50>
     <SrcFile51>Drivers\fsl_sim_hal.src=-1</SrcFile51>
     <SrcFile52>Drivers\Kinetis\1.2.0\fsl_ftm_hal.drv=-1</SrcFile52>
-    <SrcFile53>lib\doxygen\pex.doxyfile=1183484846</SrcFile53>
+    <SrcFile53>lib\doxygen\pex.doxyfile=1183468462</SrcFile53>
     <SrcFile54>Drivers\Common\RTOSAdaptor.prg=1183486427</SrcFile54>
     <SrcFile55>Drivers\Kinetis\1.2.0\fsl_uart.drv=-1</SrcFile55>
     <SrcFile56>Drivers\PinSettings.src=-1</SrcFile56>
@@ -4194,7 +4194,7 @@
     <SrcFile72>Drivers\Common\KinetisCommon_Init.inc=1183486427</SrcFile72>
     <SrcFile73>Drivers\Common\HeaderFreescale.h=1183486427</SrcFile73>
     <SrcFile74>Drivers\Common\fsl_usb_frameworkAbstract.inc=-1</SrcFile74>
-    <SrcFile75>Drivers\Common\Header.doxy=1183486427</SrcFile75>
+    <SrcFile75>Drivers\Common\Header.doxy=1183470043</SrcFile75>
     <SrcFile76>Drivers\Kinetis\1.2.0\fsl_clock_manager_code.drv=-1</SrcFile76>
     <SrcFile77>Drivers\sw\1.2.0\fsl_usb_device_hid_class.drv=-1</SrcFile77>
     <SrcFile78>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile78>
@@ -4229,7 +4229,7 @@
     <SrcFile107>Drivers\Kinetis\1.2.0\fsl_ftm_code.drv=-1</SrcFile107>
     <SrcFile108>Drivers\sw\1.2.0\fsl_usb_descriptors.drv=-1</SrcFile108>
     <SrcFile109>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile109>
-    <SrcFile110>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183484979</SrcFile110>
+    <SrcFile110>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183468595</SrcFile110>
     <SrcFile111>Drivers\fsl_osc_hal.src=-1</SrcFile111>
     <SrcFile112>Drivers\Kinetis\1.2.0\fsl_dspi.drv=-1</SrcFile112>
     <SrcFile113>Drivers\sw\fsl_usb_device_hid_class.prg=-1</SrcFile113>

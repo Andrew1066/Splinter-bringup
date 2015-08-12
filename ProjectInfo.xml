@@ -35,235 +35,235 @@
     <FLASHsize>1M</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>C:\Users\Andrew\workspace.kds\Splinter bringup\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>/home/alexf/work/Splinter/Splinter-bringup/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\sim\MK65F18\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\MK65F18\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\inc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\osa\inc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\inc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\src\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\hal\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\sdk\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\classes\include\config\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\common\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\hid\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\include\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\platform\devices\MK65F18\startup\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/sim/MK65F18/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/MK65F18/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/inc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/osa/inc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/inc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/src/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/hal/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/sdk/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/sources/classes/include/config/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/common/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/hid/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/include/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/startup/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/platform/devices/MK65F18/startup/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Sources/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\bsp\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\gpio\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\rtc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\uart\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dspi\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\flexbus\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\ftm\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\gpio\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\i2c\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\lpuart\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\mcg\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\osc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\port\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\rtc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\sim\MK65F18\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\uart\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\osa\src\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\MK65F18\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\interrupt\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\src\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\sdk\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\common\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\hid\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Static_Code\System\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\gcc\</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/sources/bsp/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/startup/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/dspi/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/ftm/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/gpio/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/i2c/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/rtc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/uart/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/dspi/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/flexbus/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/ftm/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/gpio/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/i2c/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/lpuart/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/mcg/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/osc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/port/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/rtc/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/sim/MK65F18/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/uart/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/osa/src/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/MK65F18/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/interrupt/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/src/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/sdk/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/common/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/hid/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Sources/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/Static_Code/System/</Path>
+      <Path>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/startup/gcc/</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\Cpu.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\DbgCs1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\bsp\usb_dev_bsp.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\clockMan1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom2.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\flexTimer1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\gpio2.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\hardware_init.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\hid1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\i2cCom1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\osa1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\pin_mux.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\uartCom1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\usbDsc1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\usbFmw1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\system_MK65F18.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\startup.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\fsl_ftm_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_master_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_shared_function.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_slave_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\uart\fsl_uart_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\uart\fsl_uart_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dspi\fsl_dspi_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\flexbus\fsl_flexbus_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\i2c\fsl_i2c_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\lpuart\fsl_lpuart_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\mcg\fsl_mcg_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\mcg\fsl_mcg_hal_modes.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\osc\fsl_osc_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\port\fsl_port_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\uart\fsl_uart_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\fsl_clock_manager.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\interrupt\fsl_interrupt_manager.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\src\fsl_debug_console.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\src\print_scan.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\sdk\adapter_sdk.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\common\usb_class.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\hid\usb_hid.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\device_khci_interface.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\khci_dev.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\usb_dev.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\usb_framework.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Events.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\hid1_hid.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\main.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Static_Code\System\PE_low_level_init.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/DbgCs1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/sources/bsp/usb_dev_bsp.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/clockMan1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/dspiCom1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/dspiCom2.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/flexTimer1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/gpio2.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/hid1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/i2cCom1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/osa1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/pin_mux.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/uartCom1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/usbDsc1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/usbFmw1.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/startup/system_MK65F18.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/startup.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/dspi/fsl_dspi_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/ftm/fsl_ftm_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/ftm/fsl_ftm_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/gpio/fsl_gpio_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/gpio/fsl_gpio_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/i2c/fsl_i2c_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/i2c/fsl_i2c_master_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/i2c/fsl_i2c_shared_function.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/i2c/fsl_i2c_slave_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/rtc/fsl_rtc_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/uart/fsl_uart_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/src/uart/fsl_uart_driver.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/dspi/fsl_dspi_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/flexbus/fsl_flexbus_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/ftm/fsl_ftm_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/gpio/fsl_gpio_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/i2c/fsl_i2c_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/lpuart/fsl_lpuart_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/mcg/fsl_mcg_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/osc/fsl_osc_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/port/fsl_port_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/rtc/fsl_rtc_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/uart/fsl_uart_hal.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/osa/src/fsl_os_abstraction_bm.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/fsl_clock_manager.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/fsl_clock_manager_common.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/src/fsl_debug_console.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/src/print_scan.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/sdk/adapter_sdk.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/common/usb_class.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/hid/usb_hid.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/device_khci_interface.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/khci_dev.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/usb_dev.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/usb_framework.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Sources/Events.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Sources/hid1_hid.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Sources/main.c</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Static_Code/System/PE_low_level_init.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\Cpu.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\DbgCs1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\PE_low_level_init.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\platform\devices\MK65F18\startup\system_MK65F18.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\include\usb_device_config.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\classes\include\config\usb_hid_config.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\board.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\clockMan1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom2.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\flexTimer1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\gpio2.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\hid1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\i2cCom1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\osa1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\pin_mux.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\uartCom1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\usbDsc1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\usbFmw1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\arm_const_structs.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\arm_math.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\core_cm4.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\core_cmFunc.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\core_cmInstr.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\CMSIS\Include\core_cmSimd.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\include\MK65F18.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\include\MK65F18_extension.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\include\MK65F18_features.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\include\fsl_bitaccess.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\fsl_device_registers.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\startup.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_master_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_shared_function.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_ftm_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_master_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_shared_function.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_slave_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_uart_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_dspi_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_flexbus_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_ftm_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_i2c_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_lpuart_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_mcg_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_mcg_hal_modes.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_osc_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_port_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_rtc_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_sim_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_uart_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\sim\MK65F18\fsl_sim_hal_MK65F18.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\osa\inc\fsl_os_abstraction.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\inc\fsl_clock_manager.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\inc\fsl_interrupt_manager.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\system\src\clock\MK65F18\fsl_clock_MK65F18.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\inc\fsl_debug_console.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\inc\fsl_misc_utilities.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\utilities\src\print_scan.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\adapter.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\adapter_types.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\sdk\adapter_cfg.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\adapter\sources\sdk\adapter_sdk.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\include\usb_device_stack_interface.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\common\usb_class_internal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\hid\usb_hid.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\include\usb_class.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\classes\include\usb_class_hid.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\khci_dev.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\khci\khci_dev_misc.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\usb_dev.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\usb_framework.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\hal\fsl_usb_features.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\hal\fsl_usb_khci_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\compiler.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\types.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_desc.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_ehci.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_error.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_misc.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_opt.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_pin_detect.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\include\usb_types.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Events.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\hid1_hid.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/DbgCs1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/PE_low_level_init.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/platform/devices/MK65F18/startup/system_MK65F18.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/include/usb_device_config.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/SDK/usb/usb_core/device/sources/classes/include/config/usb_hid_config.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/board.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/clockMan1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/dspiCom1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/dspiCom2.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/flexTimer1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/gpio2.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/hid1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/i2cCom1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/osa1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/pin_mux.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/uartCom1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/usbDsc1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Generated_Code/usbFmw1.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/arm_common_tables.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/arm_const_structs.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/arm_math.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/core_cm4.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/core_cmFunc.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/core_cmInstr.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/CMSIS/Include/core_cmSimd.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/include/MK65F18.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/include/MK65F18_extension.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/include/MK65F18_features.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/include/fsl_bitaccess.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/fsl_device_registers.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/startup.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_dspi_master_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_dspi_shared_function.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_dspi_slave_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_ftm_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_gpio_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_i2c_master_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_i2c_shared_function.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_i2c_slave_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/drivers/inc/fsl_uart_driver.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_dspi_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_flexbus_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_ftm_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_gpio_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_i2c_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_lpuart_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_mcg_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_mcg_hal_modes.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_osc_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_port_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_rtc_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_sim_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/inc/fsl_uart_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/hal/src/sim/MK65F18/fsl_sim_hal_MK65F18.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/osa/inc/fsl_os_abstraction.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/osa/inc/fsl_os_abstraction_bm.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/inc/fsl_clock_manager.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/inc/fsl_interrupt_manager.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/system/src/clock/MK65F18/fsl_clock_MK65F18.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/inc/fsl_debug_console.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/inc/fsl_misc_utilities.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/utilities/src/print_scan.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/adapter.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/adapter_types.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/sdk/adapter_cfg.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/adapter/sources/sdk/adapter_sdk.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/include/usb_device_stack_interface.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/common/usb_class_internal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/hid/usb_hid.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/include/usb_class.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/classes/include/usb_class_hid.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/khci_dev.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/khci/khci_dev_misc.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/usb_dev.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/device/sources/controller/usb_framework.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/hal/fsl_usb_features.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/hal/fsl_usb_khci_hal.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/compiler.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/types.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_desc.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_ehci.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_error.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_misc.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_opt.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_pin_detect.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/usb/usb_core/include/usb_types.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Sources/Events.h</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/Sources/hid1_hid.h</PathName>
     </GeneratedHs>
     <GeneratedASMs>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\gcc\startup_MK65F18.S</PathName>
+      <PathName>/home/alexf/work/Splinter/Splinter-bringup/SDK/platform/devices/MK65F18/startup/gcc/startup_MK65F18.S</PathName>
     </GeneratedASMs>
   </FILES>
   <OPTIONS>

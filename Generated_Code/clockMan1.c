@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-11, 17:03, # CodeGen: 25
+**     Date/Time   : 2015-08-11, 22:33, # CodeGen: 38
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -84,8 +84,8 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
         /* ------------------ MCGIRCCLK settings ---------------------- */
         .irclkEnable = true, /*!< MCGIRCLK enable */
         .irclkEnableInStop = false, /*!< MCGIRCLK enable in stop mode */
-        .ircs = kMcgIrcFast, /*!< Fast internal reference clock selected */
-        .fcrdiv = 1U, /*!< MCG_SC[FCRDIV] */
+        .ircs = kMcgIrcSlow, /*!< Slow internal reference clock selected */
+        .fcrdiv = 0U,
             
         /* -------------------- MCG FLL settings ---------------------- */    
         .frdiv = 0, /*!< MCG_C1[FRDIV] */
@@ -97,7 +97,7 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
         .pll0EnableInFllMode = true, /*!< PLL0 enable in FLL mode */
         .pll0EnableInStop = false, /*!< PLL0 enable in stop mode */
         .prdiv0 = 1U, /*!< PRDIV0 */
-        .vdiv0 = 29U, /*!< VDIV0 */
+        .vdiv0 = 14U, /*!< VDIV0 */
     },       
      
     /*! @brief Configuration of OSCERCLK */
@@ -111,11 +111,11 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
     .simConfig = 
     {
         .pllFllSel = kClockPllFllSelIrc48M, /*!< IRC48MCLK  */
-        .er32kSrc = kClockEr32kSrcLpo, /*!< ERCLK32K source selection */
+        .er32kSrc = kClockEr32kSrcRtc, /*!< ERCLK32K source selection */
         .outdiv1 = 0U, /*!< OUTDIV1 setting */
-        .outdiv2 = 2U, /*!< OUTDIV2 setting */
-        .outdiv3 = 2U, /*!< OUTDIV3 setting */
-        .outdiv4 = 6U, /*!< OUTDIV4 setting */
+        .outdiv2 = 1U, /*!< OUTDIV2 setting */
+        .outdiv3 = 1U, /*!< OUTDIV3 setting */
+        .outdiv4 = 4U, /*!< OUTDIV4 setting */
     }
 };     
 

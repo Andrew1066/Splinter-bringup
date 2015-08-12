@@ -3,7 +3,7 @@
   <Header>
     <Name>Splinter bringup</Name>
     <SavedBy>Andrew</SavedBy>
-    <ModificationStamp>19</ModificationStamp>
+    <ModificationStamp>26</ModificationStamp>
     <Date>2015-08-06</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.0.RT7_b1515-0427</PEversion>
@@ -39,7 +39,7 @@
     <GenerateCodeGenLog>false</GenerateCodeGenLog>
     <DontWriteGeneratedModules lines_count="0" />
     <ProjectStaticFilesGenerationMode>STANDALONE</ProjectStaticFilesGenerationMode>
-    <SdkSourceFilesDirectory>C:\Freescale\KSDK_1.2.0</SdkSourceFilesDirectory>
+    <SdkSourceFilesDirectory>/opt/Freescale/KSDK_1.2.0</SdkSourceFilesDirectory>
     <SdkVersionValue>1.2.0</SdkVersionValue>
     <SdkRepositoryName>KSDK 1.2.0</SdkRepositoryName>
     <SdkRepositoryId>KSDK120</SdkRepositoryId>
@@ -9340,8 +9340,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>false</Value>
-        <Expanded>false</Expanded>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>RTCOSC</ItemSymbol>
@@ -9479,7 +9479,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>0</Value>
+        <Value>0.032768</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>_SYSTEM_PRESCALER0</ItemSymbol>
@@ -9492,7 +9492,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>IRC_4MHz</Value>
+        <Value>IRC_32kHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_ERCLKSelSpeedMode0</ItemSymbol>
@@ -9506,7 +9506,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>LPO_1kHzSrc</Value>
+        <Value>RTC_OSC</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_FLL_RCLKSelSpeedMode0</ItemSymbol>
@@ -9541,7 +9541,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>45</Value>
+        <Value>30</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCGPLLCSCLKSelSpeedMode0</ItemSymbol>
@@ -9625,7 +9625,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
+        <Index>0</Index>
         <Expanded>true</Expanded>
       </ItemState>
       <ItemState>
@@ -9639,7 +9639,7 @@
       <ItemState>
         <ItemSymbol>IRCLKClkCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>2</Value>
+        <Value>0.032768</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>ERCLKGrp0</ItemSymbol>
@@ -9679,7 +9679,7 @@
       <ItemState>
         <ItemSymbol>ERCLK32KClkCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>0.001</Value>
+        <Value>0.032768</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCGGrp0</ItemSymbol>
@@ -9827,7 +9827,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>180</Value>
+        <Value>120</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>MCG_PRDIV_CLKMode0</ItemSymbol>
@@ -9871,20 +9871,20 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
+        <Index>1</Index>
+        <Value>false</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>USBPHYPLLOutputCLKMode0</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>480</Value>
+        <Value>0</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>USBPHY_PFD_CLK_SELGrpCLKMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
+        <Index>0</Index>
         <Expanded>false</Expanded>
       </ItemState>
       <ItemState>
@@ -9959,14 +9959,14 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>180</Value>
+        <Value>120</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV2PrescSpeedMode0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>3</Value>
+        <Value>2</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV2Presc_SpeedMode0</ItemSymbol>
@@ -10006,7 +10006,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>7</Value>
+        <Value>5</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>OUTDIV4Presc_SpeedMode0</ItemSymbol>
@@ -10020,7 +10020,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>25.714285714286</Value>
+        <Value>24</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PLLFLLCLkSelSpeedMode0</ItemSymbol>
@@ -10456,7 +10456,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPll1Clk</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10770,7 +10769,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1EnableCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10785,7 +10783,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1EnableInStopCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10800,7 +10797,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1LostLockIntCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10815,7 +10811,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsPll1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10830,7 +10825,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_ClearPll1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10845,7 +10839,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsPll1Locked</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10878,7 +10871,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_EnablePll1InFllMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10894,12 +10886,10 @@
               <ItemSymbol>CLOCK_HAL_SetPll0RefMode_FSL_USE_PLLREFSEL</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll0RefMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -10915,12 +10905,10 @@
               <ItemSymbol>CLOCK_HAL_SetPll1RefMode_FSL_USE_PLLREFSEL</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1RefMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11068,7 +11056,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetOsc1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11083,7 +11070,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1Stable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11098,7 +11084,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_EnableOsc1Monitor</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11113,7 +11098,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_DisableOsc1Monitor</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11128,7 +11112,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1MonitorEnabled</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11143,7 +11126,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -11158,7 +11140,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_ClearOsc1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -30862,7 +30843,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_GetPll1Clk</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31176,7 +31156,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1EnableCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31191,7 +31170,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1EnableInStopCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31206,7 +31184,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1LostLockIntCmd</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31221,7 +31198,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsPll1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31236,7 +31212,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_ClearPll1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31251,7 +31226,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsPll1Locked</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31284,7 +31258,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_EnablePll1InFllMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31300,12 +31273,10 @@
               <ItemSymbol>CLOCK_HAL_SetPll0RefMode_FSL_USE_PLLREFSEL</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll0RefMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31321,12 +31292,10 @@
               <ItemSymbol>CLOCK_HAL_SetPll1RefMode_FSL_USE_PLLREFSEL</ItemSymbol>
               <ReadOnly>false</ReadOnly>
               <UserReadOnly>false</UserReadOnly>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
             </ItemState>
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetPll1RefMode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31474,7 +31443,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_SetOsc1Mode</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31489,7 +31457,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1Stable</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31504,7 +31471,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_EnableOsc1Monitor</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31519,7 +31485,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_DisableOsc1Monitor</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31534,7 +31499,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1MonitorEnabled</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31549,7 +31513,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_IsOsc1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -31564,7 +31527,6 @@
             <ItemState>
               <ItemSymbol>CLOCK_HAL_ClearOsc1LostLock</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -35741,7 +35703,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_SetPinDir</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35756,7 +35717,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_SetPortDir</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35789,7 +35749,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_GetPinDir</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35804,7 +35763,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_GetPortDir</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35909,7 +35867,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_WritePinOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35924,7 +35881,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ReadPinOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35939,7 +35895,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_SetPinOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35954,7 +35909,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ClearPinOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35969,7 +35923,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_TogglePinOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35984,7 +35937,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_WritePortOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -35999,7 +35951,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ReadPortOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36014,7 +35965,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_SetPortOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36029,7 +35979,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ClearPortOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36044,7 +35993,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_TogglePortOutput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36077,7 +36025,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ReadPinInput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36092,7 +36039,6 @@
       <ItemState>
         <ItemSymbol>FGPIO_HAL_ReadPortInput</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -36800,7 +36746,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_SetPinDir</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36815,7 +36760,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_SetPortDir</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36848,7 +36792,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_GetPinDir</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36863,7 +36806,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_GetPortDir</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36968,7 +36910,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_WritePinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36983,7 +36924,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -36998,7 +36938,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_SetPinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37013,7 +36952,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ClearPinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37028,7 +36966,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_TogglePinOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37043,7 +36980,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_WritePortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37058,7 +36994,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37073,7 +37008,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_SetPortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37088,7 +37022,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ClearPortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37103,7 +37036,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_TogglePortOutput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37136,7 +37068,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPinInput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -37151,7 +37082,6 @@
             <ItemState>
               <ItemSymbol>FGPIO_HAL_ReadPortInput</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -39435,7 +39365,6 @@
       <ItemState>
         <ItemSymbol>I2C_HAL_SetStopIntCmd</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -39450,7 +39379,6 @@
       <ItemState>
         <ItemSymbol>I2C_HAL_GetStopIntCmd</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -39703,7 +39631,7 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>0</Value>
+        <Value>100</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>
@@ -66759,7 +66687,6 @@
             <ItemState>
               <ItemSymbol>UART_HAL_SetWorkWaitTimeInteger_1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -66840,7 +66767,6 @@
             <ItemState>
               <ItemSymbol>UART_HAL_SetBlockWaitTimeInteger_1</ItemSymbol>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-              <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
               <Index>0</Index>
               <Value>true</Value>
               <LastSelection>true</LastSelection>
@@ -67787,7 +67713,7 @@
         <ItemSymbol>BaudRate0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>1.046317 kHz</Value>
+        <Value>1.25 MHz</Value>
         <RuntimeSetting>0</RuntimeSetting>
         <ReqDevPrescHigh>-1</ReqDevPrescHigh>
         <ReqDevPrescLow>-1</ReqDevPrescLow>
@@ -67813,13 +67739,13 @@
         <ReqSrcClkPrescSpeedMode5>-1</ReqSrcClkPrescSpeedMode5>
         <ReqSrcClkPrescSpeedMode6>-1</ReqSrcClkPrescSpeedMode6>
         <ReqSrcClkPrescSpeedMode7>-1</ReqSrcClkPrescSpeedMode7>
-        <InitValue>1.046317 kHz</InitValue>
+        <InitValue>1.25 MHz</InitValue>
         <Precision>5.0</Precision>
         <PrecInProc>true</PrecInProc>
         <LowLimit />
         <HighLimit />
         <List lines_count="0" />
-        <UnitText>kHz</UnitText>
+        <UnitText>MHz</UnitText>
         <MinCounterTicks>0</MinCounterTicks>
         <SpecificClockConfiguration>true</SpecificClockConfiguration>
         <SpecificClkCfg1_SpeedMode0>true</SpecificClkCfg1_SpeedMode0>
@@ -69331,7 +69257,7 @@
         <ItemSymbol>BaudRate0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>1.071429 MHz</Value>
+        <Value>1.25 MHz</Value>
         <RuntimeSetting>0</RuntimeSetting>
         <ReqDevPrescHigh>-1</ReqDevPrescHigh>
         <ReqDevPrescLow>-1</ReqDevPrescLow>
@@ -69357,7 +69283,7 @@
         <ReqSrcClkPrescSpeedMode5>-1</ReqSrcClkPrescSpeedMode5>
         <ReqSrcClkPrescSpeedMode6>-1</ReqSrcClkPrescSpeedMode6>
         <ReqSrcClkPrescSpeedMode7>-1</ReqSrcClkPrescSpeedMode7>
-        <InitValue>1.071429 MHz</InitValue>
+        <InitValue>1.25 MHz</InitValue>
         <Precision>5.0</Precision>
         <PrecInProc>true</PrecInProc>
         <LowLimit />
@@ -74700,7 +74626,6 @@
       <ItemState>
         <ItemSymbol>UART_HAL_SetWorkWaitTimeInteger_1</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
@@ -74781,7 +74706,6 @@
       <ItemState>
         <ItemSymbol>UART_HAL_SetBlockWaitTimeInteger_1</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <ItemWasNeverEnabledInChgScript>true</ItemWasNeverEnabledInChgScript>
         <Index>0</Index>
         <Value>true</Value>
         <LastSelection>true</LastSelection>
