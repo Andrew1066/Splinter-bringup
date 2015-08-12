@@ -186,6 +186,193 @@
       </boolgroup>
     </CompilerProperties>
   </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0AC18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0CAC18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Vector_table_copy_in_RAM v="yes" />
+        <Default_memory_for_interrupts v="INTERNAL RAM" />
+        <Default_memory_for_code v="INTERNAL RAM" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="3">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0AC18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0CAC18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Vector_table_copy_in_RAM v="yes" />
+        <Default_memory_for_interrupts v="INTERNAL FLASH" />
+        <Default_memory_for_code v="INTERNAL FLASH" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="6">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="0" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts_ram" />
+              <Qualifier v="RW" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="1040" />
+              <Size v="1047536" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea3">
+            <boolgroup name="ROM/RAM Area" v="Disabled" />
+          </group>
+          <group name="MemoryArea4">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea5">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data_2" />
+              <Qualifier v="RW" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0MI18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0VMI18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Vector_table_copy_in_RAM v="yes" />
+        <Default_memory_for_interrupts v="INTERNAL RAM" />
+        <Default_memory_for_code v="INTERNAL RAM" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="3">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
   <CPU_Bean name="Cpu" type="MK65FN2M0MI18">
     <Enabled v="Y" />
     <Properties>
@@ -460,89 +647,6 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="hid1" type="fsl_usb_device_hid_class">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="hid1" />
-      <fsl_usb_descriptor_component_link v="usbDsc1" />
-      <Update_fsl_usb_descriptor_component v="" />
-      <group name="HID class setting">
-        <Subclass_code v="0x00 No Subclass" />
-        <Protocol_code v="0x02 Mouse" />
-      </group>
-      <list name="Optional class descriptor" v="0">
-        <EmptySection_DummyValue />
-      </list>
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="usbDsc1" type="fsl_usb_descriptors">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="usbDsc1" />
-      <Lower_level_component_link v="usbFmw1" />
-      <list name="Supported languages" v="1">
-        <Language_0 v="0x0409 English (United States)" />
-      </list>
-      <External_power_source v="yes" />
-      <group name="Common device settings">
-        <USB_revision v="USB 2.0" />
-        <Vendor_ID v="0" />
-        <Product_ID v="0" />
-        <Device_release_number v="01.00" />
-        <boolgroup name="Manufacturer description" v="Enabled">
-          <list name="Language list" v="1">
-            <Language_0 v="Freescale Processor Expert" />
-          </list>
-        </boolgroup>
-        <boolgroup name="Product description" v="Enabled">
-          <list name="Language list" v="1">
-            <Language_0 v="Processor Expert USB Device component" />
-          </list>
-        </boolgroup>
-        <boolgroup name="Device&amp;apos;s serial number" v="Enabled">
-          <Descriptor_index v="3" />
-          <list name="Language list" v="1">
-            <Language_0 v="123456789ABCDEF" />
-          </list>
-        </boolgroup>
-        <enumgroup name="Device speed" v="Full speed">
-          <EmptySection_DummyValue />
-        </enumgroup>
-      </group>
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="usbFmw1" type="fsl_usb_framework">
-    <Enabled v="Y" />
-    <Properties>
-      <group name="HiddenGroup">
-        <group name="Component name">
-          <Component_name v="usbFmw1" />
-        </group>
-        <group name="Device">
-          <Device v="USB0" />
-        </group>
-      </group>
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="DbgCs1" type="fsl_debug_console">
     <Enabled v="Y" />
     <Properties>
@@ -618,6 +722,101 @@
     <Properties>
       <Component_name v="uartCom2" />
       <Device v="UART1" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="FMC" type="Init_FMC">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="FMC" />
+    </Properties>
+    <Methods>
+      <Init v="generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="hid1" type="fsl_usb_device_hid_class">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="hid1" />
+      <fsl_usb_descriptor_component_link v="usbDsc1" />
+      <Update_fsl_usb_descriptor_component v="" />
+      <group name="HID class setting">
+        <Subclass_code v="0x00 No Subclass" />
+        <Protocol_code v="0x01 Keyboard" />
+      </group>
+      <list name="Optional class descriptor" v="0">
+        <EmptySection_DummyValue />
+      </list>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="usbDsc1" type="fsl_usb_descriptors">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="usbDsc1" />
+      <Lower_level_component_link v="usbFmw1" />
+      <list name="Supported languages" v="1">
+        <Language_0 v="0x0409 English (United States)" />
+      </list>
+      <External_power_source v="yes" />
+      <group name="Common device settings">
+        <USB_revision v="USB 2.0" />
+        <Vendor_ID v="0" />
+        <Product_ID v="0" />
+        <Device_release_number v="01.00" />
+        <boolgroup name="Manufacturer description" v="Enabled">
+          <list name="Language list" v="1">
+            <Language_0 v="Freescale Processor Expert" />
+          </list>
+        </boolgroup>
+        <boolgroup name="Product description" v="Enabled">
+          <list name="Language list" v="1">
+            <Language_0 v="Processor Expert USB Device component" />
+          </list>
+        </boolgroup>
+        <boolgroup name="Device&amp;apos;s serial number" v="Enabled">
+          <Descriptor_index v="3" />
+          <list name="Language list" v="1">
+            <Language_0 v="123456789ABCDEF" />
+          </list>
+        </boolgroup>
+        <enumgroup name="Device speed" v="Full speed">
+          <EmptySection_DummyValue />
+        </enumgroup>
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="usbFmw1" type="fsl_usb_framework">
+    <Enabled v="Y" />
+    <Properties>
+      <group name="HiddenGroup">
+        <group name="Component name">
+          <Component_name v="usbFmw1" />
+        </group>
+        <group name="Device">
+          <Device v="USB0" />
+        </group>
+      </group>
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>

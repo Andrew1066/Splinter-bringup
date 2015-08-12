@@ -627,15 +627,13 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="systemModuleCntrl1" type="fsl_smc_hal">
+  <Bean name="FMC" type="Init_FMC">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="systemModuleCntrl1" />
-      <Device v="SMC" />
-      <Component_version v="1.2.0" />
+      <Component_name v="FMC" />
     </Properties>
     <Methods>
-      <EmptySection_DummyValue />
+      <Init v="generate code" />
     </Methods>
     <Events>
       <EmptySection_DummyValue />

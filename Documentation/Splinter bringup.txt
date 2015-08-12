@@ -600,57 +600,6 @@ Module "flexTimer2" (component fsl_ftm_hal)
    - flexTimer2_FTM_HAL_EnablePwmMode -Enables the FTM timer when it is PWM output mode.
    - flexTimer2_FTM_HAL_DisablePwmMode -Disables the PWM output mode.
 
-Module "hid1"      (component fsl_usb_device_hid_class)
-   - hid1_USB_Class_HID_Init -The application calls this API function to initialize the HID class, the underlying layers, and 
-                the controller hardware. This method is available only for non-composite device (only one device class class 
-                component in the project). For initializing a composite device (more devices class class component in the 
-                project) must be USB_Composite_Init() method called.
-   - hid1_USB_Class_HID_Deinit -Un-initialize the HID class, the underlying layers, and the controller hardware. This method is 
-                available only for non-composite device (only one device class class component in the project). For a composite 
-                device must be USB_Composite_Deinit() method called for un-initializing USB device stack.
-   - hid1_USB_Class_HID_Recv_Data -The application calls this API function to receive HID data specified by app_buff and size.
-   - hid1_USB_Class_HID_Send_Data -The application calls this API function to send HID data specified by app_buff and size. 
-                Once the data is sent, the application layer receives a callback event USB_DEV_EVENT_SEND_COMPLETE. The 
-                application reserves the buffer until it receives a callback event indicating that the data is sent.
-   - hid1_USB_Class_HID_Cancel -The application calls this API function to cancel all the uncompleted transfers in the 
-                specified endpoint.
-
-Module "usbDsc1"   (component fsl_usb_descriptors)
-
-Module "usbFmw1"   (component fsl_usb_framework)
-   - usbFmw1_usb_device_init -Initializes the device controller specified by the controller_id and a device handle can be 
-                returned from the handle.
-   - usbFmw1_usb_device_postinit -Starts the initialization process that cannot be done in the usb_device_init() API. For 
-                example, the call back functions need to be registered after the device handle can be obtained from the 
-                usb_device_init() API. Therefore, the USB interrupt cannot be enabled in usb_device_init(); otherwise, the USB 
-                interrupt can be issued before the callback functions are registered. To avoid this issue, the USB interrupt 
-                will be enabled in the post initialization process.
-   - usbFmw1_usb_device_deinit -The function un-initializes the device controller specified by the handle.
-   - usbFmw1_usb_device_recv_data -The function is used to receive data from a specified endpoint.
-   - usbFmw1_usb_device_send_data -The function is used to send data to a specified endpoint.
-   - usbFmw1_usb_device_cancel_transfer -The function is used to cancel all the pending transfer in a specified endpoint which 
-                is determined by the endpoint index and the direction.
-   - usbFmw1_usb_device_register_service -The function is used to register a callback function for one specified endpoint.
-   - usbFmw1_usb_device_unregister_service -The function is used to unregister a callback function for one specified endpoint.
-   - usbFmw1_usb_device_init_endpoint -The function is used to initialize a specific endpoint which is determined by the ep_ptr.
-   - usbFmw1_usb_device_deinit_endpoint -The function is used to un-initialize a specific endpoint which is determined by the 
-                endpoint index and endpoint direction.
-   - usbFmw1_usb_device_stall_endpoint -The function is used to stall a specific endpoint which is determined by the endpoint 
-                index and endpoint direction.
-   - usbFmw1_usb_device_unstall_endpoint -The function is used to un-stall a specific endpoint which is determined by the 
-                endpoint index and endpoint direction.
-   - usbFmw1_usb_device_register_application_notify -The function is used to register a callback function for the application 
-                related event. Currently the following events are supported:       USB_DEV_EVENT_BUS_RESET - A BUS reset is 
-                received.       USB_DEV_EVENT_ENUM_COMPLETE - The device enumerated process completes.       
-                USB_DEV_EVENT_CONFIG_CHANGED - Host sends a set_configuration.       USB_DEV_EVENT_ERROR - Error.
-   - usbFmw1_usb_device_register_vendor_class_request_notify -The function is used to register a callback function for the 
-                vendor class request related event. Currently the vendor class is not implemented, so both the 
-                request_notify_callback and request_notify_param can be set to NULL.
-   - usbFmw1_usb_device_register_desc_request_notify -The function is used to register a set of callback functions for the 
-                device descriptor related event.
-   - usbFmw1_usb_device_get_status -The function is used to get the status of the specified component.
-   - usbFmw1_usb_device_set_status -The function is used to set the status of the specified component.
-
 Module "DbgCs1"    (component fsl_debug_console)
    - DbgCs1_DbgConsole_Init -Init the UART/LPUART used for debug messages.
    - DbgCs1_DbgConsole_DeInit -Deinit the UART/LPUART used for debug messages.
@@ -888,6 +837,62 @@ Module "uartCom2"  (component fsl_uart_hal)
    - uartCom2_UART_HAL_GetBlockWaitTimeInteger -Gets the current value of Block Wait Time Integer.
    - uartCom2_UART_HAL_SetBlockGuardTimeInteger -Sets a value to Block Guard Time Integer.
    - uartCom2_UART_HAL_GetBlockGuardTimeInteger -Gets the current value of Block Guard Time Integer.
+
+Module "FMC"       (component Init_FMC_VAR1)
+   - FMC_Init -This method initializes registers of the FMC module according to the Peripheral Initialization settings. Call 
+                this method in user code to initialize the module. By default, the method is called by PE automatically; see 
+                "Call Init method" property of the component for more details.
+
+Module "hid1"      (component fsl_usb_device_hid_class)
+   - hid1_USB_Class_HID_Init -The application calls this API function to initialize the HID class, the underlying layers, and 
+                the controller hardware. This method is available only for non-composite device (only one device class class 
+                component in the project). For initializing a composite device (more devices class class component in the 
+                project) must be USB_Composite_Init() method called.
+   - hid1_USB_Class_HID_Deinit -Un-initialize the HID class, the underlying layers, and the controller hardware. This method is 
+                available only for non-composite device (only one device class class component in the project). For a composite 
+                device must be USB_Composite_Deinit() method called for un-initializing USB device stack.
+   - hid1_USB_Class_HID_Recv_Data -The application calls this API function to receive HID data specified by app_buff and size.
+   - hid1_USB_Class_HID_Send_Data -The application calls this API function to send HID data specified by app_buff and size. 
+                Once the data is sent, the application layer receives a callback event USB_DEV_EVENT_SEND_COMPLETE. The 
+                application reserves the buffer until it receives a callback event indicating that the data is sent.
+   - hid1_USB_Class_HID_Cancel -The application calls this API function to cancel all the uncompleted transfers in the 
+                specified endpoint.
+
+Module "usbDsc1"   (component fsl_usb_descriptors)
+
+Module "usbFmw1"   (component fsl_usb_framework)
+   - usbFmw1_usb_device_init -Initializes the device controller specified by the controller_id and a device handle can be 
+                returned from the handle.
+   - usbFmw1_usb_device_postinit -Starts the initialization process that cannot be done in the usb_device_init() API. For 
+                example, the call back functions need to be registered after the device handle can be obtained from the 
+                usb_device_init() API. Therefore, the USB interrupt cannot be enabled in usb_device_init(); otherwise, the USB 
+                interrupt can be issued before the callback functions are registered. To avoid this issue, the USB interrupt 
+                will be enabled in the post initialization process.
+   - usbFmw1_usb_device_deinit -The function un-initializes the device controller specified by the handle.
+   - usbFmw1_usb_device_recv_data -The function is used to receive data from a specified endpoint.
+   - usbFmw1_usb_device_send_data -The function is used to send data to a specified endpoint.
+   - usbFmw1_usb_device_cancel_transfer -The function is used to cancel all the pending transfer in a specified endpoint which 
+                is determined by the endpoint index and the direction.
+   - usbFmw1_usb_device_register_service -The function is used to register a callback function for one specified endpoint.
+   - usbFmw1_usb_device_unregister_service -The function is used to unregister a callback function for one specified endpoint.
+   - usbFmw1_usb_device_init_endpoint -The function is used to initialize a specific endpoint which is determined by the ep_ptr.
+   - usbFmw1_usb_device_deinit_endpoint -The function is used to un-initialize a specific endpoint which is determined by the 
+                endpoint index and endpoint direction.
+   - usbFmw1_usb_device_stall_endpoint -The function is used to stall a specific endpoint which is determined by the endpoint 
+                index and endpoint direction.
+   - usbFmw1_usb_device_unstall_endpoint -The function is used to un-stall a specific endpoint which is determined by the 
+                endpoint index and endpoint direction.
+   - usbFmw1_usb_device_register_application_notify -The function is used to register a callback function for the application 
+                related event. Currently the following events are supported:       USB_DEV_EVENT_BUS_RESET - A BUS reset is 
+                received.       USB_DEV_EVENT_ENUM_COMPLETE - The device enumerated process completes.       
+                USB_DEV_EVENT_CONFIG_CHANGED - Host sends a set_configuration.       USB_DEV_EVENT_ERROR - Error.
+   - usbFmw1_usb_device_register_vendor_class_request_notify -The function is used to register a callback function for the 
+                vendor class request related event. Currently the vendor class is not implemented, so both the 
+                request_notify_callback and request_notify_param can be set to NULL.
+   - usbFmw1_usb_device_register_desc_request_notify -The function is used to register a set of callback functions for the 
+                device descriptor related event.
+   - usbFmw1_usb_device_get_status -The function is used to get the status of the specified component.
+   - usbFmw1_usb_device_set_status -The function is used to set the status of the specified component.
 
 Module "Cpu"       (component MK65FN2M0MI18)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 
