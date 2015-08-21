@@ -186,6 +186,190 @@
       </boolgroup>
     </CompilerProperties>
   </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0AC18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0CAC18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Default_memory_for_interrupts v="INTERNAL RAM" />
+        <Default_memory_for_code v="INTERNAL RAM" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="3">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0AC18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0CAC18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Default_memory_for_interrupts v="INTERNAL FLASH" />
+        <Default_memory_for_code v="INTERNAL FLASH" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="6">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="0" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts_ram" />
+              <Qualifier v="RW" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="1040" />
+              <Size v="1047536" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea3">
+            <boolgroup name="ROM/RAM Area" v="Disabled" />
+          </group>
+          <group name="MemoryArea4">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea5">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data_2" />
+              <Qualifier v="RW" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <CPU_Bean name="Cpu" type="MK65FN2M0MI18">
+    <Enabled v="N" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <CPU_type v="MK65FX1M0VMI18" />
+      <fsl_clock_manager v="clockMan1" />
+      <group name="Watchdog settings">
+        <Watchdog_disable v="yes" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+    </Events>
+    <Compiler v="GNU C Compiler" />
+    <CompilerProperties>
+      <Compiler v="GNU C Compiler" />
+      <boolgroup name="Generate linker file" v="yes">
+        <Stack_size v="1024" />
+        <Heap_size v="0" />
+        <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
+        <Default_memory_for_interrupts v="INTERNAL RAM" />
+        <Default_memory_for_code v="INTERNAL RAM" />
+        <Default_memory_for_data v="INTERNAL RAM" />
+        <list name="ROM/RAM Areas" v="3">
+          <group name="MemoryArea0">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_interrupts" />
+              <Qualifier v="RX" />
+              <Address v="536805376" />
+              <Size v="1024" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea1">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_text" />
+              <Qualifier v="RX" />
+              <Address v="536870912" />
+              <Size v="196608" />
+            </boolgroup>
+          </group>
+          <group name="MemoryArea2">
+            <boolgroup name="ROM/RAM Area" v="Enabled">
+              <Name v="m_data" />
+              <Qualifier v="RW" />
+              <Address v="536806400" />
+              <Size v="64512" />
+            </boolgroup>
+          </group>
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
   <CPU_Bean name="Cpu" type="MK65FN2M0MI18">
     <Enabled v="Y" />
     <Properties>
@@ -460,19 +644,40 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="hid1" type="fsl_usb_device_hid_class">
+  <Bean name="dspiCom1" type="fsl_dspi">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="hid1" />
-      <fsl_usb_descriptor_component_link v="usbDsc1" />
-      <Update_fsl_usb_descriptor_component v="" />
-      <group name="HID class setting">
-        <Subclass_code v="0x00 No Subclass" />
-        <Protocol_code v="0x02 Mouse" />
-      </group>
-      <list name="Optional class descriptor" v="0">
-        <EmptySection_DummyValue />
-      </list>
+      <Component_name v="dspiCom1" />
+      <Device v="SPI0" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dspiCom2" type="fsl_dspi">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dspiCom2" />
+      <Device v="SPI1" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dspiCom3" type="fsl_dspi_hal">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dspiCom3" />
+      <Device v="SPI2" />
+      <Component_version v="1.2.0" />
     </Properties>
     <Methods>
       <EmptySection_DummyValue />
@@ -543,97 +748,47 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
+  <Bean name="dmaController1" type="fsl_edma">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dmaController1" />
+      <Device v="DMA" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="msd1" type="fsl_usb_device_msd_class">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="msd1" />
+      <fsl_usb_descriptor_component_link v="usbDsc1" />
+      <Update_fsl_usb_descriptor_component v="" />
+      <group name="MSD Class">
+        <Subclass_code v="0x06 SCSI transparent command set" />
+        <Protocol_code v="0x50 BBB (bulk only transport)" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
   <Bean name="DbgCs1" type="fsl_debug_console">
     <Enabled v="Y" />
     <Properties>
       <Component_name v="DbgCs1" />
-      <Device v="LPUART0" />
+      <Device v="UART3" />
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>
       <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="dspiCom1" type="fsl_dspi">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="dspiCom1" />
-      <Device v="SPI0" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="dspiCom2" type="fsl_dspi">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="dspiCom2" />
-      <Device v="SPI1" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="dspiCom3" type="fsl_dspi_hal">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="dspiCom3" />
-      <Device v="SPI2" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="uartCom1" type="fsl_uart">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="uartCom1" />
-      <Device v="UART0" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="uartCom2" type="fsl_uart_hal">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="uartCom2" />
-      <Device v="UART1" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="FMC" type="Init_FMC">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="FMC" />
-    </Properties>
-    <Methods>
-      <Init v="generate code" />
     </Methods>
     <Events>
       <EmptySection_DummyValue />

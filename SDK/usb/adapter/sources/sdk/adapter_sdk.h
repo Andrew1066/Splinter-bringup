@@ -41,7 +41,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "fsl_debug_console.h"
+//#include "fsl_debug_console.h"
 
 #define BIG_ENDIAN           0
 #define LITTLE_ENDIAN        1

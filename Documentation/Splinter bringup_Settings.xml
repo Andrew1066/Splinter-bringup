@@ -209,7 +209,6 @@
         <Stack_size v="1024" />
         <Heap_size v="0" />
         <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
-        <Vector_table_copy_in_RAM v="yes" />
         <Default_memory_for_interrupts v="INTERNAL RAM" />
         <Default_memory_for_code v="INTERNAL RAM" />
         <Default_memory_for_data v="INTERNAL RAM" />
@@ -265,7 +264,6 @@
         <Stack_size v="1024" />
         <Heap_size v="0" />
         <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
-        <Vector_table_copy_in_RAM v="yes" />
         <Default_memory_for_interrupts v="INTERNAL FLASH" />
         <Default_memory_for_code v="INTERNAL FLASH" />
         <Default_memory_for_data v="INTERNAL RAM" />
@@ -340,7 +338,6 @@
         <Stack_size v="1024" />
         <Heap_size v="0" />
         <Set_memory_segments_to_default v="Click to set default &amp;gt;" />
-        <Vector_table_copy_in_RAM v="yes" />
         <Default_memory_for_interrupts v="INTERNAL RAM" />
         <Default_memory_for_code v="INTERNAL RAM" />
         <Default_memory_for_data v="INTERNAL RAM" />
@@ -647,20 +644,6 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="DbgCs1" type="fsl_debug_console">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="DbgCs1" />
-      <Device v="LPUART0" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="dspiCom1" type="fsl_dspi">
     <Enabled v="Y" />
     <Properties>
@@ -695,67 +678,6 @@
       <Component_name v="dspiCom3" />
       <Device v="SPI2" />
       <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="uartCom1" type="fsl_uart">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="uartCom1" />
-      <Device v="UART0" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="uartCom2" type="fsl_uart_hal">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="uartCom2" />
-      <Device v="UART1" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="FMC" type="Init_FMC">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="FMC" />
-    </Properties>
-    <Methods>
-      <Init v="generate code" />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="hid1" type="fsl_usb_device_hid_class">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="hid1" />
-      <fsl_usb_descriptor_component_link v="usbDsc1" />
-      <Update_fsl_usb_descriptor_component v="" />
-      <group name="HID class setting">
-        <Subclass_code v="0x00 No Subclass" />
-        <Protocol_code v="0x01 Keyboard" />
-      </group>
-      <list name="Optional class descriptor" v="0">
-        <EmptySection_DummyValue />
-      </list>
     </Properties>
     <Methods>
       <EmptySection_DummyValue />
@@ -817,6 +739,52 @@
           <Device v="USB0" />
         </group>
       </group>
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="dmaController1" type="fsl_edma">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="dmaController1" />
+      <Device v="DMA" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="msd1" type="fsl_usb_device_msd_class">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="msd1" />
+      <fsl_usb_descriptor_component_link v="usbDsc1" />
+      <Update_fsl_usb_descriptor_component v="" />
+      <group name="MSD Class">
+        <Subclass_code v="0x06 SCSI transparent command set" />
+        <Protocol_code v="0x50 BBB (bulk only transport)" />
+      </group>
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="DbgCs1" type="fsl_debug_console">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="DbgCs1" />
+      <Device v="UART1" />
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>

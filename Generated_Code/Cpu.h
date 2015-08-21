@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : K65P169M180SF5RMV2, Rev. 1, Mar 2015
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-11, 20:03, # CodeGen: 29
+**     Date/Time   : 2015-08-19, 09:01, # CodeGen: 76
 **     Abstract    :
 **
 **     Settings    :
@@ -87,14 +87,16 @@
 #include "fsl_i2c_shared_function.h"
 #include "fsl_ftm_hal.h"
 #include "fsl_ftm_driver.h"
-#include "fsl_uart_hal.h"
-#include "fsl_lpuart_hal.h"
-#include "fsl_debug_console.h"
 #include "fsl_dspi_hal.h"
 #include "fsl_dspi_master_driver.h"
 #include "fsl_dspi_slave_driver.h"
 #include "fsl_dspi_shared_function.h"
-#include "fsl_uart_driver.h"
+#include "fsl_dmamux_hal.h"
+#include "fsl_edma_hal.h"
+#include "fsl_edma_driver.h"
+#include "fsl_uart_hal.h"
+#include "fsl_lpuart_hal.h"
+#include "fsl_debug_console.h"
 #include <assert.h>
 
 #ifdef __cplusplus

@@ -310,7 +310,7 @@ __isr_vector:
     .long 0xFFFFFFFF
     .long 0xFFFFFFFF
     .long 0xFFFFFFFF
-    .long 0xFFFFFFFE
+    .long 0xFFFFFEFE  // was 0xFFFFFFFE
 
     .text
     .thumb

@@ -4,7 +4,7 @@
 		<cconfiguration id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.159397137">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.159397137" moduleId="org.eclipse.cdt.core.settings" name="Debug">
 				<macros>
-					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="/opt/Freescale/KSDK_1.2.0"/>
+					<stringMacro name="PROJECT_KSDK_PATH" type="VALUE_TEXT" value="c:/Freescale/KSDK_1.2.0"/>
 				</macros>
 				<externalSettings/>
 				<extensions>
@@ -71,7 +71,6 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/platform/devices/MK65F18/startup&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/drivers/inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/hal&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/adapter/sources&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/adapter/sources/sdk&quot;"/>
@@ -82,8 +81,9 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/usb/usb_core/device/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/usb/usb_core/device/sources/classes/include/config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/common&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/hid&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/msd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/src&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1612545591" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
@@ -103,7 +103,6 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/platform/devices/MK65F18/startup&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/drivers/inc&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/src&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/hal&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/adapter/sources&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/adapter/sources/sdk&quot;"/>
@@ -114,8 +113,9 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/usb/usb_core/device/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code/SDK/usb/usb_core/device/sources/classes/include/config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/common&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/hid&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/usb/usb_core/device/sources/classes/msd&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/SDK/platform/utilities/src&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.1612637763" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="&quot;FSL_OSA_BM_TIMER_CONFIG=2&quot;"/>
@@ -154,9 +154,11 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.159397137.1945021063" name="i2c.h" rcbsApplicability="disable" resourcePath="Sources/i2c.h" toolsToInvoke=""/>
+					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.159397137.1286681437" name="MPU9250.h" rcbsApplicability="disable" resourcePath="Sources/MPU9250.h" toolsToInvoke=""/>
 					<fileInfo id="ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.159397137..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding=".settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Sources/MPU9250.h|Sources/MPU9250.c|Sources/dispatcher.c|Sources/mllite_test.c|Sources/log.c|Sources/imu.c|Sources/i2c.h|Sources/i2c.c|Sources/PE_LDD.c|Sources/pwm.c|Sources/CI2C1.c|Sources/Devices|.settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -183,4 +185,6 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

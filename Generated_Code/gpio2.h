@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 10:06, # CodeGen: 7
+**     Date/Time   : 2015-08-19, 16:27, # CodeGen: 81
 **     Contents    :
 **         GPIO_DRV_Init                - void GPIO_DRV_Init(const gpio_input_pin_user_config_t * inputPins,const...
 **         GPIO_DRV_InputPinInit        - void GPIO_DRV_InputPinInit(const gpio_input_pin_user_config_t * inputPin);
@@ -82,7 +82,15 @@ extern const gpio_output_pin_user_config_t gpio2_OutConfig0[];
 /*! @brief Pin names */
 enum _gpio2_pinNames{
   PTC9 = GPIO_MAKE_PIN(GPIOC_IDX, 9U),
-  PTC16 = GPIO_MAKE_PIN(GPIOC_IDX, 16U),
+  PTC0 = GPIO_MAKE_PIN(GPIOC_IDX, 0U),
+  PTD3 = GPIO_MAKE_PIN(GPIOD_IDX, 3U),
+  PTC2 = GPIO_MAKE_PIN(GPIOC_IDX, 2U),
+  PTB3 = GPIO_MAKE_PIN(GPIOB_IDX, 3U),
+  PTB8 = GPIO_MAKE_PIN(GPIOB_IDX, 8U),
+  PTB9 = GPIO_MAKE_PIN(GPIOB_IDX, 9U),
+  PTB16 = GPIO_MAKE_PIN(GPIOB_IDX, 16U),
+  PTB17 = GPIO_MAKE_PIN(GPIOB_IDX, 17U),
+  PTB18 = GPIO_MAKE_PIN(GPIOB_IDX, 18U),
 };
 
   

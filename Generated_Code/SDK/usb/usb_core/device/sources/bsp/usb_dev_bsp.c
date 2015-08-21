@@ -6,7 +6,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-11, 15:10, # CodeGen: 22
+**     Date/Time   : 2015-08-12, 14:09, # CodeGen: 42
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -81,6 +81,10 @@ usb_status bsp_usb_dev_init(uint8_t controller_id)
     CLOCK_SYS_SetUsbfsDiv(controller_id, 0U, 0U);
     /* Enable USB clock gating */
     CLOCK_SYS_EnableUsbfsClock(controller_id);  
+    /* Enable MPU clock gating */
+    CLOCK_SYS_EnableMpuClock(0);
+    /* Disable MPU - all accesses from all bus masters are allowed */
+    MPU_CESR = 0x00;
     /* Weak pull downs */
     usb_hal_khci_set_weak_pulldown(base_addres);
     #if FSL_FEATURE_SIM_OPT_HAS_USB_VOLTAGE_REGULATOR

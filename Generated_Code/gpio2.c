@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 10:06, # CodeGen: 7
+**     Date/Time   : 2015-08-19, 16:27, # CodeGen: 81
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -69,11 +69,67 @@ const gpio_input_pin_user_config_t gpio2_InpConfig0[] = {
       
 const gpio_output_pin_user_config_t gpio2_OutConfig0[] = {
   {
-    .pinName = PTC16,
+    .pinName = PTC0,
     .config.outputLogic = 0,
     .config.slewRate = kPortSlowSlewRate,
-    .config.isOpenDrainEnabled = true,
+    .config.isOpenDrainEnabled = false,
     .config.driveStrength = kPortLowDriveStrength,
+  },
+  {
+    .pinName = PTD3,
+    .config.outputLogic = 1,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortLowDriveStrength,
+  },
+  {
+    .pinName = PTC2,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB3,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB8,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB9,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB16,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB17,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
+  },
+  {
+    .pinName = PTB18,
+    .config.outputLogic = 0,
+    .config.slewRate = kPortSlowSlewRate,
+    .config.isOpenDrainEnabled = false,
+    .config.driveStrength = kPortHighDriveStrength,
   },
   {
     .pinName = GPIO_PINS_OUT_OF_RANGE,

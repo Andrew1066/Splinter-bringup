@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : K65P169M180SF5RMV2, Rev. 1, Mar 2015
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-11, 19:53, # CodeGen: 28
+**     Date/Time   : 2015-08-19, 09:29, # CodeGen: 77
 **     Abstract    :
 **
 **     Settings    :
@@ -67,7 +67,7 @@
 /* {Default RTOS Adapter} No RTOS includes */
 #include "Cpu.h"
 #include "Events.h"
-#include "hid1_hid.h"
+#include "msd1_msd.h"
 
 
 #ifdef __cplusplus
@@ -124,15 +124,6 @@ void Components_Init(void)
   FTM_DRV_SetFaultIntCmd(FSL_FLEXTIMER1,false);
   /*! flexTimer1 Auto initialization end */
   
-  /*! DbgCs1 Auto initialization start */
-  /* Enable clock source for LPUART - bitfield LPUART0SRC within SIM_SOPT2 */
-  CLOCK_SYS_SetLpuartSrc(BOARD_DEBUG_UART_INSTANCE,kClockLpuartSrcOsc0erClk);
-  /* Debug console initialization */
-  DbgConsole_Init(BOARD_DEBUG_UART_INSTANCE, DEBUG_UART_BAUD, DEBUG_UART_TYPE);
-  /*! DbgCs1 Auto initialization end */
-  /*! hid1 Auto initialization start */
-  (void)USB_Class_HID_Init(USBFMW1_USB_CONTROLLER_ID, &hid1_HidConfigStructure, &hid1_HidHandle);
-  /*! hid1 Auto initialization end */
   /*! dspiCom1 Auto initialization start */
   DSPI_DRV_MasterInit(FSL_DSPICOM1, &dspiCom1_MasterState, &dspiCom1_MasterConfig0);
   DSPI_DRV_MasterConfigureBus(FSL_DSPICOM1, &dspiCom1_BusConfig0, &dspiCom1_calculatedBaudRate);
@@ -143,11 +134,17 @@ void Components_Init(void)
   DSPI_DRV_MasterConfigureBus(FSL_DSPICOM2, &dspiCom2_BusConfig0, &dspiCom2_calculatedBaudRate);
   /*! dspiCom2 Auto initialization end */
   
-  /*! uartCom1 Auto initialization start */
-  UART_DRV_Init(FSL_UARTCOM1,&uartCom1_State,&uartCom1_InitConfig0);
-  UART_DRV_InstallRxCallback(FSL_UARTCOM1, uartCom1_RxCallback, NULL, NULL, false);
-  UART_DRV_InstallTxCallback(FSL_UARTCOM1, uartCom1_TxCallback, NULL, NULL);
-  /*! uartCom1 Auto initialization end */
+  /*! dmaController1 Auto initialization start */
+  EDMA_DRV_Init(&dmaController1_State,&dmaController1_InitConfig0);
+  /*! dmaController1 Auto initialization end */
+  
+  /*! msd1 Auto initialization start */
+  (void)USB_Class_MSC_Init(USBFMW1_USB_CONTROLLER_ID, &msd1_MsdConfigStructure, &msd1_MsdHandle);
+  /*! msd1 Auto initialization end */
+  /*! DbgCs1 Auto initialization start */
+  /* Debug console initialization */
+  DbgConsole_Init(BOARD_DEBUG_UART_INSTANCE, DEBUG_UART_BAUD, DEBUG_UART_TYPE);
+  /*! DbgCs1 Auto initialization end */
 }
 #endif /* CPU_COMPONENTS_INIT */
 

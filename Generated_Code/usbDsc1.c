@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-10, 10:31, # CodeGen: 11
+**     Date/Time   : 2015-08-18, 16:51, # CodeGen: 71
 **     Abstract    :
 **          This component encapsulates the Universal Serial Bus (USB)
 **          module in the device mode according to specification 2.0. 
@@ -21,8 +21,8 @@
 **          Class setting                                  : 
 **            AUDIO class support                          : no
 **            CDC class support                            : no
-**            HID class support                            : yes
-**            MSD class support                            : no
+**            HID class support                            : no
+**            MSD class support                            : yes
 **          Supported languages                            : 1
 **            Language 0                                   : 0x0409 English (United States)
 **          External power source                          : yes
@@ -51,7 +51,7 @@
 **                Configuration list                       : 1
 **                  Configuration 1                        : 
 **                    Configuration name                   : usbDsc1_Full_Speed_Configuration_1
-**                    Total length                         : 34
+**                    Total length                         : 32
 **                    Configuration description            : Enabled
 **                      Language list                      : 1
 **                        Language 0                       : Configuration 1
@@ -60,20 +60,20 @@
 **                    Remote wake-up                       : yes
 **                    Class list                           : 1
 **                      Class 0                            : 
-**                        Class component name             : hid1
+**                        Class component name             : msd1
 **                        Class user name                  : 
 **                        Implementation specific settings : SDK
 **                          SDK specific settings          : 
 **                            SDK callbacks                : 
 **                              USB_Desc_Get_Descriptor callback name: 
-**                              USB_Desc_Get_Entity callback name: 
+**                              USB_Desc_Get_Entity callback name: msd1_get_desc_entity
 **                            Class config structure       : 
 **                              Application callback       : 
-**                                Callback name            : hid1_application_callback
+**                                Callback name            : msd1_application_callback
 **                                Callback parametr        : NULL
 **                                External declaration of parameter: 
 **                              Class specific callback    : 
-**                                Callback name            : hid1_class_specific_callback
+**                                Callback name            : msd1_class_specific_callback
 **                                Callback parametr        : NULL
 **                                External declaration of parameter: 
 **                              Vendor request callback    : 
@@ -86,35 +86,36 @@
 **                              Alternate setting 0        : 
 **                                Interface user name      : 
 **                                Default request handler name: 
-**                                Class code               : 0x03 HID
-**                                Subclass code            : 0x00 No Subclass
-**                                Protocol code            : 0x02 Mouse
+**                                Class code               : 0x08 Mass Storage
+**                                Subclass code            : 0x06 SCSI transparent command set
+**                                Protocol code            : 0x50 BBB (bulk only transport)
 **                                Alternate setting description: Disabled
-**                                Class descriptors        : 0x03 HID
-**                                  HID descriptor         : 
-**                                    HID Class specification release number: 1.11
-**                                    Country code         : 0x00 Not Supported
-**                                    Class descriptor list: 1
-**                                      HID class descriptor 0: 
-**                                        Descriptor type  : HID_REPORT
-**                                        Descriptor size  : 50
-**                                        Descriptor name  : hid1_MouseReportDescriptor
-**                                Pipe list                : 1
-**                                  Pipe 0                 : Interrupt IN
-**                                    Pipe user name       : hid1_PipeIn
+**                                Class descriptors        : 0x08 Mass Storage
+**                                Pipe list                : 2
+**                                  Pipe 0                 : Bulk IN
+**                                    Pipe user name       : msd1_PipeIn
 **                                    Default request handler name: 
 **                                    Endpoint number      : 1
-**                                    Maximum packet size  : 8
-**                                    Polling interval     : 1 ms
+**                                    Maximum packet size  : 64
+**                                    Maximum NAK rate     : 1
+**                                    ZLT                  : yes
+**                                  Pipe 1                 : Bulk OUT
+**                                    Pipe user name       : msd1_PipeOut
+**                                    Default request handler name: 
+**                                    Endpoint number      : 2
+**                                    Maximum packet size  : 64
+**                                    Maximum NAK rate     : 1
 **                                    ZLT                  : yes
 **          SDK settings                                   : 
 **            Class drivers configuration                  : 
 **              CDC driver configuration                   : Disabled
-**              HID class driver configuration             : Enabled
-**                Max. human interface device number       : 1
-**                Max. class endpoint number               : 1
-**                Data transfer queuing                    : Disabled
-**              MSD class driver configuration             : Disabled
+**              HID class driver configuration             : Disabled
+**              MSD class driver configuration             : Enabled
+**                Max. mass storage device number          : 1
+**                Max. supported interface number          : 0
+**                Implementing disk drive                  : Disabled
+**                Max. receive transfer length             : 65536
+**                Max. send transfer length                : 65536
 **              Composite driver configuration             : Disabled
 **            Initialization composite device              : Disabled
 **     Contents    :
@@ -168,16 +169,23 @@
 
 #include "usbDsc1.h"
 
+uint8_t msd1_get_desc_entity(uint32_t handle,entity_type type, uint32_t *object);
             
-extern uint8_t hid1_MouseReportDescriptor[50];
 
-/* hid1: FS_Cfg_1_Class_0_Int_0_AltSet_0 endpoint info array */                   
+/* msd1: FS_Cfg_1_Class_0_Int_0_AltSet_0 endpoint info array */                   
 static usb_ep_struct_t FS_Cfg_1_Class_0_Int_0_AltSet_0_EndpointInfoArray [] = {
-  { /* hid1_PipeIn */   
+  { /* msd1_PipeIn */   
     1,                                                                /* Endpoint number */
-    USB_INTERRUPT_PIPE,                                               /* Endpoint type */
+    USB_BULK_PIPE,                                                    /* Endpoint type */
     USB_SEND,                                                         /* Endpoint direction */
-    8                                                                 /* Maximum packet size */
+    64                                                                /* Maximum packet size */
+  },     			     
+          
+  { /* msd1_PipeOut */   
+    2,                                                                /* Endpoint number */
+    USB_BULK_PIPE,                                                    /* Endpoint type */
+    USB_RECV,                                                         /* Endpoint direction */
+    64                                                                /* Maximum packet size */
   }     			     
 };
           
@@ -186,15 +194,15 @@ static usb_if_struct_t FS_Cfg_1_Class_0_InterfaceInfoArray [] = {
   { 
     0,                                                               /* Interface number */
     { /* Interface alternate setting 0 endpoints */
-      1U,                                                            /* Endpoint count */
+      2U,                                                            /* Endpoint count */
       FS_Cfg_1_Class_0_Int_0_AltSet_0_EndpointInfoArray              /* Endpoint info array address */        
     }
   } 
 };
         
 static usb_class_struct_t FS_Cfg_1_ClassInfoArray [] = {
-  { /* Class hid1 */
-    USB_CLASS_HID,                                                   /* Class type */ 
+  { /* Class msd1 */
+    USB_CLASS_MSC,                                                   /* Class type */ 
     { 
       1U,                                                            /* Interface count */
       FS_Cfg_1_Class_0_InterfaceInfoArray,                           /* Interface info array address */
@@ -303,43 +311,42 @@ const uint8_t usbDsc1_Full_Speed_Configuration_1[]={
   /***************************************************************************/
   0x09,                                /* Descriptor size: 9 bytes */
   USB_CONFIGURATION_DESCRIPTOR,        /* Descriptor type: Configuration descriptor */
-  0x22,0x00,                           /* Total length of data for this configuration: 34 bytes */
+  0x20,0x00,                           /* Total length of data for this configuration: 32 bytes */
   0x01,                                /* No of interfaces supported by this configuration */
   0x01,                                /* Designator value for this configuration */
   0x04,                                /* Configuration string descriptor index */
   0xE0,                                /* Power source: self powered, remote wake-up: yes */
   0x00,                                /* Max. power consumption: 0 mA */
   /***************************************************************************/
-  /* hid1: Interface 0 Alternate setting 0 Descriptor                        */
+  /* msd1: Interface 0 Alternate setting 0 Descriptor                        */
   /***************************************************************************/
   0x09,                                /* Descriptor size: 9 bytes */
   USB_INTERFACE_DESCRIPTOR,            /* Descriptor type: INTERFACE descriptor */
   0x00,                                /* Interface number: 0 */
   0x00,                                /* Alternative setting number: 0 */
-  0x01,                                /* Number of EPs(excluding EP0): 1 */
-  0x03,                                /* Class code: 0x03 HID */
-  0x00,                                /* Subclass code: 0x00 No Subclass */
-  0x02,                                /* Protocol code: 0x02 Mouse */
+  0x02,                                /* Number of EPs(excluding EP0): 2 */
+  0x08,                                /* Class code: 0x08 Mass Storage */
+  0x06,                                /* Subclass code: 0x06 SCSI transparent command set */
+  0x50,                                /* Protocol code: 0x50 BBB (bulk only transport) */
   0x00,                                /* String descriptor index */
   /***************************************************************************/
-  /* HID Descriptor                                                          */
-  /***************************************************************************/
-  0x09,                                /* Descriptor size: 9 bytes */
-  USB_HID_DESCRIPTOR,                  /* Descriptor type: HID descriptor */
-  0x11,0x01,                           /* HID specification release number: 1.11 */
-  0x00,                                /* Country code: 0x00 Not Supported bytes */
-  0x01,                                /* Number of class descriptors : 1 */
-  USB_HID_REPORT_DESCRIPTOR,           /* Descriptor type: HID_REPORT descriptor */
-  0x32,0x00,                           /* Descriptor size: 0x32 */
-  /***************************************************************************/
-  /* hid1: Endpoint FS Interrupt EP1 IN, 8 KB/s Descriptor                   */
+  /* msd1: Endpoint FS Bulk EP1 Bulk IN, up to 1.216 MB/s Descriptor         */
   /***************************************************************************/
   0x07,                                /* Descriptor size: 7 bytes */
   USB_ENDPOINT_DESCRIPTOR,             /* Descriptor type: ENDPOINT descriptor */
   0x81,                                /* Address: 1 IN */
-  0x03,                                /* Transfer type: Interrupt */
-  0x08,0x00,                           /* Max. packet size: 8 byte(s) */
-  0x01                                 /* Polling interval: 1 ms */
+  0x02,                                /* Transfer type: Bulk */
+  0x40,0x00,                           /* Max. packet size: 64 byte(s) */
+  0x01,                                /* Maximum NAK rate: 0x01 microframe(s) */
+  /***************************************************************************/
+  /* msd1: Endpoint FS Bulk EP2 Bulk OUT, up to 1.216 MB/s Descriptor        */
+  /***************************************************************************/
+  0x07,                                /* Descriptor size: 7 bytes */
+  USB_ENDPOINT_DESCRIPTOR,             /* Descriptor type: ENDPOINT descriptor */
+  0x02,                                /* Address: 2 OUT */
+  0x02,                                /* Transfer type: Bulk */
+  0x40,0x00,                           /* Max. packet size: 64 byte(s) */
+  0x01                                 /* Maximum NAK rate: 0x01 microframe(s) */
 };
 
 
@@ -374,20 +381,6 @@ static uint8_t USB_Desc_Get_Descriptor (
   *descriptor = NULL;  
   switch (type) {
 
-    case USB_REPORT_DESCRIPTOR:
-      if (index == 0U) {
-        *descriptor = (uint8_t *)&hid1_MouseReportDescriptor;
-        *size       = 50U;
-      }
-      break;
-
-    case USB_HID_DESCRIPTOR:
-      if (index == 0U) {
-        *descriptor = (uint8_t *)&usbDsc1_Full_Speed_Configuration_1[18];
-        *size       = 9U;
-      }
-      break;
-      
     case USB_DEVICE_DESCRIPTOR:
       *descriptor = (uint8_t *)usbDsc1_FS_DeviceDescriptor;
       *size = sizeof(usbDsc1_FS_DeviceDescriptor);
@@ -443,6 +436,8 @@ static uint8_t USB_Desc_Get_Entity(uint32_t handle,entity_type type, uint32_t * 
       break;
       
     default :
+      /* Call registered callbacks */
+      msd1_get_desc_entity(handle, type, object);  
       break;
   }/* End Switch */
   return USB_OK;

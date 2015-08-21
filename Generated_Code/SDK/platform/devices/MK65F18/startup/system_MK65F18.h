@@ -92,7 +92,7 @@ extern "C" {
 */
  
 /* Define clock source values */          
-#define CPU_XTAL_CLK_HZ                16000000U           /* Value of the external crystal or oscillator clock frequency of the system oscillator (OSC) in Hz */
+#define CPU_XTAL_CLK_HZ                24000000U           /* Value of the external crystal or oscillator clock frequency of the system oscillator (OSC) in Hz */
 #define CPU_XTAL32k_CLK_HZ             32768U              /* Value of the external 32k crystal or oscillator clock frequency of the RTC in Hz */
 #define CPU_INT_SLOW_CLK_HZ            32768U              /* Value of the slow internal oscillator clock frequency in Hz */
 #define CPU_INT_FAST_CLK_HZ            4000000U            /* Value of the fast internal oscillator clock frequency in Hz */
@@ -103,8 +103,8 @@ extern "C" {
 #define SYSTEM_RTC_CR_VALUE            0x0300U             /* RTC_CR */
 
 /* Low power mode enable */
-/* SMC_PMPROT: AHSRUN=0,AVLP=0,ALLS=0,AVLLS=0 */
-#define SYSTEM_SMC_PMPROT_VALUE        0x00U               /* SMC_PMPROT */
+/* SMC_PMPROT: AHSRUN=1,AVLP=0,ALLS=0,AVLLS=0 */
+#define SYSTEM_SMC_PMPROT_VALUE        0x80U               /* SMC_PMPROT */
 
 /* Internal reference clock trim */
 /* #undef SLOW_TRIM_ADDRESS */                             /* Slow oscillator not trimmed. Commented out for MISRA compliance. */
@@ -116,8 +116,8 @@ extern "C" {
 #if (CLOCK_SETUP == 0)
   #define DEFAULT_SYSTEM_CLOCK         120000000U          /* Default System clock value */
   #define MCG_MODE                     MCG_MODE_PEE /* Clock generator mode */
-  /* MCG_C1: CLKS=0,FRDIV=4,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
-  #define SYSTEM_MCG_C1_VALUE          0x22U               /* MCG_C1 */
+  /* MCG_C1: CLKS=0,FRDIV=5,IREFS=0,IRCLKEN=1,IREFSTEN=0 */
+  #define SYSTEM_MCG_C1_VALUE          0x2AU               /* MCG_C1 */
   /* MCG_C2: LOCRE0=0,FCFTRIM=0,RANGE=2,HGO=0,EREFS=1,LP=0,IRCS=0 */
   #define SYSTEM_MCG_C2_VALUE          0x24U               /* MCG_C2 */
   /* MCG_C4: DMX32=0,DRST_DRS=0,FCTRIM=0,SCFTRIM=0 */
@@ -126,8 +126,8 @@ extern "C" {
   #define SYSTEM_MCG_SC_VALUE          0x00U               /* MCG_SC */
   /* MCG_C5: PLLCLKEN=0,PLLSTEN=0,PRDIV=1 */
   #define SYSTEM_MCG_C5_VALUE          0x01U               /* MCG_C5 */
-  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV=0x0E */
-  #define SYSTEM_MCG_C6_VALUE          0x4EU               /* MCG_C6 */
+  /* MCG_C6: LOLIE0=0,PLLS=1,CME0=0,VDIV=4 */
+  #define SYSTEM_MCG_C6_VALUE          0x44U               /* MCG_C6 */
   /* MCG_C7: OSCSEL=0 */
   #define SYSTEM_MCG_C7_VALUE          0x00U               /* MCG_C7 */
   /* MCG_C9: PLL_CME=0,PLL_LOCRE=0,EXT_PLL_LOCS=0 */

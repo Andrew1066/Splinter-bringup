@@ -29,7 +29,7 @@
 
 #include "Cpu.h"
 #include "Events.h"
-#include "hid1_hid.h"
+#include "msd1_msd.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -48,16 +48,6 @@ void FTM0_IRQHandler(void)
 void I2C0_IRQHandler(void)
 {
   I2C_DRV_IRQHandler(FSL_I2CCOM1);
-}
-
-void uartCom1_RxCallback(uint32_t instance, void * uartState)
-{
-  /* Write your code here ... */
-}
-
-void uartCom1_TxCallback(uint32_t instance, void * uartState)
-{
-  /* Write your code here ... */
 }
 
 /*! dspiCom2 IRQ handler */
@@ -82,6 +72,7 @@ void SPI0_IRQHandler(void)
   /* Write your code here ... */
 }
 
+/*! extWdog1 IRQ handler */
 /* END Events */
 
 #ifdef __cplusplus

@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-21, 17:25, # CodeGen: 94
 **     Abstract    :
 **
 **     Settings    :
@@ -217,7 +217,7 @@
 **              Peripheral Type EWM                        : 
 **                Custom name                              : EWM
 **                EWM                                      : 
-**                  Input pin                              : <Automatic>
+**                  Input pin                              : ADC0_SE18/PTE25/LLWU_P21/CAN1_RX/UART4_RX/I2C0_SDA/EWM_IN
 **                  Output pin                             : <Automatic>
 **                Bool_EWM                                 : yes
 **              Peripheral Type FB                         : 
@@ -396,8 +396,8 @@
 **                  Direction                              : <Automatic>
 **                  Pin 3                                  : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 4                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 4                                  : TSI0_CH5/PTA4/LLWU_P3/FTM0_CH1/NMI_b/EZP_CS_b
+**                  Direction                              : Input
 **                  Pin 5                                  : PTA5/USB0_CLKIN/FTM0_CH2/RMII0_RXER/MII0_RXER/CMP2_OUT/I2S0_TX_BCLK/JTAG_TRST_b
 **                  Direction                              : Input
 **                  Pin 6                                  : <Automatic>
@@ -460,9 +460,9 @@
 **                  Pin 5                                  : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Pin 6                                  : ADC1_SE12/PTB6/FB_AD23/SDRAM_D23
-**                  Direction                              : Output
+**                  Direction                              : Input
 **                  Pin 7                                  : ADC1_SE13/PTB7/FB_AD22/SDRAM_D22
-**                  Direction                              : Output
+**                  Direction                              : Input
 **                  Pin 8                                  : PTB8/UART3_RTS_b/FB_AD21/SDRAM_D21
 **                  Direction                              : Output
 **                  Pin 9                                  : PTB9/SPI1_PCS1/UART3_CTS_b/FB_AD20/SDRAM_D20
@@ -641,8 +641,8 @@
 **                Bool_I2C0                                : yes
 **                Custom name                              : I2C1
 **                I2C1                                     : 
-**                  SCL - Serial clock                     : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
-**                  SDA - Serial data                      : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
+**                  SCL - Serial clock                     : <Automatic>
+**                  SDA - Serial data                      : <Automatic>
 **                Bool_I2C1                                : yes
 **                Custom name                              : I2C2
 **                I2C2                                     : 
@@ -732,7 +732,7 @@
 **                  RTS - Request to send                  : <Automatic>
 **                  RX - Receive data                      : <Automatic>
 **                  TX - Transmit data                     : <Automatic>
-**                Bool_LPUART0                             : yes
+**                Bool_LPUART0                             : no
 **              Peripheral Type MCG                        : 
 **                Custom name                              : MCG
 **              Peripheral Type MCM                        : 
@@ -998,16 +998,16 @@
 **                  COL - Collision detect                 : <Automatic>
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : CMP3_IN1/PTA15/SPI0_SCK/UART0_RX/RMII0_TXEN/MII0_TXEN/I2S0_RXD0
-**                  TX - Transmit data                     : PTA14/SPI0_PCS0/UART0_TX/RMII0_CRS_DV/MII0_RXDV/I2C2_SCL/I2S0_RX_BCLK/I2S0_TXD1
+**                  RX - Receive data                      : <Automatic>
+**                  TX - Transmit data                     : <Automatic>
 **                  UART Tx modulator input                : <Automatic>
 **                Bool_UART0                               : yes
 **                Custom name                              : UART1
 **                UART1                                    : 
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : <Automatic>
-**                  TX - Transmit data                     : <Automatic>
+**                  RX - Receive data                      : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
+**                  TX - Transmit data                     : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
 **                  UART Tx modulator input                : <Automatic>
 **                Bool_UART1                               : yes
 **                Custom name                              : UART2
@@ -1021,8 +1021,8 @@
 **                UART3                                    : 
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : <Automatic>
-**                  TX - Transmit data                     : <Automatic>
+**                  RX - Receive data                      : ADC1_SE14/PTB10/SPI1_PCS0/UART3_RX/FB_AD19/SDRAM_D19/FTM0_FLT1
+**                  TX - Transmit data                     : ADC1_SE15/PTB11/SPI1_SCK/UART3_TX/FB_AD18/SDRAM_D18/FTM0_FLT2
 **                Bool_UART3                               : yes
 **                Custom name                              : UART4
 **                UART4                                    : 
@@ -1080,7 +1080,7 @@
 **              Pin A1: ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT: 
 **                Custom name, Signal name                 : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1109,8 +1109,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A5: ADC0_SE5b/PTD1/SPI0_SCK/UART2_CTS_b/FTM3_CH1/FB_CS0_b: 
 **                Custom name, Signal name                 : ADC0_SE5b/PTD1/SPI0_SCK/UART2_CTS_b/FTM3_CH1/FB_CS0_b
@@ -1118,8 +1118,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A6: PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FB_ALE/FB_CS1_b/FB_TS_b: 
 **                Custom name, Signal name                 : PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FB_ALE/FB_CS1_b/FB_TS_b
@@ -1127,8 +1127,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A7: PTC25/LPUART0_RX/FB_A4/SDRAM_D4    : 
 **                Custom name, Signal name                 : PTC25/LPUART0_RX/FB_A4/SDRAM_D4
@@ -1176,8 +1176,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **              Pin A13: ADC0_SE4b/CMP1_IN0/TSI0_CH15/PTC2/SPI0_PCS2/UART1_CTS_b/FTM0_CH1/FB_AD12/SDRAM_A20/I2S0_TX_FS: 
 **                Custom name, Signal name                 : ADC0_SE4b/CMP1_IN0/TSI0_CH15/PTC2/SPI0_PCS2/UART1_CTS_b/FTM0_CH1/FB_AD12/SDRAM_A20/I2S0_TX_FS
 **                Slew rate                                : <Automatic>
@@ -1189,7 +1189,7 @@
 **              Pin B1: ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN: 
 **                Custom name, Signal name                 : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1742,7 +1742,7 @@
 **              Pin G12: ADC0_SE9/ADC1_SE9/TSI0_CH6/PTB1/I2C0_SDA/FTM1_CH1/RMII0_MDC/MII0_MDC/SDRAM_RAS_b/FTM1_QD_PHB/TPM1_CH1: 
 **                Custom name, Signal name                 : ADC0_SE9/ADC1_SE9/TSI0_CH6/PTB1/I2C0_SDA/FTM1_CH1/RMII0_MDC/MII0_MDC/SDRAM_RAS_b/FTM1_QD_PHB/TPM1_CH1
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1750,7 +1750,7 @@
 **              Pin G13: ADC0_SE8/ADC1_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/RMII0_MDIO/MII0_MDIO/SDRAM_CAS_b/FTM1_QD_PHA/TPM1_CH0: 
 **                Custom name, Signal name                 : ADC0_SE8/ADC1_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/RMII0_MDIO/MII0_MDIO/SDRAM_CAS_b/FTM1_QD_PHA/TPM1_CH0
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1897,8 +1897,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pulldown
+**                Pull enable                              : Enabled
 **              Pin K8: PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB0_CLKIN: 
 **                Custom name, Signal name                 : PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB0_CLKIN
 **                Slew rate                                : <Automatic>
@@ -1914,15 +1914,15 @@
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull enable                              : Enabled
 **              Pin K10: PTA9/FTM1_CH1/MII0_RXD3/FTM1_QD_PHB/TPM1_CH1/TRACE_D1: 
 **                Custom name, Signal name                 : PTA9/FTM1_CH1/MII0_RXD3/FTM1_QD_PHB/TPM1_CH1/TRACE_D1
 **                Slew rate                                : <Automatic>
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pulldown
+**                Pull enable                              : Disabled
 **              Pin K11: CMP3_IN4/PTA24/MII0_TXD2/FB_A15/SDRAM_D15/FB_A29: 
 **                Custom name, Signal name                 : CMP3_IN4/PTA24/MII0_TXD2/FB_A15/SDRAM_D15/FB_A29
 **                Slew rate                                : <Automatic>
@@ -2108,7 +2108,7 @@
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull enable                              : Enabled
 **              Pin N11: PTA10/LLWU_P22/FTM2_CH0/MII0_RXD2/FTM2_QD_PHA/TPM2_CH0/TRACE_D0: 
 **                Custom name, Signal name                 : PTA10/LLWU_P22/FTM2_CH0/MII0_RXD2/FTM2_QD_PHA/TPM2_CH0/TRACE_D0
 **                Slew rate                                : <Automatic>
@@ -2209,6 +2209,30 @@ void deinit_enet_pins(uint32_t instance)
 {
   PORT_HAL_SetMuxMode(PORTA,18UL,kPortPinDisabled);
 }
+
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_ewm_pins
+* Description   : EWM method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_ewm_pins(uint32_t instance)
+{
+  /* Affects PORTE_PCR25 register */
+  PORT_HAL_SetPullMode(PORTE,25UL,kPortPullDown);
+  PORT_HAL_SetMuxMode(PORTE,25UL,kPortMuxAlt6);
+  PORT_HAL_SetPullCmd(PORTE,25UL,true);
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_ewm_pins
+* Description   : EWM method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_ewm_pins(uint32_t instance)
+{
+  PORT_HAL_SetMuxMode(PORTE,25UL,kPortPinDisabled);
+}
 /*FUNCTION**********************************************************************
 *
 * Function Name : init_ftm_pins
@@ -2264,42 +2288,66 @@ void init_gpio_pins(uint32_t instance)
 {
   switch(instance) {    
     case PORTA_IDX:                     /* PORTA_IDX */
+      /* Affects PORTA_PCR4 register */
+      PORT_HAL_SetMuxMode(PORTA,4UL,kPortMuxAsGpio);
       /* Affects PORTA_PCR5 register */
       PORT_HAL_SetMuxMode(PORTA,5UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTA,5UL,true);
       /* Affects PORTA_PCR8 register */
       PORT_HAL_SetMuxMode(PORTA,8UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullCmd(PORTA,8UL,true);
       /* Affects PORTA_PCR9 register */
+      PORT_HAL_SetPullMode(PORTA,9UL,kPortPullDown);
+      PORT_HAL_SetPullCmd(PORTA,9UL,false);
       PORT_HAL_SetMuxMode(PORTA,9UL,kPortMuxAsGpio);
       /* Affects PORTA_PCR12 register */
       PORT_HAL_SetMuxMode(PORTA,12UL,kPortMuxAsGpio);
       break;
     case PORTB_IDX:                     /* PORTB_IDX */
       /* Affects PORTB_PCR3 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,3UL,false);
       PORT_HAL_SetMuxMode(PORTB,3UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,3UL,kPortSlowSlewRate);
       /* Affects PORTB_PCR6 register */
       PORT_HAL_SetMuxMode(PORTB,6UL,kPortMuxAsGpio);
       /* Affects PORTB_PCR7 register */
       PORT_HAL_SetMuxMode(PORTB,7UL,kPortMuxAsGpio);
       /* Affects PORTB_PCR8 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,8UL,false);
       PORT_HAL_SetMuxMode(PORTB,8UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,8UL,kPortSlowSlewRate);
       /* Affects PORTB_PCR9 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,9UL,false);
       PORT_HAL_SetMuxMode(PORTB,9UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,9UL,kPortSlowSlewRate);
       /* Affects PORTB_PCR16 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,16UL,false);
       PORT_HAL_SetMuxMode(PORTB,16UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,16UL,kPortSlowSlewRate);
       /* Affects PORTB_PCR17 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,17UL,false);
       PORT_HAL_SetMuxMode(PORTB,17UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,17UL,kPortSlowSlewRate);
       /* Affects PORTB_PCR18 register */
+      PORT_HAL_SetOpenDrainCmd(PORTB,18UL,false);
       PORT_HAL_SetMuxMode(PORTB,18UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTB,18UL,kPortSlowSlewRate);
       break;
     case PORTC_IDX:                     /* PORTC_IDX */
       /* Affects PORTC_PCR0 register */
+      PORT_HAL_SetOpenDrainCmd(PORTC,0UL,false);
       PORT_HAL_SetMuxMode(PORTC,0UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTC,0UL,kPortSlowSlewRate);
       /* Affects PORTC_PCR1 register */
       PORT_HAL_SetMuxMode(PORTC,1UL,kPortMuxAsGpio);
       /* Affects PORTC_PCR2 register */
+      PORT_HAL_SetOpenDrainCmd(PORTC,2UL,false);
       PORT_HAL_SetMuxMode(PORTC,2UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTC,2UL,kPortSlowSlewRate);
       /* Affects PORTC_PCR3 register */
       PORT_HAL_SetMuxMode(PORTC,3UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTC,3UL,kPortPullUp);
+      PORT_HAL_SetPullCmd(PORTC,3UL,true);
       /* Affects PORTC_PCR4 register */
       PORT_HAL_SetMuxMode(PORTC,4UL,kPortMuxAsGpio);
       /* Affects PORTC_PCR8 register */
@@ -2308,20 +2356,24 @@ void init_gpio_pins(uint32_t instance)
       PORT_HAL_SetPullMode(PORTC,9UL,kPortPullDown);
       PORT_HAL_SetMuxMode(PORTC,9UL,kPortMuxAsGpio);
       PORT_HAL_SetPullCmd(PORTC,9UL,true);
-      /* Affects PORTC_PCR16 register */
-      PORT_HAL_SetMuxMode(PORTC,16UL,kPortMuxAsGpio);
-      PORT_HAL_SetSlewRateMode(PORTC,16UL,kPortSlowSlewRate);
-      PORT_HAL_SetOpenDrainCmd(PORTC,16UL,true);
       break;
     case PORTD_IDX:                     /* PORTD_IDX */
       /* Affects PORTD_PCR0 register */
       PORT_HAL_SetMuxMode(PORTD,0UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTD,0UL,kPortPullUp);
+      PORT_HAL_SetPullCmd(PORTD,0UL,true);
       /* Affects PORTD_PCR1 register */
       PORT_HAL_SetMuxMode(PORTD,1UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTD,1UL,kPortPullUp);
+      PORT_HAL_SetPullCmd(PORTD,1UL,true);
       /* Affects PORTD_PCR2 register */
       PORT_HAL_SetMuxMode(PORTD,2UL,kPortMuxAsGpio);
+      PORT_HAL_SetPullMode(PORTD,2UL,kPortPullUp);
+      PORT_HAL_SetPullCmd(PORTD,2UL,true);
       /* Affects PORTD_PCR3 register */
+      PORT_HAL_SetOpenDrainCmd(PORTD,3UL,false);
       PORT_HAL_SetMuxMode(PORTD,3UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTD,3UL,kPortSlowSlewRate);
       break;
     default:
       break;
@@ -2337,6 +2389,7 @@ void deinit_gpio_pins(uint32_t instance)
 {
   switch(instance) {    
     case PORTA_IDX:                     /* PORTA_IDX */
+      PORT_HAL_SetMuxMode(PORTA,4UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTA,5UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTA,8UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTA,9UL,kPortPinDisabled);
@@ -2360,7 +2413,6 @@ void deinit_gpio_pins(uint32_t instance)
       PORT_HAL_SetMuxMode(PORTC,4UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,8UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,9UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTC,16UL,kPortPinDisabled);
       break;
     case PORTD_IDX:                     /* PORTD_IDX */
       PORT_HAL_SetMuxMode(PORTD,0UL,kPortPinDisabled);
@@ -2384,14 +2436,10 @@ void init_i2c_pins(uint32_t instance)
     case I2C0_IDX:                      /* I2C0_IDX */
       /* Affects PORTB_PCR0 register */
       PORT_HAL_SetMuxMode(PORTB,0UL,kPortMuxAlt2);
+      PORT_HAL_SetOpenDrainCmd(PORTB,0UL,true);
       /* Affects PORTB_PCR1 register */
       PORT_HAL_SetMuxMode(PORTB,1UL,kPortMuxAlt2);
-      break;
-    case I2C1_IDX:                      /* I2C1_IDX */
-      /* Affects PORTE_PCR1 register */
-      PORT_HAL_SetMuxMode(PORTE,1UL,kPortMuxAlt6);
-      /* Affects PORTE_PCR0 register */
-      PORT_HAL_SetMuxMode(PORTE,0UL,kPortMuxAlt6);
+      PORT_HAL_SetOpenDrainCmd(PORTB,1UL,true);
       break;
     default:
       break;
@@ -2409,10 +2457,6 @@ void deinit_i2c_pins(uint32_t instance)
     case I2C0_IDX:                      /* I2C0_IDX */
       PORT_HAL_SetMuxMode(PORTB,0UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTB,1UL,kPortPinDisabled);
-      break;
-    case I2C1_IDX:                      /* I2C1_IDX */
-      PORT_HAL_SetMuxMode(PORTE,1UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTE,0UL,kPortPinDisabled);
       break;
     default:
       break;
@@ -2458,16 +2502,24 @@ void deinit_jtag_pins(uint32_t instance)
 *END**************************************************************************/
 void init_llwu_pins(uint32_t instance)
 {
+  /* Affects PORTA_PCR4 register */
+  PORT_HAL_SetMuxMode(PORTA,4UL,kPortMuxAsGpio);
   /* Affects PORTC_PCR1 register */
   PORT_HAL_SetMuxMode(PORTC,1UL,kPortMuxAsGpio);
   /* Affects PORTC_PCR3 register */
   PORT_HAL_SetMuxMode(PORTC,3UL,kPortMuxAsGpio);
+  PORT_HAL_SetPullMode(PORTC,3UL,kPortPullUp);
+  PORT_HAL_SetPullCmd(PORTC,3UL,true);
   /* Affects PORTC_PCR4 register */
   PORT_HAL_SetMuxMode(PORTC,4UL,kPortMuxAsGpio);
   /* Affects PORTD_PCR0 register */
   PORT_HAL_SetMuxMode(PORTD,0UL,kPortMuxAsGpio);
+  PORT_HAL_SetPullMode(PORTD,0UL,kPortPullUp);
+  PORT_HAL_SetPullCmd(PORTD,0UL,true);
   /* Affects PORTD_PCR2 register */
   PORT_HAL_SetMuxMode(PORTD,2UL,kPortMuxAsGpio);
+  PORT_HAL_SetPullMode(PORTD,2UL,kPortPullUp);
+  PORT_HAL_SetPullCmd(PORTD,2UL,true);
 }
 /*FUNCTION**********************************************************************
 *
@@ -2477,36 +2529,12 @@ void init_llwu_pins(uint32_t instance)
 *END**************************************************************************/
 void deinit_llwu_pins(uint32_t instance)
 {
+  PORT_HAL_SetMuxMode(PORTA,4UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTC,1UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTC,3UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTC,4UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTD,0UL,kPortPinDisabled);
   PORT_HAL_SetMuxMode(PORTD,2UL,kPortPinDisabled);
-}
-
-/*FUNCTION**********************************************************************
-*
-* Function Name : init_lpuart_pins
-* Description   : LPUART method sets registers according routing settings.
-* Call this method code to route desired pins.
-*END**************************************************************************/
-void init_lpuart_pins(uint32_t instance)
-{
-  /* Affects PORTE_PCR9 register */
-  PORT_HAL_SetMuxMode(PORTE,9UL,kPortMuxAlt5);
-  /* Affects PORTE_PCR8 register */
-  PORT_HAL_SetMuxMode(PORTE,8UL,kPortMuxAlt5);
-}
-/*FUNCTION**********************************************************************
-*
-* Function Name : deinit_lpuart_pins
-* Description   : LPUART method sets registers according routing settings.
-* Call this method code to disable routing of desired pins.
-*END**************************************************************************/
-void deinit_lpuart_pins(uint32_t instance)
-{
-  PORT_HAL_SetMuxMode(PORTE,9UL,kPortPinDisabled);
-  PORT_HAL_SetMuxMode(PORTE,8UL,kPortPinDisabled);
 }
 
 /*FUNCTION**********************************************************************
@@ -2543,8 +2571,6 @@ void init_spi_pins(uint32_t instance)
 {
   switch(instance) {    
     case SPI0_IDX:                      /* SPI0_IDX */
-      /* Affects PORTB_PCR23 register */
-      PORT_HAL_SetMuxMode(PORTB,23UL,kPortMuxAlt3);
       /* Affects PORTC_PCR7 register */
       PORT_HAL_SetMuxMode(PORTC,7UL,kPortMuxAlt2);
       /* Affects PORTC_PCR5 register */
@@ -2576,7 +2602,6 @@ void deinit_spi_pins(uint32_t instance)
 {
   switch(instance) {    
     case SPI0_IDX:                      /* SPI0_IDX */
-      PORT_HAL_SetMuxMode(PORTB,23UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,7UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,5UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,6UL,kPortPinDisabled);
@@ -2622,11 +2647,19 @@ void deinit_tpiu_pins(uint32_t instance)
 void init_uart_pins(uint32_t instance)
 {
   switch(instance) {    
-    case UART0_IDX:                     /* UART0_IDX */
-      /* Affects PORTA_PCR15 register */
-      PORT_HAL_SetMuxMode(PORTA,15UL,kPortMuxAlt3);
-      /* Affects PORTA_PCR14 register */
-      PORT_HAL_SetMuxMode(PORTA,14UL,kPortMuxAlt3);
+    case UART1_IDX:                     /* UART1_IDX */
+      /* Affects PORTE_PCR1 register */
+      PORT_HAL_SetMuxMode(PORTE,1UL,kPortMuxAlt3);
+      PORT_HAL_SetOpenDrainCmd(PORTE,1UL,true);
+      /* Affects PORTE_PCR0 register */
+      PORT_HAL_SetMuxMode(PORTE,0UL,kPortMuxAlt3);
+      PORT_HAL_SetOpenDrainCmd(PORTE,0UL,true);
+      break;
+    case UART3_IDX:                     /* UART3_IDX */
+      /* Affects PORTB_PCR10 register */
+      PORT_HAL_SetMuxMode(PORTB,10UL,kPortMuxAlt3);
+      /* Affects PORTB_PCR11 register */
+      PORT_HAL_SetMuxMode(PORTB,11UL,kPortMuxAlt3);
       break;
     default:
       break;
@@ -2641,9 +2674,13 @@ void init_uart_pins(uint32_t instance)
 void deinit_uart_pins(uint32_t instance)
 {
   switch(instance) {    
-    case UART0_IDX:                     /* UART0_IDX */
-      PORT_HAL_SetMuxMode(PORTA,15UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTA,14UL,kPortPinDisabled);
+    case UART1_IDX:                     /* UART1_IDX */
+      PORT_HAL_SetMuxMode(PORTE,1UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTE,0UL,kPortPinDisabled);
+      break;
+    case UART3_IDX:                     /* UART3_IDX */
+      PORT_HAL_SetMuxMode(PORTB,10UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTB,11UL,kPortPinDisabled);
       break;
     default:
       break;

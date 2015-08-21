@@ -227,6 +227,14 @@ Module "pin_mux"   (component PinSettings)
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
                 ENET peripheral.
+   - pin_mux_init_ewm_pins -EWM method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into EWM 
+                peripheral.
+   - pin_mux_deinit_ewm_pins -EWM method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into EWM 
+                peripheral.
    - pin_mux_init_ftm_pins -FTM method configures registers according to settings  of routing and electrical features. This 
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
@@ -267,14 +275,6 @@ Module "pin_mux"   (component PinSettings)
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
                 LLWU peripheral.
-   - pin_mux_init_lpuart_pins -LPUART method configures registers according to settings  of routing and electrical features. 
-                This method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either 
-                user selected pins or pins selected in pin items in components. Call this method code to route desired pins 
-                into LPUART0 peripheral.
-   - pin_mux_deinit_lpuart_pins -LPUART method configures registers according to settings  of routing and electrical features. 
-                This method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either 
-                user selected pins or pins selected in pin items in components. Call this method code to route desired pins 
-                into LPUART0 peripheral.
    - pin_mux_init_osc_pins -OSC method configures registers according to settings  of routing and electrical features. This 
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into OSC 
@@ -600,14 +600,6 @@ Module "flexTimer2" (component fsl_ftm_hal)
    - flexTimer2_FTM_HAL_EnablePwmMode -Enables the FTM timer when it is PWM output mode.
    - flexTimer2_FTM_HAL_DisablePwmMode -Disables the PWM output mode.
 
-Module "DbgCs1"    (component fsl_debug_console)
-   - DbgCs1_DbgConsole_Init -Init the UART/LPUART used for debug messages.
-   - DbgCs1_DbgConsole_DeInit -Deinit the UART/LPUART used for debug messages.
-   - DbgCs1_debug_printf -Prints formatted output to the standard output stream.
-   - DbgCs1_debug_putchar -Writes a character to stdout.
-   - DbgCs1_debug_scanf -Reads formatted data from the standard input stream.
-   - DbgCs1_debug_getchar -Reads a character from standard input.
-
 Module "dspiCom1"  (component fsl_dspi)
    - dspiCom1_DSPI_DRV_IRQHandler -The function DSPI_DRV_IRQHandler passes IRQ control to either the master or slave driver.
    - dspiCom1_DSPI_DRV_MasterInit -Initializes a DSPI instance for master mode operation.
@@ -696,168 +688,6 @@ Module "dspiCom3"  (component fsl_dspi_hal)
    - dspiCom3_DSPI_HAL_PresetTransferCount -Pre-sets the transfer count.
    - dspiCom3_DSPI_HAL_GetFormattedCommand -Returns the DSPI command word formatted to the PUSHR data register bit field.
 
-Module "uartCom1"  (component fsl_uart)
-   - uartCom1_UART_DRV_Init -Initializes an UART instance for operation.
-   - uartCom1_UART_DRV_Deinit -Shuts down the UART by disabling interrupts and the transmitter/receiver.
-   - uartCom1_UART_DRV_InstallRxCallback -Installs the callback function for the UART receive.
-   - uartCom1_UART_DRV_InstallTxCallback -Installs the callback function for the UART transmit.
-   - uartCom1_UART_DRV_SendDataBlocking -Sends (transmits) data out through the UART module using a blocking method.
-   - uartCom1_UART_DRV_SendData -Sends (transmits) data through the UART module using a non-blocking method.
-   - uartCom1_UART_DRV_GetTransmitStatus -Returns whether the previous UART transmit has finished.
-   - uartCom1_UART_DRV_AbortSendingData -Terminates an asynchronous UART transmission early.
-   - uartCom1_UART_DRV_ReceiveDataBlocking -Gets (receives) data from the UART module using a blocking method.
-   - uartCom1_UART_DRV_ReceiveData -Gets (receives) data from the UART module using a non-blocking method.
-   - uartCom1_UART_DRV_GetReceiveStatus -Returns whether the previous UART receive is complete.
-   - uartCom1_UART_DRV_AbortReceivingData -Terminates an asynchronous UART receive early.
-
-Module "uartCom2"  (component fsl_uart_hal)
-   - uartCom2_UART_HAL_Init -Initializes the UART controller.
-   - uartCom2_UART_HAL_EnableTransmitter -Enables the UART transmitter.
-   - uartCom2_UART_HAL_DisableTransmitter -Disables the UART transmitter.
-   - uartCom2_UART_HAL_IsTransmitterEnabled -Gets the UART transmitter enabled/disabled configuration setting.
-   - uartCom2_UART_HAL_EnableReceiver -Enables the UART receiver.
-   - uartCom2_UART_HAL_DisableReceiver -Disables the UART receiver.
-   - uartCom2_UART_HAL_IsReceiverEnabled -Gets the UART receiver enabled/disabled configuration setting.
-   - uartCom2_UART_HAL_SetBaudRate -Configures the UART baud rate.
-   - uartCom2_UART_HAL_SetBaudRateDivisor -Sets the UART baud rate modulo divisor value.
-   - uartCom2_UART_HAL_SetBaudRateFineAdjust -Sets the UART baud rate fine adjust. (Note: Feature available on select UART 
-                bases used in conjunction with baud rate programming)
-   - uartCom2_UART_HAL_SetBitCountPerChar -Configures the number of bits per character in the UART controller.
-   - uartCom2_UART_HAL_SetParityMode -Configures the parity mode in the UART controller.
-   - uartCom2_UART_HAL_SetStopBitCount -Configures the number of stop bits in the UART controller.
-   - uartCom2_UART_HAL_GetDataRegAddr -Get UART tx/rx data register address.
-   - uartCom2_UART_HAL_SetIntMode -Configures the UART module interrupts to enable/disable various interrupt sources.
-   - uartCom2_UART_HAL_GetIntMode -Returns whether the UART module interrupts is enabled/disabled.
-   - uartCom2_UART_HAL_SetTxDmaCmd -Enable or disable UART DMA request for Transmitter.
-   - uartCom2_UART_HAL_GetTxDmaCmd -Gets the UART Transmit DMA request configuration setting.
-   - uartCom2_UART_HAL_SetRxDmaCmd -Enable or disable UART DMA request for Receiver.
-   - uartCom2_UART_HAL_GetRxDmaCmd -Gets the UART Receive DMA request configuration setting.
-   - uartCom2_UART_HAL_Putchar -This function allows the user to send an 8-bit character from the UART data register.
-   - uartCom2_UART_HAL_Putchar9 -This function allows the user to send a 9-bit character from the UART data register.
-   - uartCom2_UART_HAL_Getchar -This function gets a received 8-bit character from the UART data register.
-   - uartCom2_UART_HAL_Getchar9 -This function gets a received 9-bit character from the UART data register.
-   - uartCom2_UART_HAL_SendDataPolling -Send out multiple bytes of data using polling method.
-   - uartCom2_UART_HAL_ReceiveDataPolling -Receive multiple bytes of data using polling method.
-   - uartCom2_UART_HAL_SetBit10AsParityBit -Configures the UART bit 10 (if enabled) or bit 9 (if disabled) as the parity bit in 
-                the serial transmission.
-   - uartCom2_UART_HAL_IsBit10SetAsParityBit -Gets the configuration of the UART bit 10 (if enabled) or bit 9 (if disabled) as 
-                the parity bit in the serial transmission.
-   - uartCom2_UART_HAL_IsCurrentDataWithNoise -Determines whether the UART received data word was received with noise.
-   - uartCom2_UART_HAL_IsCurrentDataWithParityError -Determines whether the UART received data word was received with a parity 
-                error.
-   - uartCom2_UART_HAL_GetStatusFlag -Gets all UART status flag states.
-   - uartCom2_UART_HAL_ClearStatusFlag -Clears an individual and specific UART status flag.
-   - uartCom2_UART_HAL_SetTxFifoCmd -Enables or disable the UART transmit FIFO.
-   - uartCom2_UART_HAL_SetRxFifoCmd -Enables or disable the UART receive FIFO.
-   - uartCom2_UART_HAL_GetTxFifoSize -Gets the size of the UART transmit FIFO.
-   - uartCom2_UART_HAL_GetRxFifoSize -Gets the size of the UART receive FIFO.
-   - uartCom2_UART_HAL_FlushTxFifo -Flushes the UART transmit FIFO.
-   - uartCom2_UART_HAL_FlushRxFifo -Flushes the UART receive FIFO.
-   - uartCom2_UART_HAL_IsTxFifoEmpty -Gets the UART transmit FIFO empty status state.
-   - uartCom2_UART_HAL_IsRxFifoEmpty -Gets the UART receive FIFO empty status state.
-   - uartCom2_UART_HAL_SetTxFifoWatermark -Sets the UART transmit FIFO watermark value.
-   - uartCom2_UART_HAL_GetTxFifoWatermark -Gets the UART transmit FIFO watermark value.
-   - uartCom2_UART_HAL_GetTxDatawordCountInFifo -Gets the UART transmit FIFO data word count (number of words in the transmit 
-                FIFO).
-   - uartCom2_UART_HAL_SetRxFifoWatermark -Sets the UART receive FIFO watermark value.
-   - uartCom2_UART_HAL_GetRxDatawordCountInFifo -Gets the UART receive FIFO data word count (number of words in the receive 
-                FIFO).
-   - uartCom2_UART_HAL_GetRxFifoWatermark -Gets the UART receive FIFO watermark value.
-   - uartCom2_UART_HAL_SetWaitModeOperation -Configures the UART to either operate or cease to operate in WAIT mode.
-   - uartCom2_UART_HAL_GetWaitModeOperation -Determines if the UART operates or ceases to operate in WAIT mode.
-   - uartCom2_UART_HAL_SetLoopCmd -Configures the UART loopback operation.
-   - uartCom2_UART_HAL_SetReceiverSource -Configures the UART single-wire operation.
-   - uartCom2_UART_HAL_SetTransmitterDir -Configures the UART transmit direction while in single-wire mode.
-   - uartCom2_UART_HAL_PutReceiverInStandbyMode -Places the UART receiver in standby mode.
-   - uartCom2_UART_HAL_PutReceiverInNormalMode -Places the UART receiver in normal mode (disable standby mode operation).
-   - uartCom2_UART_HAL_IsReceiverInStandby -Determines if the UART receiver is currently in standby mode.
-   - uartCom2_UART_HAL_SetReceiverWakeupMethod -Selects the UART receiver wakeup method (idle-line or address-mark) from 
-                standby mode.
-   - uartCom2_UART_HAL_GetReceiverWakeupMethod -Gets the UART receiver wakeup method (idle-line or address-mark) from standby 
-                mode.
-   - uartCom2_UART_HAL_ConfigIdleLineDetect -Configures the operation options of the UART idle line detect.
-   - uartCom2_UART_HAL_SetBreakCharTransmitLength -Configures the UART break character transmit length.
-   - uartCom2_UART_HAL_SetBreakCharDetectLength -Configures the UART break character detect length.
-   - uartCom2_UART_HAL_SetBreakCharCmd -Configures the UART transmit send break character operation.
-   - uartCom2_UART_HAL_SetMatchAddress -Configures the UART match address mode control operation. (Note: Feature available on 
-                select UART bases)
-   - uartCom2_UART_HAL_SetSendMsbFirstCmd -Configures the UART to send data MSB first (Note: Feature available on select UART 
-                bases)
-   - uartCom2_UART_HAL_SetReceiverRtsCmd -Enables the UART receiver request-to-send functionality.
-   - uartCom2_UART_HAL_SetTransmitterRtsCmd -Enables the UART transmitter request-to-send functionality.
-   - uartCom2_UART_HAL_SetTransmitterRtsPolarityMode -Configures the UART transmitter RTS polarity.
-   - uartCom2_UART_HAL_SetTransmitterCtsCmd -Enables the UART transmitter clear-to-send functionality.
-   - uartCom2_UART_HAL_SetInfraredOperation -Configures the UART infrared operation.
-   - uartCom2_UART_HAL_EnableISO7816 -Enables UART ISO7816 feature.
-   - uartCom2_UART_HAL_DisableISO7816 -Disables UART ISO7816 feature.
-   - uartCom2_UART_HAL_IsISO7816Enabled -Gets the UART module ISO7816 feature enabled/disabled configuration setting.
-   - uartCom2_UART_HAL_ConfigureNackOnOverflow -Enables/Disables UART ISO7816 module ONACK generation feature.
-   - uartCom2_UART_HAL_Is6NackOnOverflowEnabled -Gets the UART module ISO7816 module ONACK generation feature enabled/disabled 
-                configuration setting.
-   - uartCom2_UART_HAL_ConfigureNackOnError -Enables/Disables UART ISO7816 module ANACK generation feature.
-   - uartCom2_UART_HAL_Is6NackOnOnErrorEnabled -Gets the UART module ISO7816 module ANACK generation feature enabled/disabled 
-                configuration setting.
-   - uartCom2_UART_HAL_ConfigureInitialCharacterDetection -Enables/Disables UART ISO7816 module Initail character detection 
-                feature.
-   - uartCom2_UART_HAL_IsInitialCharacterDetectionEnabled -Gets the UART module ISO7816 module Initail character detection 
-                feature enabled/disabled configuration setting.
-   - uartCom2_UART_HAL_SetTransferProtocolType -Sets treansfer protocol type for UART ISO7816 module.
-   - uartCom2_UART_HAL_GetTransferProtocolType -Gets treansfer protocol type for UART ISO7816 module.
-   - uartCom2_UART_HAL_SetISO7816IntMode -Configures the UART module ISO7816 feature specific interrupts to enable/disable 
-                various interrupt sources.
-   - uartCom2_UART_HAL_GetISO7816IntMode -Returns whether the UART module ISO7816 feature specific interrupts is 
-                enabled/disabled.
-   - uartCom2_UART_HAL_ClearISO7816InterruptStatus -Clears the UART module ISO7816 feature specific interrupts status bits.
-   - uartCom2_UART_HAL_GetISO7816InterruptStatus -Returns whether the UART module ISO7816 feature specific interrupt status has 
-                been set or not.
-   - uartCom2_UART_HAL_SetISO7816Etu -Sets the basic Elementaty Time Unit of UART instance in ISO7816 mode.
-   - uartCom2_UART_HAL_ResetISO7816WaitTimer -Resets UART ISO7816 specific Wait Timer.
-   - uartCom2_UART_HAL_ResetISO7816CharacterWaitTimer -Resets UART ISO7816 specific Character Wait Timer.
-   - uartCom2_UART_HAL_ResetISO7816BlockWaitTimer -Resets UART ISO7816 specific Block Wait Timer.
-   - uartCom2_UART_HAL_SetWaitTimeMultipllier -Sets a value to Wait Time Multiplier.
-   - uartCom2_UART_HAL_GetWaitTimeMultipllier -Gets the current value of Wait Time Multiplier.
-   - uartCom2_UART_HAL_ResetWaitTimeMultipllier -Resets UART ISO7816 specific Block Wait Timer.
-   - uartCom2_UART_HAL_SetGuardBandInteger -Sets a value to Guard Band Integer.
-   - uartCom2_UART_HAL_GetGuardBandInteger -Gets the current value of Guard Band Integer.
-   - uartCom2_UART_HAL_SetFDMultiplier -Sets a value to FD Multiplier.
-   - uartCom2_UART_HAL_GetFDMultiplier -Gets the current value of FD Multiplier.
-   - uartCom2_UART_HAL_SetTxNACKThreshold -Sets a value to Transmit NACK Threshold.
-   - uartCom2_UART_HAL_GetTxNACKThreshold -Gets the current value of Transmit NACK Threshold.
-   - uartCom2_UART_HAL_SetRxNACKThreshold -Sets a value to Receive NACK Threshold.
-   - uartCom2_UART_HAL_GetRxNACKThreshold -Gets the current value of Receive NACK Threshold.
-   - uartCom2_UART_HAL_SetTLen -Sets a value to Transmit Length in T=1 transfer protocol.
-   - uartCom2_UART_HAL_GetTLen -Gets the current value of Transmit Length field .
-   - uartCom2_UART_HAL_SetAtrDurationTimer -Sets a value to ATR Duration Timer.
-   - uartCom2_UART_HAL_GetAtrDurationTimer -Gets the current value of ATR Duration Timer.
-   - uartCom2_UART_HAL_SetWorkWaitTimeInteger -Sets a value to Work Wait Time Integer.
-   - uartCom2_UART_HAL_GetWorkWaitTimeInteger -Gets the current value of Work Wait Time Integer.
-   - uartCom2_UART_HAL_SetCharacterWaitTimeInteger -Sets a value to Character Wait Time Integer.
-   - uartCom2_UART_HAL_GetCharacterWaitTimeInteger -Gets the current value of Character Wait Time Integer.
-   - uartCom2_UART_HAL_SetBlockWaitTimeInteger -Sets a value to Block Wait Time Integer.
-   - uartCom2_UART_HAL_GetBlockWaitTimeInteger -Gets the current value of Block Wait Time Integer.
-   - uartCom2_UART_HAL_SetBlockGuardTimeInteger -Sets a value to Block Guard Time Integer.
-   - uartCom2_UART_HAL_GetBlockGuardTimeInteger -Gets the current value of Block Guard Time Integer.
-
-Module "FMC"       (component Init_FMC_VAR1)
-   - FMC_Init -This method initializes registers of the FMC module according to the Peripheral Initialization settings. Call 
-                this method in user code to initialize the module. By default, the method is called by PE automatically; see 
-                "Call Init method" property of the component for more details.
-
-Module "hid1"      (component fsl_usb_device_hid_class)
-   - hid1_USB_Class_HID_Init -The application calls this API function to initialize the HID class, the underlying layers, and 
-                the controller hardware. This method is available only for non-composite device (only one device class class 
-                component in the project). For initializing a composite device (more devices class class component in the 
-                project) must be USB_Composite_Init() method called.
-   - hid1_USB_Class_HID_Deinit -Un-initialize the HID class, the underlying layers, and the controller hardware. This method is 
-                available only for non-composite device (only one device class class component in the project). For a composite 
-                device must be USB_Composite_Deinit() method called for un-initializing USB device stack.
-   - hid1_USB_Class_HID_Recv_Data -The application calls this API function to receive HID data specified by app_buff and size.
-   - hid1_USB_Class_HID_Send_Data -The application calls this API function to send HID data specified by app_buff and size. 
-                Once the data is sent, the application layer receives a callback event USB_DEV_EVENT_SEND_COMPLETE. The 
-                application reserves the buffer until it receives a callback event indicating that the data is sent.
-   - hid1_USB_Class_HID_Cancel -The application calls this API function to cancel all the uncompleted transfers in the 
-                specified endpoint.
-
 Module "usbDsc1"   (component fsl_usb_descriptors)
 
 Module "usbFmw1"   (component fsl_usb_framework)
@@ -893,6 +723,44 @@ Module "usbFmw1"   (component fsl_usb_framework)
                 device descriptor related event.
    - usbFmw1_usb_device_get_status -The function is used to get the status of the specified component.
    - usbFmw1_usb_device_set_status -The function is used to set the status of the specified component.
+
+Module "dmaController1" (component fsl_edma)
+   - dmaController1_EDMA_DRV_Init -Initializes all eDMA modules in an SOC.
+   - dmaController1_EDMA_DRV_Deinit -Shuts down all eDMA modules.
+   - dmaController1_EDMA_DRV_RequestChannel -Requests an eDMA channel dynamically or statically.
+   - dmaController1_EDMA_DRV_ReleaseChannel -Releases an eDMA channel.
+   - dmaController1_EDMA_DRV_PrepareDescriptorTransfer -Sets the descriptor basic transfer for the descriptor.
+   - dmaController1_EDMA_DRV_PrepareDescriptorScatterGather -Configures the memory address for the next transfer TCD for the 
+                software TCD.
+   - dmaController1_EDMA_DRV_PrepareDescriptorChannelLink -Configures the major channel link the software TCD.
+   - dmaController1_EDMA_DRV_PushDescriptorToReg -Copies the software TCD configuration to the hardware TCD.
+   - dmaController1_EDMA_DRV_ConfigLoopTransfer -Configures the DMA transfer in a scatter-gather mode.
+   - dmaController1_EDMA_DRV_ConfigScatterGatherTransfer -Configures the DMA transfer in a scatter-gather mode.
+   - dmaController1_EDMA_DRV_StartChannel -Starts an eDMA channel.
+   - dmaController1_EDMA_DRV_StopChannel -Stops the eDMA channel.
+   - dmaController1_EDMA_DRV_InstallCallback -Registers the callback function and the parameter for eDMA channel.
+   - dmaController1_EDMA_DRV_IRQHandler -IRQ Handler for eDMA channel interrupt.
+   - dmaController1_EDMA_DRV_ErrorIRQHandler -ERROR IRQ Handler for eDMA channel interrupt.
+   - dmaController1_EDMA_DRV_GetChannelStatus -Gets the eDMA channel status.
+   - dmaController1_EDMA_DRV_GetUnfinishedBytes -Gets the unfinished bytes for the eDMA channel current TCD.
+   - dmaController1_EDMA_DRV_GetFinishedBytes -Gets the bytes already transferred for the eDMA channel current TCD.
+
+Module "msd1"      (component fsl_usb_device_msd_class)
+   - msd1_USB_Class_MSC_Init -Initializes the MSC class, the underlying layers, and the controller hardware. This method is 
+                available only for non-composite device (only one device class class component in the project). For 
+                initializing a composite device (more devices class class component in the project) must be 
+                USB_Composite_Init() method called.
+   - msd1_USB_Class_MSC_Deinit -Un-initialize the MSD class, the underlying layers, and the controller hardware. This method is 
+                available only for non-composite device (only one device class class component in the project). For a composite 
+                device must be USB_Composite_Deinit() method called for un-initializing USB device stack.
+
+Module "DbgCs1"    (component fsl_debug_console)
+   - DbgCs1_DbgConsole_Init -Init the UART/LPUART used for debug messages.
+   - DbgCs1_DbgConsole_DeInit -Deinit the UART/LPUART used for debug messages.
+   - DbgCs1_debug_printf -Prints formatted output to the standard output stream.
+   - DbgCs1_debug_putchar -Writes a character to stdout.
+   - DbgCs1_debug_scanf -Reads formatted data from the standard input stream.
+   - DbgCs1_debug_getchar -Reads a character from standard input.
 
 Module "Cpu"       (component MK65FN2M0MI18)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 

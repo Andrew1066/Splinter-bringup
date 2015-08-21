@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-11, 22:33, # CodeGen: 38
+**     Date/Time   : 2015-08-18, 11:15, # CodeGen: 50
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -55,7 +55,7 @@
 
 /*! @brief OSC Initialization Configuration Structure */  
 osc_user_config_t clockMan1_osc0_Config = {
-    .freq = 16000000U,
+    .freq = 24000000U,
     .enableCapacitor2p = false,
     .enableCapacitor4p = false,
     .enableCapacitor8p = false,
@@ -97,7 +97,7 @@ clock_manager_user_config_t clockMan1_InitConfig0 = {
         .pll0EnableInFllMode = true, /*!< PLL0 enable in FLL mode */
         .pll0EnableInStop = false, /*!< PLL0 enable in stop mode */
         .prdiv0 = 1U, /*!< PRDIV0 */
-        .vdiv0 = 14U, /*!< VDIV0 */
+        .vdiv0 = 4U, /*!< VDIV0 */
     },       
      
     /*! @brief Configuration of OSCERCLK */

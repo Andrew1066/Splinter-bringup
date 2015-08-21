@@ -37,13 +37,13 @@
 #include "gpio2.h"
 #include "i2cCom1.h"
 #include "flexTimer1.h"
-#include "hid1.h"
 #include "usbDsc1.h"
 #include "usbFmw1.h"
-#include "DbgCs1.h"
 #include "dspiCom1.h"
 #include "dspiCom2.h"
-#include "uartCom1.h"
+#include "dmaController1.h"
+#include "msd1.h"
+#include "DbgCs1.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -55,16 +55,13 @@ void FTM0_IRQHandler(void);
 /*! i2cCom1 IRQ handler */
 void I2C0_IRQHandler(void);
 
-void uartCom1_RxCallback(uint32_t instance, void * uartState);
-
-void uartCom1_TxCallback(uint32_t instance, void * uartState);
-
 /*! dspiCom2 IRQ handler */
 void SPI1_IRQHandler(void);
 
 /*! dspiCom1 IRQ handler */
 void SPI0_IRQHandler(void);
 
+/*! extWdog1 IRQ handler */
 /* END Events */
 
 #ifdef __cplusplus

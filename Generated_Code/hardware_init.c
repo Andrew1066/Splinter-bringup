@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-10, 23:05, # CodeGen: 20
+**     Date/Time   : 2015-08-21, 17:25, # CodeGen: 94
 **     Abstract    :
 **
 **     Settings    :
@@ -217,7 +217,7 @@
 **              Peripheral Type EWM                        : 
 **                Custom name                              : EWM
 **                EWM                                      : 
-**                  Input pin                              : <Automatic>
+**                  Input pin                              : ADC0_SE18/PTE25/LLWU_P21/CAN1_RX/UART4_RX/I2C0_SDA/EWM_IN
 **                  Output pin                             : <Automatic>
 **                Bool_EWM                                 : yes
 **              Peripheral Type FB                         : 
@@ -396,8 +396,8 @@
 **                  Direction                              : <Automatic>
 **                  Pin 3                                  : <Automatic>
 **                  Direction                              : <Automatic>
-**                  Pin 4                                  : <Automatic>
-**                  Direction                              : <Automatic>
+**                  Pin 4                                  : TSI0_CH5/PTA4/LLWU_P3/FTM0_CH1/NMI_b/EZP_CS_b
+**                  Direction                              : Input
 **                  Pin 5                                  : PTA5/USB0_CLKIN/FTM0_CH2/RMII0_RXER/MII0_RXER/CMP2_OUT/I2S0_TX_BCLK/JTAG_TRST_b
 **                  Direction                              : Input
 **                  Pin 6                                  : <Automatic>
@@ -460,9 +460,9 @@
 **                  Pin 5                                  : <Automatic>
 **                  Direction                              : <Automatic>
 **                  Pin 6                                  : ADC1_SE12/PTB6/FB_AD23/SDRAM_D23
-**                  Direction                              : Output
+**                  Direction                              : Input
 **                  Pin 7                                  : ADC1_SE13/PTB7/FB_AD22/SDRAM_D22
-**                  Direction                              : Output
+**                  Direction                              : Input
 **                  Pin 8                                  : PTB8/UART3_RTS_b/FB_AD21/SDRAM_D21
 **                  Direction                              : Output
 **                  Pin 9                                  : PTB9/SPI1_PCS1/UART3_CTS_b/FB_AD20/SDRAM_D20
@@ -641,8 +641,8 @@
 **                Bool_I2C0                                : yes
 **                Custom name                              : I2C1
 **                I2C1                                     : 
-**                  SCL - Serial clock                     : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
-**                  SDA - Serial data                      : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
+**                  SCL - Serial clock                     : <Automatic>
+**                  SDA - Serial data                      : <Automatic>
 **                Bool_I2C1                                : yes
 **                Custom name                              : I2C2
 **                I2C2                                     : 
@@ -732,7 +732,7 @@
 **                  RTS - Request to send                  : <Automatic>
 **                  RX - Receive data                      : <Automatic>
 **                  TX - Transmit data                     : <Automatic>
-**                Bool_LPUART0                             : yes
+**                Bool_LPUART0                             : no
 **              Peripheral Type MCG                        : 
 **                Custom name                              : MCG
 **              Peripheral Type MCM                        : 
@@ -998,16 +998,16 @@
 **                  COL - Collision detect                 : <Automatic>
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : CMP3_IN1/PTA15/SPI0_SCK/UART0_RX/RMII0_TXEN/MII0_TXEN/I2S0_RXD0
-**                  TX - Transmit data                     : PTA14/SPI0_PCS0/UART0_TX/RMII0_CRS_DV/MII0_RXDV/I2C2_SCL/I2S0_RX_BCLK/I2S0_TXD1
+**                  RX - Receive data                      : <Automatic>
+**                  TX - Transmit data                     : <Automatic>
 **                  UART Tx modulator input                : <Automatic>
 **                Bool_UART0                               : yes
 **                Custom name                              : UART1
 **                UART1                                    : 
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : <Automatic>
-**                  TX - Transmit data                     : <Automatic>
+**                  RX - Receive data                      : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
+**                  TX - Transmit data                     : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
 **                  UART Tx modulator input                : <Automatic>
 **                Bool_UART1                               : yes
 **                Custom name                              : UART2
@@ -1021,8 +1021,8 @@
 **                UART3                                    : 
 **                  CTS - Clear to send                    : <Automatic>
 **                  RTS - Request to send                  : <Automatic>
-**                  RX - Receive data                      : <Automatic>
-**                  TX - Transmit data                     : <Automatic>
+**                  RX - Receive data                      : ADC1_SE14/PTB10/SPI1_PCS0/UART3_RX/FB_AD19/SDRAM_D19/FTM0_FLT1
+**                  TX - Transmit data                     : ADC1_SE15/PTB11/SPI1_SCK/UART3_TX/FB_AD18/SDRAM_D18/FTM0_FLT2
 **                Bool_UART3                               : yes
 **                Custom name                              : UART4
 **                UART4                                    : 
@@ -1080,7 +1080,7 @@
 **              Pin A1: ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT: 
 **                Custom name, Signal name                 : ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1109,8 +1109,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A5: ADC0_SE5b/PTD1/SPI0_SCK/UART2_CTS_b/FTM3_CH1/FB_CS0_b: 
 **                Custom name, Signal name                 : ADC0_SE5b/PTD1/SPI0_SCK/UART2_CTS_b/FTM3_CH1/FB_CS0_b
@@ -1118,8 +1118,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A6: PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FB_ALE/FB_CS1_b/FB_TS_b: 
 **                Custom name, Signal name                 : PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FB_ALE/FB_CS1_b/FB_TS_b
@@ -1127,8 +1127,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **                Digital filter                           : <Automatic>
 **              Pin A7: PTC25/LPUART0_RX/FB_A4/SDRAM_D4    : 
 **                Custom name, Signal name                 : PTC25/LPUART0_RX/FB_A4/SDRAM_D4
@@ -1176,8 +1176,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pullup
+**                Pull enable                              : Enabled
 **              Pin A13: ADC0_SE4b/CMP1_IN0/TSI0_CH15/PTC2/SPI0_PCS2/UART1_CTS_b/FTM0_CH1/FB_AD12/SDRAM_A20/I2S0_TX_FS: 
 **                Custom name, Signal name                 : ADC0_SE4b/CMP1_IN0/TSI0_CH15/PTC2/SPI0_PCS2/UART1_CTS_b/FTM0_CH1/FB_AD12/SDRAM_A20/I2S0_TX_FS
 **                Slew rate                                : <Automatic>
@@ -1189,7 +1189,7 @@
 **              Pin B1: ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN: 
 **                Custom name, Signal name                 : ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1742,7 +1742,7 @@
 **              Pin G12: ADC0_SE9/ADC1_SE9/TSI0_CH6/PTB1/I2C0_SDA/FTM1_CH1/RMII0_MDC/MII0_MDC/SDRAM_RAS_b/FTM1_QD_PHB/TPM1_CH1: 
 **                Custom name, Signal name                 : ADC0_SE9/ADC1_SE9/TSI0_CH6/PTB1/I2C0_SDA/FTM1_CH1/RMII0_MDC/MII0_MDC/SDRAM_RAS_b/FTM1_QD_PHB/TPM1_CH1
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1750,7 +1750,7 @@
 **              Pin G13: ADC0_SE8/ADC1_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/RMII0_MDIO/MII0_MDIO/SDRAM_CAS_b/FTM1_QD_PHA/TPM1_CH0: 
 **                Custom name, Signal name                 : ADC0_SE8/ADC1_SE8/TSI0_CH0/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/RMII0_MDIO/MII0_MDIO/SDRAM_CAS_b/FTM1_QD_PHA/TPM1_CH0
 **                Slew rate                                : <Automatic>
-**                Open drain                               : <Automatic>
+**                Open drain                               : Enabled
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
@@ -1897,8 +1897,8 @@
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pulldown
+**                Pull enable                              : Enabled
 **              Pin K8: PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB0_CLKIN: 
 **                Custom name, Signal name                 : PTE26/ENET_1588_CLKIN/UART4_CTS_b/RTC_CLKOUT/USB0_CLKIN
 **                Slew rate                                : <Automatic>
@@ -1914,15 +1914,15 @@
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull enable                              : Enabled
 **              Pin K10: PTA9/FTM1_CH1/MII0_RXD3/FTM1_QD_PHB/TPM1_CH1/TRACE_D1: 
 **                Custom name, Signal name                 : PTA9/FTM1_CH1/MII0_RXD3/FTM1_QD_PHB/TPM1_CH1/TRACE_D1
 **                Slew rate                                : <Automatic>
 **                Open drain                               : <Automatic>
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
-**                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull select                              : Pulldown
+**                Pull enable                              : Disabled
 **              Pin K11: CMP3_IN4/PTA24/MII0_TXD2/FB_A15/SDRAM_D15/FB_A29: 
 **                Custom name, Signal name                 : CMP3_IN4/PTA24/MII0_TXD2/FB_A15/SDRAM_D15/FB_A29
 **                Slew rate                                : <Automatic>
@@ -2108,7 +2108,7 @@
 **                Drive strength                           : <Automatic>
 **                Passive filter                           : <Automatic>
 **                Pull select                              : <Automatic>
-**                Pull enable                              : <Automatic>
+**                Pull enable                              : Enabled
 **              Pin N11: PTA10/LLWU_P22/FTM2_CH0/MII0_RXD2/FTM2_QD_PHA/TPM2_CH0/TRACE_D0: 
 **                Custom name, Signal name                 : PTA10/LLWU_P22/FTM2_CH0/MII0_RXD2/FTM2_QD_PHA/TPM2_CH0/TRACE_D0
 **                Slew rate                                : <Automatic>
@@ -2193,10 +2193,11 @@ void hardware_init(void) {
   SIM_HAL_EnableClock(SIM,kSimClockGatePortD);
 
   /* Setup board clock source. */
-  g_xtal0ClkFreq = 16000000U;           /* Value of the external crystal or oscillator clock frequency of the system oscillator (OSC) in Hz */
+  g_xtal0ClkFreq = 24000000U;           /* Value of the external crystal or oscillator clock frequency of the system oscillator (OSC) in Hz */
   g_xtalRtcClkFreq = 32768U;            /* Value of the external 32k crystal or oscillator clock frequency of the RTC in Hz */
   
   init_enet_pins(ENET_IDX);
+  init_ewm_pins(EWM_IDX);
   init_ftm_pins(FTM0_IDX);
   init_ftm_pins(FTM3_IDX);
   init_gpio_pins(PORTA_IDX);
@@ -2204,15 +2205,14 @@ void hardware_init(void) {
   init_gpio_pins(PORTC_IDX);
   init_gpio_pins(PORTD_IDX);
   init_i2c_pins(I2C0_IDX);
-  init_i2c_pins(I2C1_IDX);
   init_jtag_pins(JTAG_IDX);
   init_llwu_pins(LLWU_IDX);
-  init_lpuart_pins(LPUART0_IDX);
   init_osc_pins(OSC_IDX);
   init_spi_pins(SPI0_IDX);
   init_spi_pins(SPI1_IDX);
   init_tpiu_pins(TPIU_IDX);
-  init_uart_pins(UART0_IDX);
+  init_uart_pins(UART1_IDX);
+  init_uart_pins(UART3_IDX);
 }
 
 /*!

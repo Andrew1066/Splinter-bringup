@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-18, 11:52, # CodeGen: 51
 **     Abstract    :
 **
 **     Contents    :
@@ -78,7 +78,6 @@
 /* Include inherited modules */
 #include "osa1.h"
 #include "clockMan1.h"
-#include "DbgCs1.h"
 #include "Cpu.h"
 #include "usb.h"
 #include "usb_device_stack_interface.h"

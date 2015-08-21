@@ -6,7 +6,7 @@
 **     Version     : Component 1.2.0, Driver 01.00, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-07, 14:52, # CodeGen: 10
+**     Date/Time   : 2015-08-18, 16:51, # CodeGen: 71
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -62,7 +62,7 @@
 #define USBCFG_DEV_NUM                 (USBCFG_DEV_KHCI_NUM + USBCFG_DEV_EHCI_NUM)
 
 /* Enable/disable HID device driver */
-#define USBCFG_DEV_HID                 (1)
+#define USBCFG_DEV_HID                 (0)
 
 /* Enable/disable PHDC device driver */
 #define USBCFG_DEV_PHDC                (0)
@@ -84,7 +84,7 @@
 #endif
 
 /* Enable/disable MSC device driver */
-#define USBCFG_DEV_MSC                 (0)
+#define USBCFG_DEV_MSC                 (1)
 
 /* Enable/disable MSC device driver */
 #define USBCFG_DEV_COMPOSITE           (0)
@@ -96,7 +96,7 @@
 #define USBCFG_DEV_REMOTE_WAKEUP       (0)
 
 /* How many endpoints are supported */
-#define USBCFG_DEV_MAX_ENDPOINTS       (2)
+#define USBCFG_DEV_MAX_ENDPOINTS       (3)
 
 /* How many XDs are supported at most */
 #define USBCFG_DEV_MAX_XDS             (12)
