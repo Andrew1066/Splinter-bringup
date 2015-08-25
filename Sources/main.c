@@ -40,8 +40,6 @@
 #include "usbDsc1.h"
 #include "usbFmw1.h"
 #include "dspiCom1.h"
-#include "dspiCom2.h"
-#include "dmaController1.h"
 #include "msd1.h"
 #include "DbgCs1.h"
 #if CPU_INIT_CONFIG
@@ -88,7 +86,7 @@ uint8_t txBuff[DATA_LENGTH] = {0};
 // Buffer store data to receive from slave
 uint8_t rxBuff[DATA_LENGTH] = {0};
 
-dspi_device_t g_dspiDevice;
+dspi_device_t g_dspiDevice[1];		// only one SPI channel
 dspi_master_user_config_t dspiConfig;
 
 dspi_master_state_t							g_spi_state[2];
@@ -138,7 +136,7 @@ int SHV_IMU_SendData(uint8_t addr, uint8_t reg, uint8_t len, uint8_t*data)
 		dspi_buffer_out[0] = reg;
 		memcpy(dspi_buffer_out + 1, data, chunk);
 		GPIO_DRV_ClearPinOutput(MPU_SPI_CS);
-		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice, dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
+		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice[0], dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
 		GPIO_DRV_SetPinOutput(MPU_SPI_CS);
 		if ( status )
 		{
@@ -180,7 +178,7 @@ int SHV_IMU_ReadData(uint8_t addr, uint8_t reg, uint8_t len, uint8_t* data)
 		uint8_t chunk = min(DSPI_BUFFER_SIZE - 1, len);
 		dspi_buffer_out[0] = reg | 0x80;
 		GPIO_DRV_ClearPinOutput(MPU_SPI_CS);
-		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice, dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
+		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice[0], dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
 		GPIO_DRV_SetPinOutput(MPU_SPI_CS);
 		if ( status )
 		{
@@ -207,6 +205,11 @@ int SHV_IMU_ReadData(uint8_t addr, uint8_t reg, uint8_t len, uint8_t* data)
 	}
 #endif
 	return status;
+}
+
+void reg_int_cb(void* param)
+{
+
 }
 
 
@@ -236,6 +239,7 @@ int main(void)
      	uint8_t buffer_in[2] = { 0xf5, 0x00 };
      	uint8_t buffer_out[2] = { 0x00, 0x00 };
      	uint8_t val = 0x50;
+     	int spires;
 
         uint32_t calculatedBaudRate;
 
@@ -254,11 +258,11 @@ int main(void)
 
 //  #if 0
    baseAddr     = (UART_Type *) UART1_BASE; // was BOARD_DEBUG_UART_BASEADDR;
-   g_dspiDevice.dataBusConfig.bitsPerFrame = 8;
-   g_dspiDevice.dataBusConfig.clkPhase = kDspiClockPhase_SecondEdge;
-   g_dspiDevice.dataBusConfig.clkPolarity = kDspiClockPolarity_ActiveLow;
-   g_dspiDevice.dataBusConfig.direction = kDspiMsbFirst;
-   g_dspiDevice.bitsPerSec = 1000000; /* 100KHz */
+   g_dspiDevice[0].dataBusConfig.bitsPerFrame = 8;
+   g_dspiDevice[0].dataBusConfig.clkPhase = kDspiClockPhase_SecondEdge;
+   g_dspiDevice[0].dataBusConfig.clkPolarity = kDspiClockPolarity_ActiveLow;
+   g_dspiDevice[0].dataBusConfig.direction = kDspiMsbFirst;
+   g_dspiDevice[0].bitsPerSec = 1000000; /* 100KHz */
 
    dspiConfig.isChipSelectContinuous = false;
    dspiConfig.isSckContinuous = false;
@@ -320,23 +324,35 @@ int main(void)
      PRINTF("\r\n    ");
 
      DSPI_DRV_MasterInit(0, &g_spi_state[0], &dspiConfig);
-     DSPI_DRV_MasterConfigureBus(0, &g_dspiDevice, &calculatedBaudRate);
+     DSPI_DRV_MasterConfigureBus(0, &g_dspiDevice[0], &calculatedBaudRate);
 
-     	SHV_IMU_SendData(0, 0x6a, 1, &val);
+     imu_main();
+
+     mpu_init();
+
+     	 spires = SHV_IMU_SendData(0, 0x6a, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
 
      	val = 0x80;
-     	SHV_IMU_SendData(0, 0x6b, 1, &val);
+     	spires =SHV_IMU_SendData(0, 0x6b, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
 
      	val = 0x50;
-     	SHV_IMU_SendData(1, 0x6a, 1, &val);
+     	spires = SHV_IMU_SendData(1, 0x6a, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
 
      	val = 0x80;
-     	SHV_IMU_SendData(1, 0x6b, 1, &val);
+     	spires =SHV_IMU_SendData(1, 0x6b, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
 
-     	SHV_IMU_ReadData(0, 0x75, 1, &val);
-     	SHV_IMU_ReadData(1, 0x75, 1, &val);
+     	spires = SHV_IMU_ReadData(0, 0x75, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
+     	spires = SHV_IMU_ReadData(1, 0x75, 1, &val);
+     	PRINTF("SPI status is: %x\r\n", spires);
 
 
+
+     	mpu_run_self_test();
 
 while(true)
    {

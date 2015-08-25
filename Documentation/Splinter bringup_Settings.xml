@@ -658,20 +658,6 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="dspiCom2" type="fsl_dspi">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="dspiCom2" />
-      <Device v="SPI1" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="dspiCom3" type="fsl_dspi_hal">
     <Enabled v="Y" />
     <Properties>
@@ -739,20 +725,6 @@
           <Device v="USB0" />
         </group>
       </group>
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
-  <Bean name="dmaController1" type="fsl_edma">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="dmaController1" />
-      <Device v="DMA" />
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>

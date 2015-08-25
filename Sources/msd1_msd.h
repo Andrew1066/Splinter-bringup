@@ -40,10 +40,8 @@
 #include "i2cCom1.h"
 #include "flexTimer1.h"
 #include "dspiCom1.h"
-#include "dspiCom2.h"
 #include "usbDsc1.h"
 #include "usbFmw1.h"
-#include "dmaController1.h"
 #include "msd1.h"
 #include "DbgCs1.h"
 

@@ -292,7 +292,7 @@
 			</tr>
 			<tr>
 				<td>E2</td><td>PTE6/LLWU_P16/SPI1_PCS3/UART3_CTS_b/I2S0_MCLK/FTM3_CH1/USB0_SOF_OUT</td><td><small><i>same</i></small></td>
-				<td bgcolor='#90EE67'>SPI1</td><td bgcolor='#90EE67'>spi_cs3</td><td bgcolor='#90EE67'>alt2</td><td bgcolor='#90EE67'>Output</td>
+				<td></td><td></td><td></td><td></td>
 			</tr>
 			<tr>
 				<td>E3</td><td>PTE7/UART3_RTS_b/I2S0_RXD0/FTM3_CH2</td><td><small><i>same</i></small></td>
@@ -3149,7 +3149,7 @@
 			</tr>
 			<tr>
 				<td>E2</td><td>PTE6/LLWU_P16/SPI1_PCS3/UART3_CTS_b/I2S0_MCLK/FTM3_CH1/USB0_SOF_OUT</td><td><small><i>same</i></small></td>
-				<td bgcolor='#90EE67'>SPI1</td><td bgcolor='#90EE67'>spi_cs3</td><td bgcolor='#90EE67'>alt2</td><td bgcolor='#90EE67'>Output</td>
+				<td></td><td></td><td></td><td></td>
 			</tr>
 			<tr>
 				<td>E3</td><td>PTE7/UART3_RTS_b/I2S0_RXD0/FTM3_CH2</td><td><small><i>same</i></small></td>

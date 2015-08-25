@@ -620,26 +620,6 @@ Module "dspiCom1"  (component fsl_dspi)
    - dspiCom1_DSPI_DRV_SlaveGetTransferStatus -Returns whether the previous transfer is finished.
    - dspiCom1_DSPI_DRV_SlaveIRQHandler -DSPI Slave Generic IRQ handler.
 
-Module "dspiCom2"  (component fsl_dspi)
-   - dspiCom2_DSPI_DRV_IRQHandler -The function DSPI_DRV_IRQHandler passes IRQ control to either the master or slave driver.
-   - dspiCom2_DSPI_DRV_MasterInit -Initializes a DSPI instance for master mode operation.
-   - dspiCom2_DSPI_DRV_MasterDeinit -Shuts down a DSPI instance.
-   - dspiCom2_DSPI_DRV_MasterSetDelay -Configures the DSPI master mode bus timing delay options.
-   - dspiCom2_DSPI_DRV_MasterConfigureBus -Configures the DSPI port physical parameters to access a device on the bus.
-   - dspiCom2_DSPI_DRV_MasterTransferBlocking -Performs a blocking SPI master mode transfer.
-   - dspiCom2_DSPI_DRV_MasterTransfer -Performs a non-blocking SPI master mode transfer.
-   - dspiCom2_DSPI_DRV_MasterGetTransferStatus -Returns whether the previous transfer is completed.
-   - dspiCom2_DSPI_DRV_MasterAbortTransfer -Terminates an asynchronous transfer early.
-   - dspiCom2_DSPI_DRV_MasterIRQHandler -Interrupt handler for DSPI master mode. This handler uses the buffers stored in the 
-                dspi_master_state_t structs to transfer data.
-   - dspiCom2_DSPI_DRV_SlaveInit -Initializes a DSPI instance for a slave mode operation, using interrupt mechanism.
-   - dspiCom2_DSPI_DRV_SlaveDeinit -Shuts down a DSPI instance - interrupt mechanism.
-   - dspiCom2_DSPI_DRV_SlaveTransferBlocking -Transfers data on SPI bus using interrupt and blocking call.
-   - dspiCom2_DSPI_DRV_SlaveTransfer -Starts transfer data on SPI bus using interrupt and a non-blocking call.
-   - dspiCom2_DSPI_DRV_SlaveAbortTransfer -Aborts the transfer that started by a non-blocking call to a transfer function.
-   - dspiCom2_DSPI_DRV_SlaveGetTransferStatus -Returns whether the previous transfer is finished.
-   - dspiCom2_DSPI_DRV_SlaveIRQHandler -DSPI Slave Generic IRQ handler.
-
 Module "dspiCom3"  (component fsl_dspi_hal)
    - dspiCom3_DSPI_HAL_Init -Restores the DSPI to reset the configuration.
    - dspiCom3_DSPI_HAL_Enable -Enables the DSPI peripheral and sets the MCR MDIS to 0.
@@ -723,27 +703,6 @@ Module "usbFmw1"   (component fsl_usb_framework)
                 device descriptor related event.
    - usbFmw1_usb_device_get_status -The function is used to get the status of the specified component.
    - usbFmw1_usb_device_set_status -The function is used to set the status of the specified component.
-
-Module "dmaController1" (component fsl_edma)
-   - dmaController1_EDMA_DRV_Init -Initializes all eDMA modules in an SOC.
-   - dmaController1_EDMA_DRV_Deinit -Shuts down all eDMA modules.
-   - dmaController1_EDMA_DRV_RequestChannel -Requests an eDMA channel dynamically or statically.
-   - dmaController1_EDMA_DRV_ReleaseChannel -Releases an eDMA channel.
-   - dmaController1_EDMA_DRV_PrepareDescriptorTransfer -Sets the descriptor basic transfer for the descriptor.
-   - dmaController1_EDMA_DRV_PrepareDescriptorScatterGather -Configures the memory address for the next transfer TCD for the 
-                software TCD.
-   - dmaController1_EDMA_DRV_PrepareDescriptorChannelLink -Configures the major channel link the software TCD.
-   - dmaController1_EDMA_DRV_PushDescriptorToReg -Copies the software TCD configuration to the hardware TCD.
-   - dmaController1_EDMA_DRV_ConfigLoopTransfer -Configures the DMA transfer in a scatter-gather mode.
-   - dmaController1_EDMA_DRV_ConfigScatterGatherTransfer -Configures the DMA transfer in a scatter-gather mode.
-   - dmaController1_EDMA_DRV_StartChannel -Starts an eDMA channel.
-   - dmaController1_EDMA_DRV_StopChannel -Stops the eDMA channel.
-   - dmaController1_EDMA_DRV_InstallCallback -Registers the callback function and the parameter for eDMA channel.
-   - dmaController1_EDMA_DRV_IRQHandler -IRQ Handler for eDMA channel interrupt.
-   - dmaController1_EDMA_DRV_ErrorIRQHandler -ERROR IRQ Handler for eDMA channel interrupt.
-   - dmaController1_EDMA_DRV_GetChannelStatus -Gets the eDMA channel status.
-   - dmaController1_EDMA_DRV_GetUnfinishedBytes -Gets the unfinished bytes for the eDMA channel current TCD.
-   - dmaController1_EDMA_DRV_GetFinishedBytes -Gets the bytes already transferred for the eDMA channel current TCD.
 
 Module "msd1"      (component fsl_usb_device_msd_class)
    - msd1_USB_Class_MSC_Init -Initializes the MSC class, the underlying layers, and the controller hardware. This method is 

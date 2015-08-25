@@ -441,7 +441,7 @@ int SHV_IMU_ReadData(uint8_t addr, uint8_t reg, uint8_t len, uint8_t* data)
 		uint8_t chunk = min(DSPI_BUFFER_SIZE - 1, len);
 		dspi_buffer_out[0] = reg | 0x80;
 		GPIO_DRV_ClearPinOutput(addr == 0? kGpioSpi0Cs0: kGpioSpi1Cs0);
-		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice[addr], dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
+		status = DSPI_DRV_MasterTransferBlocking(addr, &g_dspiDevice, dspi_buffer_out, dspi_buffer_in, chunk + 1, 10);
 		GPIO_DRV_SetPinOutput(addr == 0? kGpioSpi0Cs0: kGpioSpi1Cs0);
 		if ( status ) {
 			swo_puts("SPI transfer failed\n");

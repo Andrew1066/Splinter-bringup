@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-21, 17:25, # CodeGen: 94
+**     Date/Time   : 2015-08-24, 20:14, # CodeGen: 95
 **     Abstract    :
 **
 **     Settings    :
@@ -2579,8 +2579,6 @@ void init_spi_pins(uint32_t instance)
       PORT_HAL_SetMuxMode(PORTC,6UL,kPortMuxAlt2);
       break;
     case SPI1_IDX:                      /* SPI1_IDX */
-      /* Affects PORTE_PCR6 register */
-      PORT_HAL_SetMuxMode(PORTE,6UL,kPortMuxAlt2);
       /* Affects PORTD_PCR7 register */
       PORT_HAL_SetMuxMode(PORTD,7UL,kPortMuxAlt7);
       /* Affects PORTD_PCR5 register */
@@ -2607,7 +2605,6 @@ void deinit_spi_pins(uint32_t instance)
       PORT_HAL_SetMuxMode(PORTC,6UL,kPortPinDisabled);
       break;
     case SPI1_IDX:                      /* SPI1_IDX */
-      PORT_HAL_SetMuxMode(PORTE,6UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTD,7UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTD,5UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTD,6UL,kPortPinDisabled);

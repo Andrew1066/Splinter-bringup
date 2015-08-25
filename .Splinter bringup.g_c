@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <GenerationInfo_G_C>
   <Options>
     <ProjectName>Splinter bringup</ProjectName>
@@ -4324,4 +4323,3 @@
     <SrcFile126>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile126>
   </UsedSrcFiles>
 </GenerationInfo_G_C>
-

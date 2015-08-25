@@ -7,6 +7,8 @@
 #define on	1
 #define off	0
 
+#define MPU9250
+
 // i2c allocations
 
 #define TEMPLE_RIGHT_I2C	1

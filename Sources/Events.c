@@ -50,6 +50,7 @@ void I2C0_IRQHandler(void)
   I2C_DRV_IRQHandler(FSL_I2CCOM1);
 }
 
+#if 0
 /*! dspiCom2 IRQ handler */
 void SPI1_IRQHandler(void)
 {
@@ -60,6 +61,7 @@ void SPI1_IRQHandler(void)
 #endif
   /* Write your code here ... */
 }
+#endif
 
 /*! dspiCom1 IRQ handler */
 void SPI0_IRQHandler(void)

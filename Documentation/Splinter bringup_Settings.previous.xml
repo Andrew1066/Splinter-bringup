@@ -784,7 +784,7 @@
     <Enabled v="Y" />
     <Properties>
       <Component_name v="DbgCs1" />
-      <Device v="UART3" />
+      <Device v="UART1" />
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>

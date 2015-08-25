@@ -71,14 +71,11 @@
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\edma\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\gpio\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\rtc\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dmamux\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dspi\</Path>
-      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\edma\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\flexbus\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\ftm\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\gpio\</Path>
@@ -102,6 +99,11 @@
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\usb\usb_core\device\sources\controller\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Devices\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\</Path>
+      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\</Path>
+      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\stm32L\</Path>
+      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\eMPL-hal\</Path>
+      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\</Path>
+      <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\Static_Code\System\</Path>
       <Path>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\devices\MK65F18\startup\gcc\</Path>
     </SourceCodePaths>
@@ -112,9 +114,7 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\DbgCs1.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\bsp\usb_dev_bsp.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\clockMan1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dmaController1.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom1.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom2.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\flexTimer1.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\gpio2.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\hardware_init.c</PathName>
@@ -130,8 +130,6 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\dspi\fsl_dspi_slave_driver.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\edma\fsl_edma_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\edma\fsl_edma_driver.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\fsl_ftm_common.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
@@ -141,9 +139,7 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_shared_function.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\i2c\fsl_i2c_slave_driver.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dmamux\fsl_dmamux_hal.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\dspi\fsl_dspi_hal.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\edma\fsl_edma_hal.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\flexbus\fsl_flexbus_hal.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
@@ -178,18 +174,33 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Devices\tc358860.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Events.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Globals.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\inv_mpu.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\inv_mpu_dmp_motion_driver.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\stm32L\log_stm32l.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\eMPL-hal\eMPL_outputs.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\data_builder.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\hal_outputs.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\message_layer.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\ml_math_func.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\mlmath.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\mpl.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\results_holder.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\start_manager.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\storage_manager.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\imu.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\log.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\mllite_test.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\spitest.c</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\MPU9250.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\diags.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\dispatcher.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\dsi_init.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\imu.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\lcos.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\log.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\main.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\mllite_test.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\msd1_msd.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\pwm.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\simple_print.c</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\spitest.c</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Static_Code\System\PE_low_level_init.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
@@ -201,9 +212,7 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\SDK\usb\usb_core\device\sources\classes\include\config\usb_msc_config.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\board.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\clockMan1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dmaController1.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom1.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\dspiCom2.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\flexTimer1.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\gpio2.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Generated_Code\i2cCom1.h</PathName>
@@ -228,16 +237,12 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_master_driver.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_shared_function.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_edma_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_edma_request.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_ftm_driver.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_master_driver.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_shared_function.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\drivers\inc\fsl_i2c_slave_driver.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_dmamux_hal.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_dspi_hal.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_edma_hal.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_flexbus_hal.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_ftm_hal.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>
@@ -294,6 +299,45 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Devices\tc358860.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Events.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\Globals.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\dmpKey.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\dmpmap.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\inv_mpu.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\eMPL\inv_mpu_dmp_motion_driver.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\log.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\mlinclude.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\mlmath.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\mlos.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\mltypes.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\mpu.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\driver\include\stdint_invensense.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\eMPL-hal\eMPL_outputs.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\data_builder.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\hal_outputs.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\invensense.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\message_layer.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\ml_math_func.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\mpl.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\results_holder.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\start_manager.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mllite\storage_manager.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\accel_auto_cal.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\compass_vec_cal.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\fast_no_motion.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\fusion_9axis.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\gyro_tc.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\heading_from_gyro.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\inv_math.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\invensense_adv.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\mag_disturb.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\motion_no_motion.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\no_gyro_fusion.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\packet.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\core\mpl\quaternion_supervisor.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\inc\main.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\inc\stm32l1xx_conf.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\eMPL\inc\stm32l1xx_it.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\IMU\spitest.h</PathName>
+      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\MPU9250.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\colourbar.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\diags.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\dispatcher.h</PathName>
@@ -303,7 +347,6 @@
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\msd1_msd.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\pwm.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\simple_print.h</PathName>
-      <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\spitest.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\splinter.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\versions.h</PathName>
       <PathName>C:\Users\Andrew\workspace.kds\Splinter bringup\Sources\versions_base.h</PathName>

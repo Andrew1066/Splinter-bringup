@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : K65P169M180SF5RMV2, Rev. 1, Mar 2015
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-19, 09:29, # CodeGen: 77
+**     Date/Time   : 2015-08-24, 20:14, # CodeGen: 95
 **     Abstract    :
 **
 **     Settings    :
@@ -128,15 +128,6 @@ void Components_Init(void)
   DSPI_DRV_MasterInit(FSL_DSPICOM1, &dspiCom1_MasterState, &dspiCom1_MasterConfig0);
   DSPI_DRV_MasterConfigureBus(FSL_DSPICOM1, &dspiCom1_BusConfig0, &dspiCom1_calculatedBaudRate);
   /*! dspiCom1 Auto initialization end */
-  
-  /*! dspiCom2 Auto initialization start */
-  DSPI_DRV_MasterInit(FSL_DSPICOM2, &dspiCom2_MasterState, &dspiCom2_MasterConfig0);
-  DSPI_DRV_MasterConfigureBus(FSL_DSPICOM2, &dspiCom2_BusConfig0, &dspiCom2_calculatedBaudRate);
-  /*! dspiCom2 Auto initialization end */
-  
-  /*! dmaController1 Auto initialization start */
-  EDMA_DRV_Init(&dmaController1_State,&dmaController1_InitConfig0);
-  /*! dmaController1 Auto initialization end */
   
   /*! msd1 Auto initialization start */
   (void)USB_Class_MSC_Init(USBFMW1_USB_CONTROLLER_ID, &msd1_MsdConfigStructure, &msd1_MsdHandle);
