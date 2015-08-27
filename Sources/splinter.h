@@ -12,6 +12,7 @@
 // i2c allocations
 
 #define TEMPLE_RIGHT_I2C	1
+#define USB_HUB_I2C TEMPLE_RIGHT_I2C
 #define TEMPLE_LEFT_I2C		0
 
 

@@ -22,6 +22,7 @@
 #include "mpu.h"
 #include "log.h"
 #include "packet.h"
+#include "fsl_debug_console.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Data read from MPL. */
@@ -216,7 +217,7 @@ static void read_from_mpl(void) {
 	if (hal.report & PRINT_LINEAR_ACCEL) {
 		if (inv_get_sensor_type_linear_acceleration(float_data, &accuracy,
 					(inv_time_t*) &timestamp)) {
-				MPL_LOGI("Linear Accel: %7.5f %7.5f %7.5f\r\n", float_data[0],
+				PRINTF("Linear Accel: %7.5f %7.5f %7.5f\r\n", float_data[0],
 						float_data[1], float_data[2]);
 			}
 	}
@@ -228,7 +229,7 @@ static void read_from_mpl(void) {
 			unsigned long step_count, walk_time;
 			dmp_get_pedometer_step_count(&step_count);
 			dmp_get_pedometer_walk_time(&walk_time);
-			MPL_LOGI("Walked %ld steps over %ld milliseconds..\n", step_count,
+			PRINTF("Walked %ld steps over %ld milliseconds..\n", step_count,
 					walk_time);
 		}
 	}
@@ -241,9 +242,9 @@ static void read_from_mpl(void) {
 	INV_MSG_NO_MOTION_EVENT);
 	if (msg) {
 		if (msg & INV_MSG_MOTION_EVENT) {
-			MPL_LOGI("Motion!\n");
+			PRINTF("Motion!\n");
 		} else if (msg & INV_MSG_NO_MOTION_EVENT) {
-			MPL_LOGI("No motion!\n");
+			PRINTF("No motion!\n");
 		}
 	}
 }
@@ -254,9 +255,9 @@ void send_status_compass() {
 	int8_t accuracy = { 0 };
 	unsigned long timestamp;
 	inv_get_compass_set(data, &accuracy, (inv_time_t*) &timestamp);
-	MPL_LOGI("Compass: %7.4f %7.4f %7.4f ",
+	PRINTF("Compass: %7.4f %7.4f %7.4f ",
 			data[0]/65536.f, data[1]/65536.f, data[2]/65536.f);
-	MPL_LOGI("Accuracy= %d\r\n", accuracy);
+	PRINTF("Accuracy= %d\r\n", accuracy);
 
 }
 #endif
@@ -298,27 +299,27 @@ static void tap_cb(unsigned char direction, unsigned char count)
 {
     switch (direction) {
     case TAP_X_UP:
-        MPL_LOGI("Tap X+ ");
+        PRINTF("Tap X+ ");
         break;
     case TAP_X_DOWN:
-        MPL_LOGI("Tap X- ");
+        PRINTF("Tap X- ");
         break;
     case TAP_Y_UP:
-        MPL_LOGI("Tap Y+ ");
+        PRINTF("Tap Y+ ");
         break;
     case TAP_Y_DOWN:
-        MPL_LOGI("Tap Y- ");
+        PRINTF("Tap Y- ");
         break;
     case TAP_Z_UP:
-        MPL_LOGI("Tap Z+ ");
+        PRINTF("Tap Z+ ");
         break;
     case TAP_Z_DOWN:
-        MPL_LOGI("Tap Z- ");
+        PRINTF("Tap Z- ");
         break;
     default:
         return;
     }
-    MPL_LOGI("x%d\n", count);
+    PRINTF("x%d\n", count);
     return;
 }
 
@@ -340,16 +341,16 @@ static inline void run_self_test(void)
     result = mpu_run_self_test(gyro, accel);
 #endif
     if (result == 0x7) {
-    	MPL_LOGI("Passed!\n");
+    	PRINTF("Passed!\n");
     	float f = (float)accel[0];
     	_MLPrintLog(0, "", "%d/%s\n", accel[0], FMT74(f, 0));
     	f = f / 65536.f;
     	_MLPrintLog(0, "", "%s\n", FMT74(f, 0));
-        MPL_LOGI("accel: %s %s %s\n",
+        PRINTF("accel: %s %s %s\n",
                     FMT74((float)accel[0]/65536.f, 0),
                     FMT74(accel[1]/65536.f, 1),
                     FMT74(accel[2]/65536.f, 2));
-        MPL_LOGI("gyro: %s %s %s\n",
+        PRINTF("gyro: %s %s %s\n",
         			FMT74(gyro[0]/65536.f, 0),
         			FMT74(gyro[1]/65536.f, 1),
         			FMT74(gyro[2]/65536.f, 2));
@@ -399,11 +400,11 @@ static inline void run_self_test(void)
     }
     else {
             if (!(result & 0x1))
-                MPL_LOGE("Gyro failed.\n");
+                PRINTF("Gyro failed.\n");
             if (!(result & 0x2))
-                MPL_LOGE("Accel failed.\n");
+                PRINTF("Accel failed.\n");
             if (!(result & 0x4))
-                MPL_LOGE("Compass failed.\n");
+                PRINTF("Compass failed.\n");
      }
 
 }
@@ -445,12 +446,13 @@ int imu_main(void)
 	unsigned short compass_fsr;
 #endif
 
-	if ( !imu_initialized ){
+	if ( !imu_initialized )
+	{
 		//platform_init();
 
 		result = mpu_init(&int_param);
 		if (result) {
-			MPL_LOGE("Could not initialize gyro.\n");
+			PRINTF("Could not initialize gyro.\n");
 		}
 
 
@@ -461,7 +463,7 @@ int imu_main(void)
 
 		result = inv_init_mpl();
 		if (result) {
-			MPL_LOGE("Could not initialize MPL.\n");
+			PRINTF("Could not initialize MPL.\n");
 		}
 
 		/* Compute 6-axis and 9-axis quaternions. */
@@ -514,17 +516,17 @@ int imu_main(void)
 
 		result = inv_start_mpl();
 		if (result == INV_ERROR_NOT_AUTHORIZED) {
-			MPL_LOGE("Not authorized.\n");
+			PRINTF("Not authorized.\n");
 		}
 		if (result) {
-			MPL_LOGE("Could not start the MPL.\n");
+			PRINTF("Could not start the MPL.\n");
 			return result;
 		}
 
 		/* Get/set hardware configuration. Start gyro. */
 		/* Wake up all sensors. */
-#ifdef COMPASS_ENABLED
-		mpu_set_sensors(INV_XYZ_GYRO | INV_XYZ_ACCEL | INV_XYZ_COMPASS);
+#ifdef COMPASS_ENABLEDpu_set_
+		msensors(INV_XYZ_GYRO | INV_XYZ_ACCEL | INV_XYZ_COMPASS);
 #else
 		mpu_set_sensors(INV_XYZ_GYRO | INV_XYZ_ACCEL);
 #endif

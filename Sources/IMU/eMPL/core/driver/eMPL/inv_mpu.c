@@ -55,6 +55,7 @@ int mpu_read_data(uint8_t addr, uint8_t reg, uint8_t len, uint8_t*data);
 #define get_ms(a)      *a = OSA_TimeGetMsec();
 #define log_i       MPL_LOGI
 #define log_e       MPL_LOGE
+#define MPL_LOGE	PRINTF
 #define min(a,b) ((a<b)?a:b)
 
 #include "math.h"
@@ -617,7 +618,7 @@ const struct gyro_reg_s reg = {
 #endif
 };
 const struct hw_s hw = {
-    .addr           = 0x01,
+    .addr           = 0x00,		// was set to 1 but we need channel 0 ARB @@@
     .max_fifo       = 1024,
     .num_reg        = 128,
     .temp_sens      = 321,

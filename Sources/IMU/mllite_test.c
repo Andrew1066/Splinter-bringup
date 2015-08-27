@@ -34,6 +34,7 @@
 #include "mpu.h"
 #include "log.h"
 #include "packet.h"
+#include "fsl_debug_console.h" // replaced MPL_LOGI calls for PRINTF ARB @@@
 
 /* Data read from MPL. */
 #define PRINT_ACCEL     (0x01)
@@ -134,12 +135,13 @@ static struct platform_data_s compass_pdata = {
  * TODO: Add return values to the inv_get_sensor_type_xxx APIs to differentiate
  * between new and stale data.
  */
-static void read_from_mpl(void)
+void read_from_mpl(void)
 {
     long msg, data[9];
     int8_t accuracy;
     unsigned long timestamp;
     float float_data[3] = {0};
+    hal.report = 0xff;
 
     if (inv_get_sensor_type_quat(data, &accuracy, (inv_time_t*)&timestamp)) {
        /* Sends a quaternion packet to the PC. Since this is used by the Python
@@ -188,7 +190,7 @@ static void read_from_mpl(void)
     if (hal.report & PRINT_LINEAR_ACCEL) {
         if (inv_get_sensor_type_linear_acceleration(float_data, &accuracy,
             (inv_time_t*)&timestamp))
-        	MPL_LOGI("Linear Accel: %7.5f %7.5f %7.5f\r\n",
+        	PRINTF("Linear Accel: %7.5f %7.5f %7.5f\r\n",
         			float_data[0], float_data[1], float_data[2]);
     }
     if (hal.report & PRINT_PEDO) {
@@ -199,7 +201,7 @@ static void read_from_mpl(void)
             unsigned long step_count, walk_time;
             dmp_get_pedometer_step_count(&step_count);
             dmp_get_pedometer_walk_time(&walk_time);
-            MPL_LOGI("Walked %ld steps over %ld milliseconds..\n", step_count,
+            PRINTF("Walked %ld steps over %ld milliseconds..\n", step_count,
             walk_time);
         }
     }
@@ -212,9 +214,9 @@ static void read_from_mpl(void)
             INV_MSG_NO_MOTION_EVENT);
     if (msg) {
         if (msg & INV_MSG_MOTION_EVENT) {
-            MPL_LOGI("Motion!\n");
+            PRINTF("Motion!\n");
         } else if (msg & INV_MSG_NO_MOTION_EVENT) {
-            MPL_LOGI("No motion!\n");
+            PRINTF("No motion!\n");
         }
     }
 }
@@ -254,27 +256,27 @@ static void tap_cb(unsigned char direction, unsigned char count)
 {
     switch (direction) {
     case TAP_X_UP:
-        MPL_LOGI("Tap X+ ");
+        PRINTF("Tap X+ ");
         break;
     case TAP_X_DOWN:
-        MPL_LOGI("Tap X- ");
+        PRINTF("Tap X- ");
         break;
     case TAP_Y_UP:
-        MPL_LOGI("Tap Y+ ");
+        PRINTF("Tap Y+ ");
         break;
     case TAP_Y_DOWN:
-        MPL_LOGI("Tap Y- ");
+        PRINTF("Tap Y- ");
         break;
     case TAP_Z_UP:
-        MPL_LOGI("Tap Z+ ");
+        PRINTF("Tap Z+ ");
         break;
     case TAP_Z_DOWN:
-        MPL_LOGI("Tap Z- ");
+        PRINTF("Tap Z- ");
         break;
     default:
         return;
     }
-    MPL_LOGI("x%d\n", count);
+    PRINTF("x%d\n", count);
     return;
 }
 
@@ -282,16 +284,16 @@ static void android_orient_cb(unsigned char orientation)
 {
 	switch (orientation) {
 	case ANDROID_ORIENT_PORTRAIT:
-        MPL_LOGI("Portrait\n");
+        PRINTF("Portrait\n");
         break;
 	case ANDROID_ORIENT_LANDSCAPE:
-        MPL_LOGI("Landscape\n");
+        PRINTF("Landscape\n");
         break;
 	case ANDROID_ORIENT_REVERSE_PORTRAIT:
-        MPL_LOGI("Reverse Portrait\n");
+        PRINTF("Reverse Portrait\n");
         break;
 	case ANDROID_ORIENT_REVERSE_LANDSCAPE:
-        MPL_LOGI("Reverse Landscape\n");
+        PRINTF("Reverse Landscape\n");
         break;
 	default:
 		return;
@@ -315,12 +317,12 @@ static inline void run_self_test(void)
     result = mpu_run_self_test(gyro, accel);
 #endif
     if (result == 0x7) {
-		MPL_LOGI("Passed!\n");
-        MPL_LOGI("accel: %7.4f %7.4f %7.4f\n",
+		PRINTF("Passed!\n");
+        PRINTF("accel: %7.4f %7.4f %7.4f\n",
                     accel[0]/65536.f,
                     accel[1]/65536.f,
                     accel[2]/65536.f);
-        MPL_LOGI("gyro: %7.4f %7.4f %7.4f\n",
+        PRINTF("gyro: %7.4f %7.4f %7.4f\n",
                     gyro[0]/65536.f,
                     gyro[1]/65536.f,
                     gyro[2]/65536.f);
@@ -644,7 +646,7 @@ static void handle_input(void)
             dmp_get_fifo_rate(&dmp_rate);
             mpu_set_sample_rate(dmp_rate);
             inv_quaternion_sensor_was_turned_off();
-            MPL_LOGI("DMP disabled.\n");
+            PRINTF("DMP disabled.\n");
         } else {
             unsigned short sample_rate;
             hal.dmp_on = 1;
@@ -653,7 +655,7 @@ static void handle_input(void)
             dmp_set_fifo_rate(sample_rate);
             inv_set_quat_sample_rate(1000000L / sample_rate);
             mpu_set_dmp_state(1);
-            MPL_LOGI("DMP enabled.\n");
+            PRINTF("DMP enabled.\n");
         }
         break;
     case 'm':
@@ -674,9 +676,9 @@ static void handle_input(void)
         dmp_enable_feature(hal.dmp_features);
         if (!(hal.dmp_features & DMP_FEATURE_6X_LP_QUAT)) {
             inv_quaternion_sensor_was_turned_off();
-            MPL_LOGI("LP quaternion disabled.\n");
+            PRINTF("LP quaternion disabled.\n");
         } else
-            MPL_LOGI("LP quaternion enabled.\n");
+            PRINTF("LP quaternion enabled.\n");
         break;
     default:
         break;

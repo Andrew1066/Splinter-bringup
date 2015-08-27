@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PEproject>
   <Header>
-    <Name>Splinter bringup</Name>
+    <Name>Splinter_DVT1</Name>
     <SavedBy>Andrew</SavedBy>
-    <ModificationStamp>75</ModificationStamp>
+    <ModificationStamp>81</ModificationStamp>
     <Date>2015-08-06</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.0.RT7_b1515-0427</PEversion>
@@ -29,7 +29,7 @@
     <UseExistingModules>true</UseExistingModules>
     <RenamePeripheries>false</RenamePeripheries>
     <Autodependency>true</Autodependency>
-    <ProjectCompNumb>111</ProjectCompNumb>
+    <ProjectCompNumb>114</ProjectCompNumb>
     <DelUnusedPreviouslyGenFiles>true</DelUnusedPreviouslyGenFiles>
     <GeneratedCodeFrozen>false</GeneratedCodeFrozen>
     <AssignInitComponentNameToPrph>true</AssignInitComponentNameToPrph>
@@ -14675,7 +14675,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>5</ItemId0>
       <Value0>true</Value0>
       <ItemId1>9</ItemId1>
@@ -14704,24 +14704,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -14796,7 +14794,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>5</ItemId0>
       <Value0>true</Value0>
       <ItemId1>9</ItemId1>
@@ -14825,24 +14823,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -14917,7 +14913,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>17</ItemId0>
       <Value0>true</Value0>
       <ItemId1>14</ItemId1>
@@ -14946,24 +14942,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15038,7 +15032,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>17</ItemId0>
       <Value0>true</Value0>
       <ItemId1>14</ItemId1>
@@ -15067,24 +15061,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15159,7 +15151,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>17</ItemId0>
       <Value0>true</Value0>
       <ItemId1>14</ItemId1>
@@ -15188,24 +15180,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15280,7 +15270,7 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
+      <Count>22</Count>
       <ItemId0>17</ItemId0>
       <Value0>true</Value0>
       <ItemId1>14</ItemId1>
@@ -15309,24 +15299,22 @@
       <Value12>true</Value12>
       <ItemId13>59</ItemId13>
       <Value13>true</Value13>
-      <ItemId14>63</ItemId14>
-      <Value14>true</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId14>85</ItemId14>
+      <Value14>false</Value14>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15401,53 +15389,51 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
-      <ItemId0>63</ItemId0>
+      <Count>22</Count>
+      <ItemId0>59</ItemId0>
       <Value0>true</Value0>
-      <ItemId1>59</ItemId1>
+      <ItemId1>39</ItemId1>
       <Value1>true</Value1>
-      <ItemId2>39</ItemId2>
+      <ItemId2>37</ItemId2>
       <Value2>true</Value2>
-      <ItemId3>37</ItemId3>
+      <ItemId3>36</ItemId3>
       <Value3>true</Value3>
-      <ItemId4>36</ItemId4>
+      <ItemId4>34</ItemId4>
       <Value4>true</Value4>
-      <ItemId5>34</ItemId5>
+      <ItemId5>31</ItemId5>
       <Value5>true</Value5>
-      <ItemId6>31</ItemId6>
+      <ItemId6>30</ItemId6>
       <Value6>true</Value6>
-      <ItemId7>30</ItemId7>
+      <ItemId7>17</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>17</ItemId8>
+      <ItemId8>14</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>14</ItemId9>
+      <ItemId9>9</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>9</ItemId10>
+      <ItemId10>5</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>5</ItemId11>
-      <Value11>true</Value11>
-      <ItemId12>22</ItemId12>
+      <ItemId11>22</ItemId11>
+      <Value11>false</Value11>
+      <ItemId12>24</ItemId12>
       <Value12>false</Value12>
-      <ItemId13>24</ItemId13>
+      <ItemId13>26</ItemId13>
       <Value13>false</Value13>
-      <ItemId14>26</ItemId14>
+      <ItemId14>85</ItemId14>
       <Value14>false</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15522,53 +15508,51 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
-      <ItemId0>63</ItemId0>
+      <Count>22</Count>
+      <ItemId0>59</ItemId0>
       <Value0>true</Value0>
-      <ItemId1>59</ItemId1>
+      <ItemId1>39</ItemId1>
       <Value1>true</Value1>
-      <ItemId2>39</ItemId2>
+      <ItemId2>37</ItemId2>
       <Value2>true</Value2>
-      <ItemId3>37</ItemId3>
+      <ItemId3>36</ItemId3>
       <Value3>true</Value3>
-      <ItemId4>36</ItemId4>
+      <ItemId4>34</ItemId4>
       <Value4>true</Value4>
-      <ItemId5>34</ItemId5>
+      <ItemId5>31</ItemId5>
       <Value5>true</Value5>
-      <ItemId6>31</ItemId6>
+      <ItemId6>30</ItemId6>
       <Value6>true</Value6>
-      <ItemId7>30</ItemId7>
+      <ItemId7>17</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>17</ItemId8>
+      <ItemId8>14</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>14</ItemId9>
+      <ItemId9>9</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>9</ItemId10>
+      <ItemId10>5</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>5</ItemId11>
-      <Value11>true</Value11>
-      <ItemId12>22</ItemId12>
+      <ItemId11>22</ItemId11>
+      <Value11>false</Value11>
+      <ItemId12>24</ItemId12>
       <Value12>false</Value12>
-      <ItemId13>24</ItemId13>
+      <ItemId13>26</ItemId13>
       <Value13>false</Value13>
-      <ItemId14>26</ItemId14>
+      <ItemId14>85</ItemId14>
       <Value14>false</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15643,53 +15627,51 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
-      <ItemId0>63</ItemId0>
+      <Count>22</Count>
+      <ItemId0>59</ItemId0>
       <Value0>true</Value0>
-      <ItemId1>59</ItemId1>
+      <ItemId1>39</ItemId1>
       <Value1>true</Value1>
-      <ItemId2>39</ItemId2>
+      <ItemId2>37</ItemId2>
       <Value2>true</Value2>
-      <ItemId3>37</ItemId3>
+      <ItemId3>36</ItemId3>
       <Value3>true</Value3>
-      <ItemId4>36</ItemId4>
+      <ItemId4>34</ItemId4>
       <Value4>true</Value4>
-      <ItemId5>34</ItemId5>
+      <ItemId5>31</ItemId5>
       <Value5>true</Value5>
-      <ItemId6>31</ItemId6>
+      <ItemId6>30</ItemId6>
       <Value6>true</Value6>
-      <ItemId7>30</ItemId7>
+      <ItemId7>17</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>17</ItemId8>
+      <ItemId8>14</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>14</ItemId9>
+      <ItemId9>9</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>9</ItemId10>
+      <ItemId10>5</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>5</ItemId11>
-      <Value11>true</Value11>
-      <ItemId12>22</ItemId12>
+      <ItemId11>22</ItemId11>
+      <Value11>false</Value11>
+      <ItemId12>24</ItemId12>
       <Value12>false</Value12>
-      <ItemId13>24</ItemId13>
+      <ItemId13>26</ItemId13>
       <Value13>false</Value13>
-      <ItemId14>26</ItemId14>
+      <ItemId14>85</ItemId14>
       <Value14>false</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -15764,53 +15746,51 @@
       <Count>0</Count>
     </BoolList_FpgaConfig>
     <BoolList_BeanConfig>
-      <Count>23</Count>
-      <ItemId0>63</ItemId0>
+      <Count>22</Count>
+      <ItemId0>59</ItemId0>
       <Value0>true</Value0>
-      <ItemId1>59</ItemId1>
+      <ItemId1>39</ItemId1>
       <Value1>true</Value1>
-      <ItemId2>39</ItemId2>
+      <ItemId2>37</ItemId2>
       <Value2>true</Value2>
-      <ItemId3>37</ItemId3>
+      <ItemId3>36</ItemId3>
       <Value3>true</Value3>
-      <ItemId4>36</ItemId4>
+      <ItemId4>34</ItemId4>
       <Value4>true</Value4>
-      <ItemId5>34</ItemId5>
+      <ItemId5>31</ItemId5>
       <Value5>true</Value5>
-      <ItemId6>31</ItemId6>
+      <ItemId6>30</ItemId6>
       <Value6>true</Value6>
-      <ItemId7>30</ItemId7>
+      <ItemId7>17</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>17</ItemId8>
+      <ItemId8>14</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>14</ItemId9>
+      <ItemId9>9</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>9</ItemId10>
+      <ItemId10>5</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>5</ItemId11>
-      <Value11>true</Value11>
-      <ItemId12>22</ItemId12>
+      <ItemId11>22</ItemId11>
+      <Value11>false</Value11>
+      <ItemId12>24</ItemId12>
       <Value12>false</Value12>
-      <ItemId13>24</ItemId13>
+      <ItemId13>26</ItemId13>
       <Value13>false</Value13>
-      <ItemId14>26</ItemId14>
+      <ItemId14>85</ItemId14>
       <Value14>false</Value14>
-      <ItemId15>85</ItemId15>
+      <ItemId15>87</ItemId15>
       <Value15>false</Value15>
-      <ItemId16>87</ItemId16>
+      <ItemId16>89</ItemId16>
       <Value16>false</Value16>
-      <ItemId17>89</ItemId17>
-      <Value17>false</Value17>
-      <ItemId18>91</ItemId18>
+      <ItemId17>91</ItemId17>
+      <Value17>true</Value17>
+      <ItemId18>93</ItemId18>
       <Value18>true</Value18>
-      <ItemId19>93</ItemId19>
+      <ItemId19>94</ItemId19>
       <Value19>true</Value19>
-      <ItemId20>94</ItemId20>
+      <ItemId20>107</ItemId20>
       <Value20>true</Value20>
-      <ItemId21>107</ItemId21>
+      <ItemId21>108</ItemId21>
       <Value21>true</Value21>
-      <ItemId22>108</ItemId22>
-      <Value22>true</Value22>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
       <Count>0</Count>
@@ -27748,7 +27728,7 @@
         <ItemSymbol>SPI0_spi_sck_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>Output</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>SPI0_spi_txd</ItemSymbol>
@@ -42953,7 +42933,7 @@
       <ItemState>
         <ItemSymbol>ConfigurationsOut0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
-        <ListItemCount>10</ListItemCount>
+        <ListItemCount>11</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
         <Expanded>true</Expanded>
       </ItemState>
@@ -43821,6 +43801,93 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>isOpenDrainEnabledOut0_9</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <EnumSymbVal>false</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PinCfgOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PinOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/FB_AD11/SDRAM_A19/CMP1_OUT</Value>
+        <SharedPrphMode>false</SharedPrphMode>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>GPIOPortOut0_10</ItemSymbol>
+        <Value>PTC</Value>
+        <SharedPrphMode>false</SharedPrphMode>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PortOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>PORTC</Value>
+        <SharedPrphMode>false</SharedPrphMode>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>pinNameOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>PTC4</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>pinNameOutMode0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>auto</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>outputLogicOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>0</Value>
+        <Base>DEC</Base>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ElFeaturesOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>FSL_HAS_SLEW_RATEGrp0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>slewRateOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <EnumSymbVal>kPortSlowSlewRate</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>driveStrengthOut0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <EnumSymbVal>kPortHighDriveStrength</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>FSL_HAS_OPEN_DRAINGrp0_10</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>isOpenDrainEnabledOut0_10</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
@@ -50188,7 +50255,7 @@
         <ItemSymbol>BaudRate0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>1.25 MHz</Value>
+        <Value>915.527344 Hz</Value>
         <RuntimeSetting>0</RuntimeSetting>
         <ReqDevPrescHigh>-1</ReqDevPrescHigh>
         <ReqDevPrescLow>-1</ReqDevPrescLow>
@@ -50214,13 +50281,13 @@
         <ReqSrcClkPrescSpeedMode5>-1</ReqSrcClkPrescSpeedMode5>
         <ReqSrcClkPrescSpeedMode6>-1</ReqSrcClkPrescSpeedMode6>
         <ReqSrcClkPrescSpeedMode7>-1</ReqSrcClkPrescSpeedMode7>
-        <InitValue>1.25 MHz</InitValue>
+        <InitValue>915.527344 Hz</InitValue>
         <Precision>5.0</Precision>
         <PrecInProc>true</PrecInProc>
         <LowLimit />
         <HighLimit />
         <List lines_count="0" />
-        <UnitText>MHz</UnitText>
+        <UnitText>Hz</UnitText>
         <MinCounterTicks>0</MinCounterTicks>
         <SpecificClockConfiguration>true</SpecificClockConfiguration>
         <SpecificClkCfg1_SpeedMode0>true</SpecificClkCfg1_SpeedMode0>
@@ -51623,407 +51690,6 @@
         <Value>dspiCom1_IRQHandler</Value>
       </ItemState>
     </Events>
-  </Bean>
-  <Bean>
-    <Repository>file:/${ProcessorExpert_loc}/Repositories/KSDK120_Repository</Repository>
-    <ComponentUUID>com.freescale.processorexpert.ksdk.fsl_dspi_hal</ComponentUUID>
-    <BeanType>fsl_dspi_hal</BeanType>
-    <Name>dspiCom3</Name>
-    <CompNumb>63</CompNumb>
-    <CompEnabled>true</CompEnabled>
-    <GenCodeMode>ALWAYS_WRITE</GenCodeMode>
-    <IconName>HAL4</IconName>
-    <UserFolderName />
-    <Comment lines_count="0" />
-    <Template />
-    <BeanVersion>1.2.0</BeanVersion>
-    <LightErrorsIgnored>false</LightErrorsIgnored>
-    <Properties>
-      <ItemState>
-        <ItemSymbol>DeviceName</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>dspiCom3</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>PeriphDevice</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>SPI2</Value>
-        <SharedPrphMode>false</SharedPrphMode>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CompVersion</ItemSymbol>
-        <Value>1.2.0</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>VersionSpecificItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DefaultMainProperty</ItemSymbol>
-        <Value>load sdk verison failed</Value>
-      </ItemState>
-    </Properties>
-    <Methods>
-      <ItemState>
-        <ItemSymbol>SdkSpecificMethods</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>fsl_dspi_halgroup</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_Init</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_Init</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_Enable</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_Enable</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_Disable</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_Disable</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetBaudRate</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetBaudRate</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetBaudDivisors</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetBaudDivisors</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetMasterSlaveMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetMasterSlaveMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_IsMaster</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_IsMaster</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetContinuousSckCmd</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetContinuousSckCmd</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetPcsStrobeCmd_FSL_HAS_CHIP_SELECT_STROBE</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetPcsStrobeCmd</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetPcsStrobeCmd</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetRxFifoOverwriteCmd</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetRxFifoOverwriteCmd</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetPcsPolarityMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetPcsPolarityMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetFifoCmd</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetFifoCmd</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetFlushFifoCmd</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetFlushFifoCmd</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetDatainSamplepointMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetDatainSamplepointMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_StartTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_StartTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_StopTransfer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_StopTransfer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetDataFormat</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetDataFormat</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetDelay</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetDelay</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_CalculateDelay</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_CalculateDelay</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetMasterPushrRegAddr</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetMasterPushrRegAddr</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetSlavePushrRegAddr</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetSlavePushrRegAddr</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetPoprRegAddr</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetPoprRegAddr</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetTxFifoFillDmaIntMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetTxFifoFillDmaIntMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetRxFifoDrainDmaIntMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetRxFifoDrainDmaIntMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_SetIntMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_SetIntMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetIntMode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetIntMode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetStatusFlag</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetStatusFlag</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_ClearStatusFlag</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_ClearStatusFlag</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_ReadData</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_ReadData</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteDataSlavemode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteDataSlavemode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteDataSlavemodeBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteDataSlavemodeBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteDataMastermode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteDataMastermode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteDataMastermodeBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteDataMastermodeBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteCmdDataMastermode</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteCmdDataMastermode</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_WriteCmdDataMastermodeBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_WriteCmdDataMastermodeBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetTransferCount</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetTransferCount</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_PresetTransferCount</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_PresetTransferCount</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DSPI_HAL_GetFormattedCommand</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>DSPI_HAL_GetFormattedCommand</UsrMethodName>
-      </ItemState>
-    </Methods>
-    <Events />
   </Bean>
   <Bean>
     <Repository>file:/${ProcessorExpert_loc}/Repositories/KSDK120_Repository</Repository>

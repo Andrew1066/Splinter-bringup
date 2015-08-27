@@ -198,7 +198,8 @@ void eMPL_send_data(unsigned char type, long *data)
         out[19] = (char)(data[8] >> 24);
         out[20] = (char)(data[8] >> 16);
 #endif
-		_MLPrintLog(0, "", "%8d ROT: %5d %5d %5d %5d %5d %5d %5d %5d %5d\n", OSA_TimeGetMsec(),
+        // _MLPrintLog(0, "", ...
+        PRINTF("%8d ROT: %5d %5d %5d %5d %5d %5d %5d %5d %5d\n", OSA_TimeGetMsec(),
     			data[0] >> 16, data[1] >> 16,
     			data[2] >> 16, data[3] >> 16,
     			data[4] >> 16, data[5] >> 16,
@@ -299,7 +300,7 @@ void eMPL_send_data(unsigned char type, long *data)
 			out[53] = (char)(data[2] >> 8);
 			out[54] = (char)data[2];
 		    out[2] |= (1 << type);
-			//_MLPrintLog(0, "", "%8d AGCU(%d): %8d %8d %8d\n", OSA_TimeGetMsec(), type, data[0], data[1], data[2]);
+			PRINTF("%8d AGCU(%d): %8d %8d %8d\n", OSA_TimeGetMsec(), type, data[0], data[1], data[2]);
 		}
 		break;
 #if 0
@@ -319,7 +320,7 @@ void eMPL_send_data(unsigned char type, long *data)
         out[29] = (char)(data[2] >> 8);
         out[30] = (char)data[2];
         */
-    	_MLPrintLog(0, "", "%8d Euler: %8d %8d %8d\n", OSA_TimeGetMsec(), type, data[0], data[1], data[2]);
+    	PRINTF(0, "", "%8d Euler: %8d %8d %8d\n", OSA_TimeGetMsec(), type, data[0], data[1], data[2]);
         break;
 #endif
 #if 0
@@ -329,7 +330,7 @@ void eMPL_send_data(unsigned char type, long *data)
         out[4] = (char)(data[0] >> 16);
         out[5] = (char)(data[0] >> 8);
         out[6] = (char)data[0];
-    	_MLPrintLog(0, "", "%8d Heading: %8d\n", OSA_TimeGetMsec(), data[0]);
+    	PRINTF(0, "", "%8d Heading: %8d\n", OSA_TimeGetMsec(), data[0]);
         return;
         break;
 #endif

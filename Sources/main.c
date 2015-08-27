@@ -70,12 +70,14 @@ extern int spawn (int,int);
 extern unsigned char GetChar(void);
 extern void PutChar (char);
 extern void print_str(char *);
+extern void read_from_mpl(void);
 
 extern uint8_t lm3549_right_init_regs[];
 
 extern i2c_status_t init_lcos_ctrlr(uint8_t instance);
 
 #define STANDARD_IO	1
+#define MPU_SPI	0
 //#define BASIC_IO
 #define BOARD_I2C_COMM_INSTANCE 0
 
@@ -222,6 +224,7 @@ int main(void)
   /* Write your local variable definition here */
 	   uint8_t  rxChar          = 0;
 	   UART_Type * baseAddr;
+	   dspi_master_user_config_t dspiConfig;
 	   ;
 
 	    // Number byte data will be transfer
@@ -258,24 +261,24 @@ int main(void)
 
 //  #if 0
    baseAddr     = (UART_Type *) UART1_BASE; // was BOARD_DEBUG_UART_BASEADDR;
-   g_dspiDevice[0].dataBusConfig.bitsPerFrame = 8;
-   g_dspiDevice[0].dataBusConfig.clkPhase = kDspiClockPhase_SecondEdge;
-   g_dspiDevice[0].dataBusConfig.clkPolarity = kDspiClockPolarity_ActiveLow;
-   g_dspiDevice[0].dataBusConfig.direction = kDspiMsbFirst;
-   g_dspiDevice[0].bitsPerSec = 1000000; /* 100KHz */
 
    dspiConfig.isChipSelectContinuous = false;
    dspiConfig.isSckContinuous = false;
    dspiConfig.pcsPolarity = kDspiPcs_ActiveLow;
    dspiConfig.whichCtar = kDspiCtar0;
    dspiConfig.whichPcs = kDspiPcs0;
+
+   g_dspiDevice[0].dataBusConfig.bitsPerFrame = 8;
+   g_dspiDevice[0].dataBusConfig.clkPhase = kDspiClockPhase_SecondEdge;
+   g_dspiDevice[0].dataBusConfig.clkPolarity = kDspiClockPolarity_ActiveLow;
+   g_dspiDevice[0].dataBusConfig.direction = kDspiMsbFirst;
+   g_dspiDevice[0].bitsPerSec = 1000000; /* 100KHz */
+
    calculatedBaudRate = TPI->ACPR;
 
    // Initialize the uart module with base address and config structure
   CLOCK_SYS_EnableUartClock(STANDARD_IO);
-
-   // Get working uart clock
-//   uartSourceClock = CLOCK_SYS_GetUartFreq(STANDARD_IO);
+  CLOCK_SYS_EnableSpiClock(MPU_SPI);			// Dont need this here
 
    // Initialise UART baud rate, bit count, parity and stop bit
 //   UART_HAL_SetBaudRate(baseAddr, 24000000, 9600); // was BOARD_DEBUG_UART_BAUD
@@ -299,6 +302,7 @@ int main(void)
 
    GPIO_DRV_WritePinOutput (0x200, 1);
    GPIO_DRV_WritePinOutput (0x202, 1);
+   GPIO_DRV_WritePinOutput (0x204, 1);
    GPIO_DRV_WritePinOutput (0x303, 1);
    GPIO_DRV_WritePinOutput (USB_HUB_RST, on);
    GPIO_DRV_WritePinOutput (TEMPLE_LEFT_LE_ENA, on);
@@ -308,57 +312,113 @@ int main(void)
    GPIO_DRV_WritePinOutput (0x112, 1);
    GPIO_DRV_WritePinOutput (0x008, 0);
 
+
    // Initialize i2c master
-     I2C_DRV_MasterInit(BOARD_I2C_COMM_INSTANCE, &master);
+     I2C_DRV_MasterInit(TEMPLE_LEFT_I2C, &master);
 
      PRINTF("Put Colour bar out\r\n    ");
 
-     status = init_lcos(BOARD_I2C_COMM_INSTANCE);
+     status = init_lcos(TEMPLE_LEFT_I2C);
 
-     status = init_lcos_ctrlr(BOARD_I2C_COMM_INSTANCE);
+     status = init_lcos_ctrlr(TEMPLE_LEFT_I2C);
 
-     status = init_lm3549(BOARD_I2C_COMM_INSTANCE);
+     status = init_lm3549(TEMPLE_LEFT_I2C);
 
      PRINTF("\r\n========================  MASTER ========================\r\n");
 
      PRINTF("\r\n    ");
 
-     DSPI_DRV_MasterInit(0, &g_spi_state[0], &dspiConfig);
+     DSPI_DRV_MasterInit(0, &g_spi_state[0], &dspiConfig); // in fsl_dspi_master_driver.c
+
      DSPI_DRV_MasterConfigureBus(0, &g_dspiDevice[0], &calculatedBaudRate);
 
-     imu_main();
+     OSA_TimeInit();
 
-     mpu_init();
+#if 0
+ 	// set USB HUB to self-power by setting bit 7 of register 6
+  	device.address = 0x29;
+  	buffer_out[0] = 0x06;
 
-     	 spires = SHV_IMU_SendData(0, 0x6a, 1, &val);
-     	PRINTF("SPI status is: %x\r\n", spires);
+	I2C_DRV_MasterReceiveData(USB_HUB_I2C, &device, &buffer_out[0], 1, &buffer_out[1], 1);
 
-     	val = 0x80;
+ 	buffer_out[0] = 0x06;
+ 	buffer_out[1] |= 0x80;
+
+	status = I2C_DRV_MasterSendData(USB_HUB_I2C, &device, NULL, 0, buffer_out, 2);
+#endif
+ //    imu_main();
+//     mpu_init();
+
+#define FIFO_EN	0x40
+#define I2C_DIS 0x10
+
+     	 val = 0x50; // Disable I2C, enable FIFO
+     	 spires =SHV_IMU_SendData(0, 0x6a, 1, &val); // USER_CTRL
+     	 PRINTF("SPI status is: %x\r\n", spires);
+
+     	val = 0x80; // Reset the chip
      	spires =SHV_IMU_SendData(0, 0x6b, 1, &val);
      	PRINTF("SPI status is: %x\r\n", spires);
 
-     	val = 0x50;
-     	spires = SHV_IMU_SendData(1, 0x6a, 1, &val);
-     	PRINTF("SPI status is: %x\r\n", spires);
+     	// whoami
 
-     	val = 0x80;
-     	spires =SHV_IMU_SendData(1, 0x6b, 1, &val);
-     	PRINTF("SPI status is: %x\r\n", spires);
-
+     	val = 0x00;
      	spires = SHV_IMU_ReadData(0, 0x75, 1, &val);
-     	PRINTF("SPI status is: %x\r\n", spires);
-     	spires = SHV_IMU_ReadData(1, 0x75, 1, &val);
-     	PRINTF("SPI status is: %x\r\n", spires);
+     	PRINTF("SPI status is: %x\r\n value is: %x\r\n", spires, val);
 
-
-
-     	mpu_run_self_test();
+//     	mltest_main();
+//     	mpu_run_self_test();
 
 while(true)
    {
 #ifndef BASIC_IO
-		  diags();
+//  diags();	// little diagnostic scheduler.
+	      imu_main();
 #if 0
+	      val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x3b, 1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x3c, 1, &val);
+	     	PRINTF("%x ",val);
+
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x3d,1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x3e, 1, &val);
+	     	PRINTF("%x ",val);
+
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x3f, 1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x40, 1, &val);
+	     	PRINTF("%x ",val);
+
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x43, 1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x44, 1, &val);
+	     	PRINTF("%x ",val);
+
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x45,1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x46, 1, &val);
+	     	PRINTF("%x ",val);
+
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x47, 1, &val);
+	     	PRINTF("%x",val);
+	     	val = 0x00;
+	     	spires = SHV_IMU_ReadData(0, 0x48, 1, &val);
+	     	PRINTF("%x\r\n", val);
+#endif
+
+	     	#if 0
 	        // Delay to wait slave received data
 	        OSA_TimeDelay(25);
 
@@ -369,7 +429,7 @@ while(true)
 	        }
 
 	        // Master receives count byte data from slave
-	        I2C_DRV_MasterReceiveDataBlocking(BOARD_I2C_COMM_INSTANCE, &device,
+	        I2C_DRV_MasterReceiveDataBlocking(TEMPLE_LEFT_I2C, &device,
 	                                                  NULL, 0, rxBuff, count, 1000);
 
 	        /* Compare to check result */
@@ -390,7 +450,7 @@ while(true)
 	    PRINTF("\r\n==================== I2C MASTER FINISH =================== \r\n");
 
 	    // Deinit i2c
-	    I2C_DRV_MasterDeinit(BOARD_I2C_COMM_INSTANCE);
+	    I2C_DRV_MasterDeinit(TEMPLE_LEFT_I2C);
 #endif
 
 #if 0
